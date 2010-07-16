@@ -1,0 +1,25 @@
+#+TITLE: FAU Forge: 0install feeds
+
+* Introduction
+  [[http://0install.net/][Zero Install]] is a distributed software distribution system that can
+  be used to securely distribute packages, whether in binary form or
+  source, to be compiled on the target machine.
+
+  We have chosen to use this mechanism to distribute the building
+  blocks of the software forge, to provide a uniform installation
+  mechanism regardless of the underlying platform.
+
+* Available feeds
+** Git
+   The Git feed wraps around the system packaging (git on RPM-based systems, git-core on Debian-based ones).
+   It has not been published yet.
+
+* Publishing
+** Location
+   All feeds will be published to
+   http://faui2o1a.informatik.uni-erlangen.de/interfaces/2010/NAME
+
+   where the feed name is substituted for NAME.
+
+   Use =make publish= to publish the feeds to the server. You'd need to provide
+   your SSH key to [[mailto:michel.salim@informatik.uni-erlangen.de][Michel]] or [[mailto:carsten.kolassa@informatik.uni-erlangen.de][Carsten]] for this to succeed.
