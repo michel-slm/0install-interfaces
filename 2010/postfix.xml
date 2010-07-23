@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/postfix.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>postfix</name>
+  <summary>High-performance Mail Transport Agent</summary>
+  <description>
+Postfix is Wietse Venema's mail transport agent that started life as
+an alternative to the widely-used Sendmail program.  Postfix attempts
+to be fast, easy to administer, and secure, while at the same time
+being sendmail compatible enough to not upset existing users. Thus,
+the outside has a sendmail-ish flavor, but the inside is completely
+different.
+</description>
+  <homepage>http://www.postfix.org/</homepage>
+  <category>Network</category>
+  <group/>
+  <package-implementation distributions="Debian RPM" package="postfix"/>
+  <package-implementation distributions="Gentoo" package="mail-mta/postfix"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJMSaa8AAoJEFX/wTZE6YDhJx8H/1ZT8TPSMgTHNzYhpXjusGOpb9R8tHAFX1PU
+2e/lQ9HvwNh+EiUJ/RoJxXt9PWShOZAmvHVBem/SPj2fbzNmSXGoKQmwm4r25nuWFV9sBu02DLMS
+B/OsaqeFXXep+bD0TXESquChsCY+/bxR1elcL+v7j6Hmd53dCW4F41rTUlJ3YbCkIHFXFvLDdSQb
+YDJNggroFtlre/a6gx9gsRGlrgapDCfWh425iZeDU8FTqsgBoN7bhxA/zaqJfdFRG0aChemmGC+3
+wYtOn/3YJEldtANdIvMb6ZWMb8nxarMuhu0q1G0nry96ImymBbRW9V5g+TVre/1AK5TMqcqJWG7A
+3NI=
+
+-->

@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/apache.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>apache</name>
+  <summary>Apache HTTP Server</summary>
+  <description>
+The Apache HTTP Server is a powerful, efficient, and extensible web server.</description>
+  <homepage>http://httpd.apache.org/</homepage>
+  <category>Network</category>
+  <group/>
+  <package-implementation distributions="RPM" package="httpd"/>
+  <package-implementation distributions="Debian RPM" package="apache2"/>
+  <package-implementation distributions="Gentoo" package="www-servers/apache"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJMSX2cAAoJEFX/wTZE6YDharkH/0RFlkjZ67VjV3/OyEB2GeOuPOZg1caCqbqo
+iSplxh0lSHYypq753JMs39nUi9HHHwuj3pjR8fIAi2tTfPJ9YmzIb2fo0vbed6Sw0IX8xuXi11eL
+06ouof5CZL7LSnetdrz9E6bhdzNj5lt/xaSSVKuB/Wuc7yzEDIhxvZ78YSVnh+SaE/HfXQ9cxpZT
+q5yXuKWNwtv8nOQ3k1mv6Y7Y6sXBooQS+GEYm4ApjPXRyxzFwqEP6Cz8UXOBSYGAZQ1/SiLKyOx+
+J7dZsNTKB3/nQJCzyj4yCB7S/8GScf2Ue+D5/b+CCBqCgPqLbmV2pPlqdmACiI664av09CkrIuvo
+Yyg=
+
+-->

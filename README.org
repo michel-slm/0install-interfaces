@@ -9,34 +9,50 @@
   blocks of the software forge, to provide a uniform installation
   mechanism regardless of the underlying platform.
 
+* Requirements
+  - 0install injector
+    On Debian: =sudo aptitude install zeroinstall-injector=
+    On Fedora: =sudo yum install zeroinstall-injector=
+    On Ubuntu:
+    the latest version is only available in Debian unstable.
+    Download the [[http://ftp.de.debian.org/debian/pool/main/z/zeroinstall-injector/zeroinstall-injector_0.49-1_all.deb][package]] by hand, install it with =dpkg -i= and then
+    =sudo aptitude update && sudo aptitude upgrade= to fetch dependencies
+
+  - PackageKit
+    On Debian/Ubuntu:
+    =sudo aptitude install packagekit{,-backend-apt}=
+
+    On Fedora:
+    This is installed by default
+
 * Available feeds
-** Git
-   The Git feed wraps around the system packaging (git on RPM-based systems, git-core on Debian-based ones).
-   It has not been published yet.
+** Wrappers
+   These feeds will just contain wrappers around the respective system
+   packages
+   - Apache
+   - Git
+   - Mailman
+   - Postfix
 
 * TBA
 ** self-compiled
    These will contain packages that are compiled on the target machines. For
    the default deployment platform (Ubuntu 10.04 LTS) we will also provide
    pre-built packages
-*** Apache
-*** Mailman
-    Depends on Postfix and Python
 *** MediaWiki
     Depends on Apache and PostgreSQL
 *** PostgreSQL
-** Wrappers
-   These feeds will just contain wrappers around the respective system
-   packages
-*** Python
-*** Postfix
 
 * Publishing
+** Signing key
+   The private key used to sign the feeds is in the [[gitosis@fau2o2b.informatik.uni-erlangen.de:osr][osr]] Git repository
+
 ** Location
    All feeds will be published to
-   http://faui2o1a.informatik.uni-erlangen.de/interfaces/2010/NAME
+   http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/NAME.xml
 
    where the feed name is substituted for NAME.
 
    Use =make publish= to publish the feeds to the server. You'd need to provide
    your SSH key to [[mailto:michel.salim@informatik.uni-erlangen.de][Michel]] or [[mailto:carsten.kolassa@informatik.uni-erlangen.de][Carsten]] for this to succeed.
+   

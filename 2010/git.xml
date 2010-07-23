@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/git.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>git</name>
+  <summary>Fast Version Control System</summary>
+  <description>
+Git is a fast, scalable, distributed revision control system with an
+unusually rich command set that provides both high-level operations
+and full access to internals.
+</description>
+  <homepage>http://git-scm.com/</homepage>
+  <category>Development</category>
+  <group/>
+  <package-implementation distributions="RPM" package="git"/>
+  <package-implementation distributions="Debian RPM" package="git-core"/>
+  <package-implementation distributions="Gentoo" package="dev-vcs/git"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJMSaiiAAoJEFX/wTZE6YDhkCoH/RgmPtyyhAx5427t6ypoMQYfhX/zJwpCJxFH
+fQ1N1vW11+rdM9GCWzatQsMOzvcAMUtEtX7pWX0kIQ1vUf6Ty/qVFS52yw2F6o4faTEGDTRUxkGd
+xVeoI0o2aWbpfB9RIcI5kxVYRN98Dp7O2LLkXIg+wTWY8UdTNyfdFV8gW44nAyGmjWMMmYV8VqtI
+/CzGXe6wSshDT15W41rZXbuKCwY5IJ+6tOtHv4MoJHfqLRwfv8XGeirCiXqVyUKqzHoyD+az7khB
+f6PihIqtDGyORHIuqvIB8DH03+DkU9PPouzhq+JBpsXHsPsQOUUBMiZK93LvsazvhB50TTNSmnT7
+ows=
+
+-->

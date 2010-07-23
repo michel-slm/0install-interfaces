@@ -1,0 +1,13 @@
+Forge 0install feed repository
+==============================
+
+This Makefile simplifies the management of the software forge's 0install feeds.
+
+Available commands:
+- publish
+  Publish all files ending with .xml in the 201* directories to the deployment
+  server (faui2o2b/interfaces)
+
+- sign
+  Sign all files ending with .xml in the 201* directories
+

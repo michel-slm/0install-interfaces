@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/mailman.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>mailman</name>
+  <summary>the GNU Mailing List manager</summary>
+  <description>
+Mailman is free software for managing electronic mail discussion and
+e-newsletter lists. Mailman is integrated with the web, making it easy
+for users to manage their accounts and for list owners to administer
+their lists. Mailman supports built-in archiving, automatic bounce
+processing, content filtering, digest delivery, spam filters, and
+more.The Apache HTTP Server is a powerful, efficient, and extensible
+web server.</description>
+  <homepage>http://www.list.org/</homepage>
+  <category>Network</category>
+  <group/>
+  <package-implementation distributions="Debian RPM" package="mailman"/>
+  <package-implementation distributions="Gentoo" package="net-mail/mailman"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJMSX2cAAoJEFX/wTZE6YDhcDAH/jpt7P9J1dkJKx6uuKMoxr9pj0sFP8ccVhFy
+Yt2Ewb4I9H22gZXebOuBJq7HEHJVy08QI0+LQVFnEJmuCeJjkYqiQgys7Gh9Ai2KL2WVv/PfJ1YG
+bYSAuAD2ooN58CcrYtdQNzvkp4kEcf28gckBkQck0cqQdMscLT7bNkT0HLieQUvCz8CpmGvmTPo/
+V2ZP4K20wxfoyHWddIlFB2pq3jrGpA63lqE+fAFPEDbLNV4LnZGHIk3Z2cVjJcoroNblSxmxozCn
+V1wEWh0OKeBl9s6F1HCU51leJT2N6Os5wH/cpyBr0w6v862xYlARgyF6sMhgMxxLv+vAzjVgGe/D
+Zlo=
+
+-->
