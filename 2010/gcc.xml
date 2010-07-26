@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/gcc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>gcc</name>
+  <summary>the GNU Compiler Collection</summary>
+  <description>
+The GNU Compiler Collection includes front ends for C, C++,
+Objective-C, Fortran, Java, and Ada, as well as libraries for these
+languages (libstdc++, libgcj,...). GCC was originally written as the
+compiler for the GNU operating system. The GNU system was developed to
+be 100% free software, free in the sense that it respects the user's
+freedom.
+</description>
+  <homepage>http://gcc.gnu.org/</homepage>
+  <category>Development</category>
+  <group/>
+  <package-implementation distributions="Debian RPM" package="gcc"/>
+  <package-implementation distributions="Gentoo" package="sys-devel/gcc"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJMTdneAAoJEFX/wTZE6YDhZ/0H+QGf44mSTv8pW8x0wP1yfLfskljWXv03pts7
+wo1LREivZDAUwJwAlAFYKPz6C9o5HVmgMG6S7Xaq97iHP2jR7rq9lNaI8gMzAy+/Jn4RpZ1Kx7Mh
+gwUvJDWYgK8rl5Aip0BZsdxGiQnzp2ZkaEZ3g6erjQkQos25JXYWKHxXPddQN6GCpz8KjgJE3oNf
+31vgR/tZO2n33K0mgI1H8XZTAlxkhf4+vyFdGZApm4fk4H7GPexAeV+dVAESUFBrQplqf6KNaf8f
+zeXpq4c0fENy/UeYWyrEX4cTdjjQae4HCB/0MBXvVS067WdkvCVqp156rHgUEXkxMrP/iP6Byc7E
+s38=
+
+-->

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/docbook-utils.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>docbook-utils</name>
+  <summary>Shell scripts for managing DocBook documents</summary>
+  <description>
+This package contains scripts are for easy conversion from DocBook
+files to other formats (for example, HTML, RTF, and PostScript), and
+for comparing SGML files.
+</description>
+  <homepage>http://sources.redhat.com/docbook-tools/</homepage>
+  <category>Utility</category>
+  <group/>
+  <package-implementation distribution="Debian RPM" package="docbook-utils"/>
+  <package-implementation distributions="Gentoo" package="app-text/docbook-sgml-utils"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJMTdmMAAoJEFX/wTZE6YDhV0kH/1XHWqG4yUlJgh98wafI5Ct9nakRSPYU36Vf
+WtUVTICnhxJjzZEnbZITu61fcIfi6jNjdjqiyqnrv9YTO3VsT/xTSu8Hduy0uNFKIhoGajrop/Aw
+XWNfneYVFMUIoBXGbZtI2TxD3dvuqJ3IqvXbjsv02XfQfZ9fPaljmM28FhYGWfsrQdDcLMZuYtSE
+NgdkRxrq0OyGbcmaE7QsE4ezHXDTGqSZL7MTJC1tPrZZc7SfRK6LcSU6tM7jIIQSq0VpCWYUN2Qv
+wtswTpxd56K2frZiO6J/JHZhIA0OMNH9xu7O0zrjh1Kw3Jm7dfRiyz9w4/GvHqI1qxSTk7OYCzgs
+5dQ=
+
+-->

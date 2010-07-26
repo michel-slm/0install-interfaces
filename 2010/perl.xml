@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/awk.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>perl</name>
+  <summary>the GNU version of the awk text processing utility</summary>
+  <description>
+Many computer users need to manipulate text files: extract and then
+operate on data from parts of certain lines while discarding the rest,
+make changes in various text files wherever certain patterns appear,
+and so on. To write a program to do these things in a language such as
+C or Pascal is a time-consuming inconvenience that may take many lines
+of code. The job is easy with awk, especially the GNU implementation:
+Gawk.
+
+The awk utility interprets a special-purpose programming language that
+makes it possible to handle many data-reformatting jobs with just a
+few lines of code.
+</description>
+  <homepage>http://www.gnu.org/software/gawk/</homepage>
+  <category>System</category>
+  <group/>
+  <package-implementation distribution="Debian RPM" package="gawk"/>
+  <package-implementation distributions="Gentoo" package="sys-apps/gawk"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJMTdmmAAoJEFX/wTZE6YDh6R0IAJXZKhqe0xDRBCwRk4FARm7/VNV4doP8QUs4
+sEe3PPRGUzrNxWBOA7H8BMG/2WR8JIO4OfZYcdAuMG+zcFX9xTRVQOi0lRR0y9hqr4EMmvp8RNWQ
+sFOWJ4wHpy/YxCLd0Bxt/g+VtzTPKiXfGFOW8c66jfrnKh+vByHRAlVhxVOKT324IIXKmr6HK1yR
+LlBpfAZwQAEstxw1lp4zShJAoRlZtPSELg8Stku/nuVhG+dAAPXLDOQHfwuoeJy1+JcRBeb1+4kk
+YNXAVkcr+3PYX8gPfhv0yJCDwyJOJs3VaVeOOQk+HMVLE/SsJ9p5u8Q6yhxOMHa8Llp+TU5BbXd/
+ZsI=
+
+-->

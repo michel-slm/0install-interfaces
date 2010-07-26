@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/readline.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>readline</name>
+  <summary>GNU parser generator</summary>
+  <description>
+Bison is a general-purpose parser generator that converts an annotated
+context-free grammar into an LALR(1) or GLR parser for that
+grammar. Once you are proficient with Bison, you can use it to develop
+a wide range of language parsers, from those used in simple desk
+calculators to complex programming languages.
+
+Bison is upward compatible with Yacc: all properly-written Yacc
+grammars ought to work with Bison with no change. Anyone familiar with
+Yacc should be able to use Bison with little trouble. You need to be
+fluent in C or C++ programming in order to use Bison.
+</description>
+  <homepage>http://tiswww.case.edu/php/chet/readline/rltop.html</homepage>
+  <category>System</category>
+  <group/>
+  <package-implementation distribution="RPM" package="readline-devel"/>
+  <package-implementation distributions="Debian" package="libreadline-dev"/>
+  <package-implementation distributions="Gentoo" package="sys-libs/readline"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJMTdOLAAoJEFX/wTZE6YDhsLIH/1U3kcIKjrHrsCCcEqvnuYSNzkVcNNJgyTBZ
+MOr+SvKall+zxW3vXjvUqiWTdGxpOBboGFoqRxjOj773MS1fisny7wj1fwAbIW89C+an2cl5KAIv
+e0FwNprxAOdJHMB+Wx7hWyJCLCb698fO5xk7XJgCXwvWFLN7sTS/TC/LvpY10sdNRxqE5tLXPYGl
+8DO/v3VN4uFvKn55/JlBseq3axjjvtVRQnwSsEfXJ3LEXckHqbtYhl/15bGgFIBQF3kUUmbdfr4L
+ahxsMxaLKfNX0TaOCVVNCsGUve8U3O1uZKnjSLYUmruqXYZf6DedHW0acH418upZIarUGYzCeoMM
+rMs=
+
+-->

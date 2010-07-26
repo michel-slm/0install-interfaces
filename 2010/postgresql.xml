@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile">
+  <name>postgresql</name>
+  <summary>Advanced relational database</summary>
+  <description>
+PostgreSQL is a powerful, open source object-relational database system. It has
+more than 15 years of active development and a proven architecture that has
+earned it a strong reputation for reliability, data integrity, and correctness.
+It runs on all major operating systems, including Linux, UNIX (AIX, BSD, HP-UX,
+SGI IRIX, Mac OS X, Solaris, Tru64), and Windows. It is fully ACID compliant,
+has full support for foreign keys, joins, views, triggers, and stored procedures
+(in multiple languages). It includes most SQL:2008 data types, including
+INTEGER, NUMERIC, BOOLEAN, CHAR, VARCHAR, DATE, INTERVAL, and TIMESTAMP. It also
+supports storage of binary large objects, including pictures, sounds, or video.
+It has native programming interfaces for C/C++, Java, .Net, Perl, Python, Ruby,
+Tcl, ODBC, among others, and exceptional documentation.</description>
+  <homepage>http://www.postgresql.org/</homepage>
+  <category>System</category>
+  <group>
+    <requires interface="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/bison.xml"/>
+    <requires interface="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/docbook-utils.xml"/>
+    <requires interface="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/flex.xml"/>
+    <requires interface="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/gcc.xml"/>
+    <requires interface="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/readline.xml"/>
+    <requires interface="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/zlib.xml"/>
+  </group>
+  <implementation arch="*-src" compile:binary-main="bin/pg_ctl" compile:command="&quot;$SRCDIR/configure&quot; --prefix=&quot;$DISTDIR&quot; --disable-static --enable-depend &amp;&amp; make install" id="sha1new=b2fcd30ece5edf6677b5958c15d275d7a1728930" released="2010-07-26" version="8.4.4">
+    <archive extract="postgresql-8.4.4" href="http://ftp9.us.postgresql.org/pub/mirrors/postgresql/source/v8.4.4/postgresql-8.4.4.tar.bz2" size="13853838" type="application/x-bzip-compressed-tar"/>
+  </implementation>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJMTdqPAAoJEFX/wTZE6YDhlikIAKghJqEBQK8HOi/oIRSgSZvUlDW3NcpzBhgT
+pCftS1Z7CGLu4r73eWktpEb2xK9wBGoeJD8gz75eXToKh60rzFxNTZlStrEYyoEZ+J98J613PEwC
+NPfNOxcrsV9CzbVs54ONLdVBMwRMGxw3esFGDqt1v4qMUOK/yoMoXZcko02hhbdpcvHofqx2AuiJ
+yAmJh8QgizkhCvIcHfFechxfu77fKwfW0v7Z9amTdsnibvj12bxNMHoDoS8pRuziAgr449XdhbFH
+skNw8TlnSC+p1p6T9b1VvygTBiGsovxosSWiCeMJk0bp0lQa9RkFkPEsPQYdrI46hzpo3vW0/tmW
+vxo=
+
+-->

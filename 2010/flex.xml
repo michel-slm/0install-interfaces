@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/flex.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>flex</name>
+  <summary>the Fast Lexical Analyzer</summary>
+  <description>
+Flex is a tool for generating scanners. A scanner, sometimes called a
+tokenizer, is a program which recognizes lexical patterns in text. The
+flex program reads user-specified input files, or its standard input
+if no file names are given, for a description of a scanner to
+generate. The description is in the form of pairs of regular
+expressions and C code, called rules. Flex generates a C source file
+named, &quot;lex.yy.c&quot;, which defines the function yylex(). The file
+&quot;lex.yy.c&quot; can be compiled and linked to produce an executable. When
+the executable is run, it analyzes its input for occurrences of text
+matching the regular expressions for each rule. Whenever it finds a
+match, it executes the corresponding C code.
+</description>
+  <homepage>http://flex.sourceforge.net/</homepage>
+  <category>Development</category>
+  <group/>
+  <package-implementation distributions="Debian RPM" package="flex"/>
+  <package-implementation distributions="Gentoo" package="sys-devel/flex"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJMTdNvAAoJEFX/wTZE6YDhIF4H/3X7NhStaAPsZxeKINeFlra4f/UmEBL8h/+U
+GoVg6buMeLRtvmW8DT6rTpkilfJd9pKEgnY1l64kB3jJqhVYYs8uB1rDY7q269OyupuEiD/0gdvk
+fGRpZXdhVxEiAfHgUFLW7vcVn2bCv75uU2+cbeh+0hZwE5nb/g051vSmMrutAK3dYS0yeT5XOWI+
+sGyBEBRV/vMccJmG5cW/G4V4KcXV5YfuGyX03OCQhQTi5oB3H0ZYm2yWQrfKYshAgoiZAcO1GbRo
++10iLRYKhT4vrjwM2DLvldkhVnEDkyTIuedRH/hsYZnCEAq4Yp9pU47TIfZUElivjeZYQG4tF+Vt
+oFQ=
+
+-->

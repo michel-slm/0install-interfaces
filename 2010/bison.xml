@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/bison.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>bison</name>
+  <summary>GNU parser generator</summary>
+  <description>
+Bison is a general-purpose parser generator that converts an annotated
+context-free grammar into an LALR(1) or GLR parser for that
+grammar. Once you are proficient with Bison, you can use it to develop
+a wide range of language parsers, from those used in simple desk
+calculators to complex programming languages.
+
+Bison is upward compatible with Yacc: all properly-written Yacc
+grammars ought to work with Bison with no change. Anyone familiar with
+Yacc should be able to use Bison with little trouble. You need to be
+fluent in C or C++ programming in order to use Bison.
+</description>
+  <homepage>http://www.gnu.org/software/bison/</homepage>
+  <category>Development</category>
+  <group/>
+  <package-implementation distributions="Debian RPM" package="bison"/>
+  <package-implementation distributions="Gentoo" package="sys-devel/bison"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJMTdN1AAoJEFX/wTZE6YDh/cQH/in4XphyeZA6gptvQ+gykFhDt5EbYG8DeDsV
+dcjntcTL3MSNzkgw9w5jn4EJksUVbbwRZZDj+lJq4wWPc1F+pncFDMcIQieAYK8jnqwPrZsxBIoS
+UVV9XbURVLuA9e6NtplhQNdkOL8CxwZy1qsT4XgkwizqgbN5S49hGCw2agbtZlDN+lC6btOPXrcl
+RX22sWtITQexMPWOoQMLB0y9EpNbKxsgJ4URokloZRmRGdzOwXmnFeRhuXdvdE8aaW4ttrmEUdon
+sb+9AM6dwMtyIvd8CW7fQcXk2bw2WGkwz9APrPw+OC5p3oZIzrapw/L7PgHY5rPOyCskih0ABcYN
+fXs=
+
+-->

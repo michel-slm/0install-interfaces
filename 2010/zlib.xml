@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/zlib.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>zlib</name>
+  <summary>The zlib compression and decompression library</summary>
+  <description>
+Zlib is a general-purpose, patent-free, lossless data compression
+library which is used by many different programs.
+</description>
+  <homepage>http://www.zlib.net/</homepage>
+  <category>System</category>
+  <group/>
+  <package-implementation distribution="RPM" package="zlib-devel"/>
+  <package-implementation distributions="Debian" package="zlib1g-dev"/>
+  <package-implementation distributions="Gentoo" package="sys-libs/zlib"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJMTdTmAAoJEFX/wTZE6YDhiiIIAIOST+0l2pQ9vYMB8m3s+gXn3C/3D9TvxJzB
+MWR854p/VtQ0WZCjkbv5c7SCV9nSmGLxgQ+71+7lnRupbALqt1Vxu60Z16x+iwBc9rfqNr420sYF
+cgmYAVpJwwgDEoOgNNM7AMzZCzMG+rYGe1bFY4VWbOV5TFMT/rqW0chKahLrWyH2PdsYNKhz7pht
+KEbAeCvju2T8xT2jQM4nhxGMKKbQTNRcziJ/zxVLSDeLFkinyjjM2DQLRXfzLvYoRMPwd47ACxYk
+VUFeEuEsw5SrtnPy6V48rl2sGbyp5jEBLKu9lMJphDdpMu9OVkHXgBu7NxarGDfk2ehr6gvkr0E2
+50s=
+
+-->
