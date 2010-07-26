@@ -25,16 +25,17 @@ Tcl, ODBC, among others, and exceptional documentation.</description>
     <requires interface="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/readline.xml"/>
     <requires interface="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/zlib.xml"/>
   </group>
-  <implementation arch="*-src" compile:binary-main="bin/pg_ctl" compile:command="&quot;$SRCDIR/configure&quot; --prefix=&quot;$DISTDIR&quot; --disable-static --enable-depend &amp;&amp; make install" id="sha1new=b2fcd30ece5edf6677b5958c15d275d7a1728930" released="2010-07-26" version="8.4.4">
+  <implementation arch="*-src" compile:binary-main="bin/psql" compile:command="&quot;$SRCDIR/configure&quot; --prefix=&quot;$DISTDIR&quot; --enable-depend &amp;&amp; make install" id="sha1new=b2fcd30ece5edf6677b5958c15d275d7a1728930" released="2010-07-26" version="8.4.4">
     <archive extract="postgresql-8.4.4" href="http://ftp9.us.postgresql.org/pub/mirrors/postgresql/source/v8.4.4/postgresql-8.4.4.tar.bz2" size="13853838" type="application/x-bzip-compressed-tar"/>
+    <environment insert="bin" mode="prepend" name="PATH"/>
   </implementation>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJMTdqPAAoJEFX/wTZE6YDhlikIAKghJqEBQK8HOi/oIRSgSZvUlDW3NcpzBhgT
-pCftS1Z7CGLu4r73eWktpEb2xK9wBGoeJD8gz75eXToKh60rzFxNTZlStrEYyoEZ+J98J613PEwC
-NPfNOxcrsV9CzbVs54ONLdVBMwRMGxw3esFGDqt1v4qMUOK/yoMoXZcko02hhbdpcvHofqx2AuiJ
-yAmJh8QgizkhCvIcHfFechxfu77fKwfW0v7Z9amTdsnibvj12bxNMHoDoS8pRuziAgr449XdhbFH
-skNw8TlnSC+p1p6T9b1VvygTBiGsovxosSWiCeMJk0bp0lQa9RkFkPEsPQYdrI46hzpo3vW0/tmW
-vxo=
+iQEcBAABAgAGBQJMTfFMAAoJEFX/wTZE6YDhHYgIAJL1YUcuDgLJxUd/kVUjx6YeJqKBQpCRyOF5
+o2179uy8MNMAzz73np8nBM7vWMIDBdGmNz9sjniUuy1fVunx+WO137vWXS/yTN5BV/mbkW2bq3QB
+F7+h0k/PnhdHMAA0HtJT+vOEgiuorV+yM92ppFwguhdhri8rMtHOeO+K3LyzuKE4Qqgq37bPjXde
+S4eguCkWUD/RutlUynj1d4+A+pwoGaS/AAl43446/FUojU7HNRmgb17Sk1nMcSRf0AKcXKJEejcq
+SM+nanai3AAFmFSGI3LftMh4Lc0RqMJbqvSuRZuw//MjMGWiO3cnIaURHKXWR2CR8mfBQHQ/PfR+
+r08=
 
 -->
