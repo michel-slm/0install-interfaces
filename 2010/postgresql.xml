@@ -18,24 +18,23 @@ Tcl, ODBC, among others, and exceptional documentation.</description>
   <homepage>http://www.postgresql.org/</homepage>
   <category>System</category>
   <group>
-    <requires interface="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/bison.xml"/>
     <requires interface="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/docbook-utils.xml"/>
-    <requires interface="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/flex.xml"/>
     <requires interface="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/gcc.xml"/>
+    <requires interface="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/gettext.xml"/>
     <requires interface="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/readline.xml"/>
     <requires interface="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/zlib.xml"/>
+    <implementation arch="*-src" compile:binary-main="bin/psql" compile:command="&quot;$SRCDIR/configure&quot; --prefix=&quot;$DISTDIR&quot; --enable-depend &amp;&amp; make install" id="sha1new=b2fcd30ece5edf6677b5958c15d275d7a1728930" released="2010-07-26" version="8.4.4">
+      <archive extract="postgresql-8.4.4" href="http://ftp9.us.postgresql.org/pub/mirrors/postgresql/source/v8.4.4/postgresql-8.4.4.tar.bz2" size="13853838" type="application/x-bzip-compressed-tar"/>
+      <environment insert="bin" mode="prepend" name="PATH"/>
+    </implementation>
   </group>
-  <implementation arch="*-src" compile:binary-main="bin/psql" compile:command="&quot;$SRCDIR/configure&quot; --prefix=&quot;$DISTDIR&quot; --enable-depend &amp;&amp; make install" id="sha1new=b2fcd30ece5edf6677b5958c15d275d7a1728930" released="2010-07-26" version="8.4.4">
-    <archive extract="postgresql-8.4.4" href="http://ftp9.us.postgresql.org/pub/mirrors/postgresql/source/v8.4.4/postgresql-8.4.4.tar.bz2" size="13853838" type="application/x-bzip-compressed-tar"/>
-    <environment insert="bin" mode="prepend" name="PATH"/>
-  </implementation>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJMTfFMAAoJEFX/wTZE6YDhHYgIAJL1YUcuDgLJxUd/kVUjx6YeJqKBQpCRyOF5
-o2179uy8MNMAzz73np8nBM7vWMIDBdGmNz9sjniUuy1fVunx+WO137vWXS/yTN5BV/mbkW2bq3QB
-F7+h0k/PnhdHMAA0HtJT+vOEgiuorV+yM92ppFwguhdhri8rMtHOeO+K3LyzuKE4Qqgq37bPjXde
-S4eguCkWUD/RutlUynj1d4+A+pwoGaS/AAl43446/FUojU7HNRmgb17Sk1nMcSRf0AKcXKJEejcq
-SM+nanai3AAFmFSGI3LftMh4Lc0RqMJbqvSuRZuw//MjMGWiO3cnIaURHKXWR2CR8mfBQHQ/PfR+
-r08=
+iQEcBAABAgAGBQJMUA0BAAoJEFX/wTZE6YDhVEUIAJLCs5R+pE1bFSU1/fX4SAMIxZbeTpSMqENY
+lkvYPo3az9Bo+LcdSkNdjZLo6NwDF5Rh2m6nAg+JgmFzfsOfAjB26K2xkZml7rkad33Wg+6JO5vr
+u5YCodDBLSP0Yh2jPAyPMRhNs/P/4DenG3WFkKYecgHpp7X9lJsd9dyRPssMq2O3swk+22o9bmkO
+9DwqlXBCiFOK8pK3oqRvVxYGMc0ok2rRxOJ1SijDyvHKHiY/MNWseFec/GUQ+SGBdBcoKYih9BT2
+a0uPvDD45AOFvmB/1YvdrgXrdANlibkm8X7GRA+tmKgb17dlnaHqoIS7fhV47XAw6tshBHdsM9DR
+7Go=
 
 -->
