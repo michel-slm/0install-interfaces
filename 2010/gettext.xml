@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/gettext.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>gettext</name>
+  <summary>GNU internationalization utilities</summary>
+  <description>
+This package offers to programmers, translators, and even users, a
+well integrated set of tools and documentation. Specifically, the GNU
+`gettext' utilities are a set of tools that provides a framework to
+help other GNU packages produce multi-lingual messages. These tools
+include a set of conventions about how programs should be written to
+support message catalogs, a directory and file naming organization for
+the message catalogs themselves, a runtime library supporting the
+retrieval of translated messages, and a few stand-alone programs to
+massage in various ways the sets of translatable strings, or already
+translated strings. A special GNU Emacs mode also helps interested
+parties in preparing these sets, or bringing them up to date.
+</description>
+  <homepage>http://www.gnu.org/software/gettext/</homepage>
+  <category>Development</category>
+  <group/>
+  <package-implementation distributions="Debian RPM" package="gettext"/>
+  <package-implementation distributions="Gentoo" package="sys-devel/gettext"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJMUAysAAoJEFX/wTZE6YDhL4QH/juDMDYQuz7qp0D8hyjz6hyg7OJuDx/UOvMu
+gLRAEvKbxHhV2W5VZS0zG0drK0soIPUpxaiqKlfimKggWUmTn671u8HgbV5hV9tDi7Sx+IHuujtN
+doTQ6MCq8XurlX8egYjqSurazA7hICfvESpcp6rhZFm2ZujVCupvhOs8AHN8OGHHMZMRCXr7oZq4
+CqP64ivtx/YSCIkQF42D8nAjnvEhdwHc25vGnhtse1rXTuCKQR5f0IpVjnkSCva5DFwrVThkzaBG
+TKpIw/2j62svPagoIXcCk2hAjW/ZxkuBjc83jJjS+mgdhEQIQSqJzi0lv/UOT30IOqkywtQ1Ik1m
+Epc=
+
+-->
