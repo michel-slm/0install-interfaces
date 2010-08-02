@@ -16,17 +16,20 @@ stopping the read-only Tomcat server as installed using its 0install feed.</desc
     <requires interface="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/tomcat.xml">
       <environment insert="" mode="prepend" name="CATALINA_HOME"/>
     </requires>
-    <implementation id="sha1new=2e586c41618c868ee1495ae2fd9e2fc72cf48c82" main="bin/tomcat.sh" released="2010-08-02" version="0.1.0">
-      <archive extract="tomcat-controller-0.1.0" href="http://faui2o2b.informatik.uni-erlangen.de/interfaces/dist/tomcat-controller-0.1.0.tar.bz2" size="678" type="application/x-bzip-compressed-tar"/>
+    <implementation id="sha1new=9e2d8babbe9dd823b652e6c91a6781d72e487f6b" main="bin/tomcat.sh" released="2010-08-02" version="0.1.1">
+      <archive extract="tomcat-controller-0.1.1" href="http://faui2o2b.informatik.uni-erlangen.de/interfaces/dist/tomcat-controller-0.1.1.tar.bz2" size="726" type="application/x-bzip-compressed-tar"/>
     </implementation>
+    <implementation id="sha1new=236b1c0ef7fc64471b4edf4e39500debd55cdc42" main="bin/tomcat.sh" released="2010-08-02" version="0.1.0">
+    <archive extract="tomcat-controller-0.1.0" href="http://faui2o2b.informatik.uni-erlangen.de/interfaces/dist/tomcat-controller-0.1.0.tar.bz2" size="639" type="application/x-bzip-compressed-tar"/>
+  </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJMVpAcAAoJEFX/wTZE6YDh7rkIAJudwt6+QJh0BmqS/TVMJfixxtKuS2zmXmlk
-azL4VblJsVJQOXUkHcN1H8ZRy+ns3XR/pzFKGm+tWCFfJpdpgAxfD24hj5Lz7qaL6ZsvIhiK5jOL
-YQIaY7E63qX5IeIE+1Ghcw1A6+UlJ7ktd0c62pzjpQfzwbnfykM4WwiPTuHZE/KHDygUCXeq7WeP
-utpR+mrpHaQDxJTRZmNm5m9KNojjRQc83OoEPpoGi7xlWGjO3+SiWld+O3fGMluW6Ojxc/ogXUVX
-lylTyroInpcIYldy4f9o5Cy6azhRt1lD3QmA+ZPSN6pOTwpnekgRWCY3BJHg7F7KO7jQ0+MVsEc3
-3vQ=
+iQEcBAABAgAGBQJMVp/cAAoJEFX/wTZE6YDhAz0H/R0rGEiMBVlIMep6hv8R8SVAVyTDG+JnVMTk
+VfNHKQAmPL1DYfaey66107J/nMOdv0v73IUr5hKkhR7sPf5Cqp8ruHQUA3di3AF13xa3RPZCbx3j
+VflI2sjJjQvdp5ax6IFdA4VZ2exAKRHvMEI4j6F1NFlKlncdmUF2kZIEHC3+8nNGzm9I++U2jHhH
+sHoCy4CZ2NcC7wKgA5NmefJci0tlIPpqyBAjrb/80gTYN95e70B5aIFgWs66nz2D88A+ADAzP5Fc
+NeLExDkisRSKA/oZ2482Me46u4EXkKNxR9jmAmX0zz3Yb73FWTHmoJYBt/u+71qtdymaYd7U188W
+RZM=
 
 -->
