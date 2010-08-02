@@ -1,10 +1,10 @@
 help:
 	@cat doc/help.txt
 
-package:
+package: clean
 	@./scripts/package.sh
 
-publish: clean
+publish:
 	@./scripts/publish.sh
 
 sign:
