@@ -17,6 +17,7 @@ fi
     mkdir -p ${HOME}/.config/tomcat
     cd ${HOME}/.config/tomcat/
     (cd ${CATALINA_HOME} && tar cf - conf logs temp) | tar xf -
+    chmod -R u=rwX *
     mkdir webapps
     ln -s ${CATALINA_HOME}/webapps/* webapps/
 )

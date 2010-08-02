@@ -12,21 +12,21 @@ This feed provides a script that eases the tasks of initializing, starting, and
 stopping the read-only Tomcat server as installed using its 0install feed.</description>
   <homepage>http://tomcat.apache.org/</homepage>
   <icon href="http://faui2o2b.informatik.uni-erlangen.de/interfaces/images/tomcat-power.png" type="image/png"/>
-  <group>
+  <group license="The Apache License 2.0">
     <requires interface="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/tomcat.xml">
       <environment insert="" mode="prepend" name="CATALINA_HOME"/>
     </requires>
-    <implementation id="sha1new=b7766c7033fd876ba7a753f5569e58f0a03d7553" main="bin/tomcat.sh" released="2010-08-02" version="0.1.0">
-      <archive extract="tomcat-controller-0.1.0" href="http://faui2o2b.informatik.uni-erlangen.de/interfaces/dist/tomcat-controller-0.1.0.tar.bz2" size="649" type="application/x-bzip-compressed-tar"/>
+    <implementation id="sha1new=2e586c41618c868ee1495ae2fd9e2fc72cf48c82" main="bin/tomcat.sh" released="2010-08-02" version="0.1.0">
+      <archive extract="tomcat-controller-0.1.0" href="http://faui2o2b.informatik.uni-erlangen.de/interfaces/dist/tomcat-controller-0.1.0.tar.bz2" size="678" type="application/x-bzip-compressed-tar"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJMVoN+AAoJEFX/wTZE6YDhrg4H/2SOzlwHUvITmYI/PZtG/8B1EP1wJGXcbK4d
-4kS50LyYRBxvXBBuywyoKXHTGat4JkvE1ezOQ3wPuwFz6QcNaAZNoNuekhZ6djJWxfwDw25Sxi8V
-te1HqeXQtTrkrRTcaca4QtjQKHUksXM8CIMeLsiK+wcO+jftP3bOXsuUfX7m8a0yiUmn7L4/rfo2
-3qbr7iEpuSiYmh9S1QKp8djuzTXZLvfgYoTy1tFme+DD9n2Hhi37ZZOyL93RkykiiIhhBk6UnFNY
-nB0qTfsVfn2gqUXZIT5nPM18U533+b4uDQv3iAqt0OLneaJZxPurzEV3LnePWo4Pe9cRQznuNyHm
-gQY=
+iQEcBAABAgAGBQJMVpAcAAoJEFX/wTZE6YDh7rkIAJudwt6+QJh0BmqS/TVMJfixxtKuS2zmXmlk
+azL4VblJsVJQOXUkHcN1H8ZRy+ns3XR/pzFKGm+tWCFfJpdpgAxfD24hj5Lz7qaL6ZsvIhiK5jOL
+YQIaY7E63qX5IeIE+1Ghcw1A6+UlJ7ktd0c62pzjpQfzwbnfykM4WwiPTuHZE/KHDygUCXeq7WeP
+utpR+mrpHaQDxJTRZmNm5m9KNojjRQc83OoEPpoGi7xlWGjO3+SiWld+O3fGMluW6Ojxc/ogXUVX
+lylTyroInpcIYldy4f9o5Cy6azhRt1lD3QmA+ZPSN6pOTwpnekgRWCY3BJHg7F7KO7jQ0+MVsEc3
+3vQ=
 
 -->
