@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/java.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>java</name>
+  <summary>Java Runtime Environment</summary>
+  <description>
+Java runtime environment</description>
+  <homepage>http://java.com/</homepage>
+  <category>System</category>
+  <group license="OSI Approved :: GNU General Public License v2">
+    <package-implementation distributions="Debian" package="default-jre"/>
+    <package-implementation distributions="RPM" package="java-1.6.0-openjdk"/>
+    <package-implementation distributions="RPM" package="java-1_6_0-openjdk"/>
+  </group>
+  <group license="Other/Proprietary License">
+    <package-implementation distributions="RPM" package="java-1_6_0-sun"/>
+    <package-implementation distributions="Gentoo" package="dev-java/sun-jre-bin"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJMVs1YAAoJEFX/wTZE6YDhpn0H/3Jzc8QODHrILIhSsQPJgmmtpDsb4bbKKG7O
+gdCggpLm4UkF7B188EPVcE29mS2hEjQ2c8c4ZSIOb/W7rsqic/+t0/rgBCMYbLscukk+yooj6+i8
+9BIBSBfd7WuuoiceC+HqicD4X5E/C1mQQX/VJ5plVmhknnxMBmou4Cl3lLWFQjZG0E2Rz6I1glKe
+GGODgytEfv0nCHXjRnDl0LYksuoOdaMDN3jLwZyupKU92uncQ26hINbg6Xnj75LmLRjHGhnvooh7
+4kOdI8vviDBVyim9jsgjS/J1DRYbqgQ5fbx6Iu8viWBaomNwsiKdEO0B0vT9bZeBzy9nKY1pyX7k
+KEI=
+
+-->
