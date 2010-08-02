@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/tomcat-controller.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>tomcat-controller</name>
+  <summary>Control script for Apache Tomcat</summary>
+  <description>
+Apache Tomcat implements the Java Servlet and the JavaServer Pages (JSP)
+specifications from Sun Microsystems, and provides a &quot;pure Java&quot; HTTP web server
+environment for Java code to run.
+
+This feed provides a script that eases the tasks of initializing, starting, and
+stopping the read-only Tomcat server as installed using its 0install feed.</description>
+  <homepage>http://tomcat.apache.org/</homepage>
+  <icon href="http://faui2o2b.informatik.uni-erlangen.de/interfaces/images/tomcat-power.png" type="image/png"/>
+  <group>
+    <requires interface="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/tomcat.xml">
+      <environment insert="" mode="prepend" name="CATALINA_HOME"/>
+    </requires>
+    <implementation id="sha1new=b7766c7033fd876ba7a753f5569e58f0a03d7553" main="bin/tomcat.sh" released="2010-08-02" version="0.1.0">
+      <archive extract="tomcat-controller-0.1.0" href="http://faui2o2b.informatik.uni-erlangen.de/interfaces/dist/tomcat-controller-0.1.0.tar.bz2" size="649" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJMVoN+AAoJEFX/wTZE6YDhrg4H/2SOzlwHUvITmYI/PZtG/8B1EP1wJGXcbK4d
+4kS50LyYRBxvXBBuywyoKXHTGat4JkvE1ezOQ3wPuwFz6QcNaAZNoNuekhZ6djJWxfwDw25Sxi8V
+te1HqeXQtTrkrRTcaca4QtjQKHUksXM8CIMeLsiK+wcO+jftP3bOXsuUfX7m8a0yiUmn7L4/rfo2
+3qbr7iEpuSiYmh9S1QKp8djuzTXZLvfgYoTy1tFme+DD9n2Hhi37ZZOyL93RkykiiIhhBk6UnFNY
+nB0qTfsVfn2gqUXZIT5nPM18U533+b4uDQv3iAqt0OLneaJZxPurzEV3LnePWo4Pe9cRQznuNyHm
+gQY=
+
+-->

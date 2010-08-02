@@ -1,6 +1,10 @@
 #!/bin/sh
 
-DIRNAME=$(cd $(dirname $0)/.. && pwd)
+# The directory where bin/tomcat.sh is located
+if [ -z "$CATALINA_HOME" ]; then
+    # assume that script is put in Tomcat's bin directory
+    CATALINA_HOME="$(cd $(dirname $0)/.. && pwd)"
+fi
 
 if [ -z "$1" ]; then
     CMD=start
@@ -12,19 +16,19 @@ fi
 [ -d "${HOME}/.config/tomcat" ] || (
     mkdir -p ${HOME}/.config/tomcat
     cd ${HOME}/.config/tomcat/
-    (cd ${DIRNAME} && tar cf - conf logs temp) | tar xf -
+    (cd ${CATALINA_HOME} && tar cf - conf logs temp) | tar xf -
     mkdir webapps
-    ln -s ${DIRNAME}/webapps/* webapps/
+    ln -s ${CATALINA_HOME}/webapps/* webapps/
 )
 
 export CATALINA_BASE="${HOME}/.config/tomcat"
 
 case "$CMD" in
     start)
-	${DIRNAME}/bin/startup.sh
+	${CATALINA_HOME}/bin/startup.sh
 	;;
     stop)
-	${DIRNAME}/bin/shutdown.sh
+	${CATALINA_HOME}/bin/shutdown.sh
 	;;
     restart)
 	$0 stop; sleep 5; $0 start
