@@ -9,18 +9,18 @@ specifications from Sun Microsystems, and provides a &quot;pure Java&quot; HTTP 
 environment for Java code to run.</description>
   <homepage>http://tomcat.apache.org/</homepage>
   <icon href="http://faui2o2b.informatik.uni-erlangen.de/interfaces/images/tomcat-power.png" type="image/png"/>
-  <group>
-    <implementation arch="*-*" id="sha1new=225734a7a945f2256699e98752a4bd6fdd5b276f" license="The Apache License 2.0" main="bin/startup.sh" released="2010-07-28" stability="stable" version="6.0.29">
+  <group license="The Apache License 2.0">
+    <implementation id="sha1new=225734a7a945f2256699e98752a4bd6fdd5b276f" main="bin/startup.sh" released="2010-07-22" stability="stable" version="6.0.29">
       <archive extract="apache-tomcat-6.0.29" href="http://mirror.netcologne.de/apache.org/tomcat/tomcat-6/v6.0.29/bin/apache-tomcat-6.0.29.tar.gz" size="6407210" type="application/x-compressed-tar"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJMVoKAAAoJEFX/wTZE6YDhJgAIAJAmV2xQnxd4sKvt+ECXGB8K94sGAR9bYEaO
-6PGEHEGtBKhppkGirrnIMYUk971kk91Hy1Vw8DAQLEDqConOaRw3BV6bisW6TVOQk/uVB6//yhXx
-C3pS8yTJX/yE6wUJ2NnVmKwH21bm47aaYAdkBt2ly0/nkzMGjGBQL2X4TUvDG2K8IekqiWx4Wp0N
-f0sZ9E/c6ruSTQ0ODnS3xUz0pOQA9OBF/MZwQdE0Q6atO1yEVwGOo7uubaRaNq4n9e3JYfrfdhzC
-HRU4oLO/NTILJzUH+f6XPZa/3KAvXfG4c23xmcElpuJXgseKeSDUAH6GBp7ru7M7/V2o63BBl2tf
-d8g=
+iQEcBAABAgAGBQJMVoTxAAoJEFX/wTZE6YDhylUIALhiNgj5/QRJOEa72WIMpo0ZUNx25r6NO37+
+h7Py9FzeZ1O3c8omTvCzXIOalJuLo1h8emB1VMT6h/mbZjIEuh8My9o0ZiYkKlGlBNa9CoRL8Bv0
+IjfeRGlq2eavA3mttqwBBj72NTgL6LO6k5E5AzkPNOZM3A+YCYzFu8/466mOdmhs8ayktuOFBmfG
+Q8QITbpLylYFwIoGymMiYB5iW4wRB+fd1VFSSPcGK0oonLiROW7tin5JZEBAeizEmoLPGjXYFIZJ
+YGkDpG3tzvl0z8PvI50Rm7lPys/mU+cYt87YwOzvnvaRSFnJHTLCA1S0VHPCA3WGoiP+8itTg1P3
+3i8=
 
 -->
