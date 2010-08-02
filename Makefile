@@ -1,6 +1,9 @@
 help:
 	@cat doc/help.txt
 
+package:
+	@./scripts/package.sh
+
 publish: clean
 	@./scripts/publish.sh
 
