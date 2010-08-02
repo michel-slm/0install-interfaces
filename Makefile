@@ -12,3 +12,4 @@ sign:
 
 clean:
 	@-rm -f dist/*.tar.*
+	@-(find dist -name '*~' | xargs rm -f)
