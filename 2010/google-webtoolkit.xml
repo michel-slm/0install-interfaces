@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/google-webtoolkit.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>google-webtoolkit</name>
+  <summary>Google Web Toolkit SDK</summary>
+  <description>
+    The Google Web Toolkit SDK contains the core libraries and
+    compiler that you need to write web applications.
+  </description>
+  <homepage>http://code.google.com/webtoolkit/</homepage>
+  <category>Development</category>
+  <icon href="http://code.google.com/webtoolkit/images/sdk-sm.png" type="image/png"/>
+  <group license="The Apache License 2.0">
+    <group stability="stable">
+      <implementation id="sha1new=40abf9b42578a85a8975e7361b283cf58321729e" released="2010-07-02" version="2.0.4">
+	<archive extract="gwt-2.0.4" href="http://google-web-toolkit.googlecode.com/files/gwt-2.0.4.zip" size="37343166" type="application/zip"/>
+      </implementation>
+    </group>
+  </group>
+  <group stability="developer">
+    <implementation id="sha1new=b0ef67faa7f849ebc08f33259fdfeb2a3e2cedf9" released="2010-07-08" version="2.1.0">
+      <archive extract="gwt-2.1.0.M2" href="http://google-web-toolkit.googlecode.com/files/gwt-2.1.0.m2.zip" size="47007761" type="application/zip"/>
+    </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJMWEkQAAoJEFX/wTZE6YDhF14IALS/mM0xyT18FtWHyw/VJga/9z4Cc9Unxy+u
+iTIJqG4uAq3ep7hcjXYPdaKAgzGN4ktPrn4gyc9TJ3DPtQt7O9SVRx5d/gej599l9k8nH9SEuKx+
+3Z6Y9FtdUFDUQCgLKWRs608s0RpqnPx2KMMCxoVjWeksVvkuFOQtbFMxOUS2Q91xJf/R+D3/Cm7K
+l4MxeIOWH7/UOo+fGU8ihA9PLJcYzND+/Fjkv5K0fLtyZ5ld6zWgg44aRXrARnhKYrZcendwgtT8
+ZfZ4oi1AK+oU33goPdhlLW5qRLCE+Wq4c+X+STZPxAwFaEM8ddte1tvAO3F7Q/Bb3GbSK2pymNIl
+r54=
+
+-->

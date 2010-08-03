@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/google-webtoolkit-env.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>google-webtoolkit-env</name>
+  <summary>Environment for Google Web Toolkit</summary>
+  <description>
+The Google Web Toolkit SDK contains the core libraries and compiler that you
+need to write web applications.
+
+This feed provides a script that, when invoked, returns the environment setting
+needed to access the selected implementation of the SDK.</description>
+  <homepage>http://code.google.com/webtoolkit/</homepage>
+  <icon href="http://code.google.com/webtoolkit/images/sdk-sm.png" type="image/png"/>
+  <category>Development</category>
+  <needs-terminal/>
+  <group license="The Apache License 2.0">
+    <requires interface="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/google-webtoolkit.xml">
+      <environment insert="" mode="prepend" name="GWT_HOME"/>
+    </requires>
+    <implementation id="sha1new=74db33e6a27c388d51839b0b6946c1445c2a4076" main="bin/get-env.sh" released="2010-08-03" version="0.1.0">
+    <archive extract="google-webtoolkit-env-0.1.0" href="http://faui2o2b.informatik.uni-erlangen.de/interfaces/dist/google-webtoolkit-env-0.1.0.tar.bz2" size="280" type="application/x-bzip-compressed-tar"/>
+  </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJMWEblAAoJEFX/wTZE6YDhjSEIAIC1W3lTFSEvbMnt9y7CuTolHaZvRqBa7RkX
+A9IzsIJy5QeRwWhDyHXBs7bIFeWpMrFPizH/r2/iBLtxtfIInagON2s/EapTvedjuIv8A3fa8qKr
++XziPONCDuCWL8syGuEa5zvBiL8Ol7V24RI0nfmGr5/hKtClWBYRx67Ga4ouJhzHYlrFaL6pNR4i
+GlPvXHUzhXyIvd1/5p/wJZK2vhpNYJi0IzDv9u753LWrCi/tgvC6oUsjo1TytCCqZIC7A4Vb/nLA
+SGPGMEHyNesz+zW9EbeKElU444jZgvSMcyeAObu5vT2F/NdRQZ+XxWjw6REKU7ZLJClKG9kfN4Uo
+7JY=
+
+-->
