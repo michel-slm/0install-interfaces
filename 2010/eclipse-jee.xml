@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://mojo.informatik.uni-erlangen.de/interfaces/2010/eclipse-jee.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>eclipse-jee</name>
+  <summary>Eclipse IDE for Java EE Developers</summary>
+  <description>
+    Tools for Java developers creating Java EE and Web applications, including a
+  Java IDE, tools for Java EE, JPA, JSF, Mylyn and others.</description>
+  <homepage>http://eclipse.org/</homepage>
+  <icon href="http://www.eclipse.org/downloads/images/javaee.png" type="image/png"/>
+  <category>Development</category>
+  <group license="Eclipse Public License">
+    <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2010/java.xml"/>
+    <group stability="stable">
+      <group arch="Linux-i386">
+	<implementation id="sha1new=dcff0cf48c76298eafff75bceb1df82eb6972135" main="eclipse" released="2010-06-23" version="3.6">
+	  <archive extract="eclipse" href="http://mirror.selfnet.de/eclipse/technology/epp/downloads/release/helios/R/eclipse-jee-helios-linux-gtk.tar.gz" size="214834341" type="application/x-compressed-tar"/>
+	</implementation>
+	<implementation id="sha1new=cccdeda550bf93c3cdaa1dd26fc692dd865a7aad" main="eclipse" released="2010-02-26" version="3.5.2">
+	  <archive extract="eclipse" href="http://mirror.netcologne.de/eclipse//technology/epp/downloads/release/galileo/SR2/eclipse-jee-galileo-SR2-linux-gtk.tar.gz" size="198483340" type="application/x-compressed-tar"/>
+	</implementation>
+      </group>
+      <group arch="Linux-x86_64">
+	<implementation id="sha1new=1889c0b82d8f095603e0a663a3fc2403c5911083" main="eclipse" released="2010-06-23" version="3.6">
+	  <archive extract="eclipse" href="http://mirror.selfnet.de/eclipse/technology/epp/downloads/release/helios/R/eclipse-jee-helios-linux-gtk-x86_64.tar.gz" size="215042252" type="application/x-compressed-tar"/>
+	</implementation>
+	<implementation id="sha1new=e81b931702fa54db6f27d0a364d61632613c23b4" main="eclipse" released="2010-02-26" version="3.5.2">
+	  <archive extract="eclipse" href="http://mirror.selfnet.de/eclipse/technology/epp/downloads/release/galileo/SR2/eclipse-jee-galileo-SR2-linux-gtk-x86_64.tar.gz" size="198589644" type="application/x-compressed-tar"/>
+	</implementation>
+      </group>
+    </group>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJMYs/vAAoJEFX/wTZE6YDhM/cH/2Sx35pLthRGU4KAWujZW4bJNTc1dP5OOv7m
+WBD4hs9gMLODQ+Ddi1AuVXP1l5vS2zkROwq9DSpUvyjx7PUuZL4UOp9LRkC/Lw7DVXsZa2GoDWPa
+1Tb0hj60xVvhteMn0zqix4lweNqcv0eM9fKR2rqQI0d0acnncOnFHrGYDT3q5v339qP2pvyW5v3c
+jTmyjR+i7uxFoXDUPMxKj3QDtfzejwHx5H2r2qlGNUGrmSYR/HprF0fssOaz2xGjJimezuSLpsE8
+hogk+ZAPVmKr5AYc/GhGxoixcB4iwcmr5kKlnkxq+7cmZHv+BCFtcWHc7JaFQJhIEU3cEDUTOPx/
+2pY=
+
+-->

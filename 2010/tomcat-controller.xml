@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/tomcat-controller.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface uri="http://mojo.informatik.uni-erlangen.de/interfaces/2010/tomcat-controller.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>tomcat-controller</name>
   <summary>Control script for Apache Tomcat</summary>
   <description>
@@ -11,28 +11,28 @@ environment for Java code to run.
 This feed provides a script that eases the tasks of initializing, starting, and
 stopping the read-only Tomcat server as installed using its 0install feed.</description>
   <homepage>http://tomcat.apache.org/</homepage>
-  <icon href="http://faui2o2b.informatik.uni-erlangen.de/interfaces/images/tomcat-power.png" type="image/png"/>
+  <icon href="http://mojo.informatik.uni-erlangen.de/interfaces/images/tomcat-power.png" type="image/png"/>
   <group license="The Apache License 2.0">
-    <requires interface="http://faui2o2b.informatik.uni-erlangen.de/interfaces/2010/tomcat.xml">
+    <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2010/tomcat.xml">
       <environment insert="" mode="prepend" name="CATALINA_HOME"/>
     </requires>
     <implementation id="sha1new=e3d000d6b2d0e02e69bcdebdb212ea95009922e1" main="bin/tomcat.sh" released="2010-08-02" version="0.1.2">
-      <archive extract="tomcat-controller-0.1.2" href="http://faui2o2b.informatik.uni-erlangen.de/interfaces/dist/tomcat-controller-0.1.2.tar.bz2" size="772" type="application/x-bzip-compressed-tar"/>
+      <archive extract="tomcat-controller-0.1.2" href="http://mojo.informatik.uni-erlangen.de/interfaces/dist/tomcat-controller-0.1.2.tar.bz2" size="772" type="application/x-bzip-compressed-tar"/>
     </implementation>
     <implementation id="sha1new=9e2d8babbe9dd823b652e6c91a6781d72e487f6b" main="bin/tomcat.sh" released="2010-08-02" version="0.1.1">
-      <archive extract="tomcat-controller-0.1.1" href="http://faui2o2b.informatik.uni-erlangen.de/interfaces/dist/tomcat-controller-0.1.1.tar.bz2" size="726" type="application/x-bzip-compressed-tar"/>
+      <archive extract="tomcat-controller-0.1.1" href="http://mojo.informatik.uni-erlangen.de/interfaces/dist/tomcat-controller-0.1.1.tar.bz2" size="726" type="application/x-bzip-compressed-tar"/>
     </implementation>
     <implementation id="sha1new=236b1c0ef7fc64471b4edf4e39500debd55cdc42" main="bin/tomcat.sh" released="2010-08-02" version="0.1.0">
-    <archive extract="tomcat-controller-0.1.0" href="http://faui2o2b.informatik.uni-erlangen.de/interfaces/dist/tomcat-controller-0.1.0.tar.bz2" size="639" type="application/x-bzip-compressed-tar"/>
+    <archive extract="tomcat-controller-0.1.0" href="http://mojo.informatik.uni-erlangen.de/interfaces/dist/tomcat-controller-0.1.0.tar.bz2" size="639" type="application/x-bzip-compressed-tar"/>
   </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJMVtH6AAoJEFX/wTZE6YDhDkcH/iqWhqNg5cCXhB3c7lxVCzVzacOlyu//2ZXc
-RZmikO1TL+7zmxUy9XhLiZG+zI2r85qMrG0PzD7fOcUnZZuiur+bLjGWeCWixfkqipo5mrU1RUGj
-cU58NlVqIqyiNYPF6a6XcbBN76EzE54mACH05wB+xCAHkBa7o5GlNrQ0wJt9ov34FjEnK9f8oHH8
-6OPeg7Hyew9wbRuIIBSQL56q4SvtwEj0CE9NmdJQT7gfa1XunbvGK3GxHqpSmvpo+0z7sel2NIyK
-hL+NnYC6dZgvE6ofLwwFfi+z9oDdqOmTx5i0BP1GKZfXOiniWbUt4kocb4By9Iwh3bg6kHyXxjhn
-eR4=
+iQEcBAABAgAGBQJMYtClAAoJEFX/wTZE6YDhhCQIAIuWBVlB8K+Uam2rlfForGo0OVGY+pDhJ/TN
+E40UkRixfxJ1q9w+ddlootBI1bxnuiZviYdivnR8OuQT0rMh/8Bmy0noDHCyFcUmYApWr4aKjXdY
+2DshF+g01/Q4CLwnCmbHGB2l+MMUUbeyjvWL7ZAFCHcujRps4xk08BBFOkKWSg89lfRH5s37AU3T
+0sC/uwIdiKexlvU5d2xtXrOGKQ2ijXmA+soPXEibSAa6uzXpHldwjqNiooMskdfio05UiDBHeene
+fBVfdGg0/1P1J7PN6WBITmakCFLeQlHVWYCgNIX/gUOMKIwSovlCjXQKLxp8Qe22bH7RE5jek6Eg
+T54=
 
 -->
