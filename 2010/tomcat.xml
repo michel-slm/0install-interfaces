@@ -14,17 +14,17 @@ installation.</description>
   <icon href="http://mojo.informatik.uni-erlangen.de/interfaces/images/tomcat-power.png" type="image/png"/>
   <group license="The Apache License 2.0">
     <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2010/java.xml"/>
-    <implementation id="sha1new=225734a7a945f2256699e98752a4bd6fdd5b276f" released="2010-07-22" stability="stable" version="6.0.29">
-      <archive extract="apache-tomcat-6.0.29" href="http://mirror.netcologne.de/apache.org/tomcat/tomcat-6/v6.0.29/bin/apache-tomcat-6.0.29.tar.gz" size="6407210" type="application/x-compressed-tar"/>
+    <implementation id="sha256=8bae5d6bf3642d707489302bc3b169a07f31eccc005fc44f933edd61b9cadd05" released="2011-02-04" stability="stable" version="6.0.32">
+      <archive extract="apache-tomcat-6.0.32" href="http://mirror.netcologne.de/apache.org/tomcat/tomcat-6/v6.0.32/bin/apache-tomcat-6.0.32.tar.gz" size="6507748" type="application/x-compressed-tar"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJMYs/qAAoJEFX/wTZE6YDh7ycH/2k9koSGAxG6Y0NlzjvrXPTBhnwG6EGlflQS
-1LTlEYvglVnJQNN4R6Nu+AH1AatVMVLdfL6iSI+7YUKoWObiVG4gIJIoihv9ovl21C64H5cgwfpP
-DI6TUFXqI/vipPi/Ye0FPq9QqjJWR8IKUJzlWzm531j3eAGp8ToLFiV5trnk7xQrXUxWXLQJs8Ho
-t83o7lFImJiH/8yu2z/vpVGHDYN3wdX1N8Q89MeW9NYHW0pybF9h1SkxCmnfqZ3Jargnr5z6oaNl
-IPRYec8t+L5JiA9wpo6d5u++nOL8ppGVvGGxArLGIZa/RFE4O6u/AHBq5xKulQc2YDLlq+nnVF5x
-lw4=
+iQEcBAABAgAGBQJNv/8+AAoJEFX/wTZE6YDhLaIH/3syjLKjHeqBXWCxWHK1c3kzoenBJvdJapMZ
+ZhAcERkocXp27qIazNdXck+J4Yxfd11bdXFZZDf33jwKWhIHh8IqhHb0j2eEL0OKwVWIbiWUgZT4
+w3DvMN90vPAP8joIEsTqv5IBL+8hWJBWMNivCo2tl5I6y9HsSAeWnUoRMP2qyRwvYB/vbUtiLz6a
+K6JSXqYTW5md8GUQc+5NbZwhLOOSLvuRTwQsTjImy9P6Hv/HEz9uy5RJWlPTUOO/r2mzuoAgHk87
+p7AZwfBW4Qt3Cyrai0gF6lsl4w4vnbT1BUPsYKrXNd2baAezfpuv58chrLZYaIyljham5u2JHMhg
+Djw=
 
 -->
