@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://mojo.informatik.uni-erlangen.de/interfaces/2011/libXss.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>libXss</name>
+  <summary>X.Org X11 libXss runtime library</summary>
+  <description>
+X.Org X11 libXss runtime library</description>
+  <homepage>http://www.x.org/</homepage>
+  <category>Graphics</category>
+  <group arch="Linux-*" license="OSI Approved :: MIT/X Consortium License" stability="stable">
+    <package-implementation distributions="RPM" package="libXScrnSaver"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJN/R3QAAoJEFX/wTZE6YDhHGIH/R8UQUHrFYPHVyUP0xhh8INttjmkdt0zGhHx
+VstOpbbU4+ViWS5wtSEEklDIS4agI4Lz3+rrXgyjWSCeHqEMz7g29FverjyjH4yeeYDRqacT7JWv
+3r/BmiDl3k9SIiKX9v2RIaVuSpHAWjfGtidXb2s+7kKrGuJWnV1F6xO2YyXyeiLSDQP3+730PQmy
+K94LC7k7Nqau0j+XgH7tTiqeeMMkpww/foLSEROh3HHSaEZiezagombJcndkPxmqu5x1SaiGojMV
+CCyaoJH4aiO1c6GqgMthNhYVBDp3WvC86CEVwQPRi1JovFOyxmKKLVQp9iIq1u4tyj/dD/n1w9UM
+Lzw=
+
+-->

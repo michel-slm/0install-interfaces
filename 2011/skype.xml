@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://mojo.informatik.uni-erlangen.de/interfaces/2011/skype.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>skype</name>
+  <summary>Free Internet telephony that just works</summary>
+  <description>
+Skype is software that enables the world's conversations. Millions of
+individuals and businesses use Skype to make free video and voice calls, send
+instant messages and share files with other Skype users. Everyday, people also
+use Skype to make low-cost calls to landlines and mobiles.
+
+* Make free Skype-to-Skype calls to anyone else, anywhere in the world.
+
+* Call to landlines and mobiles at great rates.
+
+* Group chat with up to 200 people or conference call with up to 25 others.
+
+* Free to download.</description>
+  <homepage>http://www.skype.com/</homepage>
+  <category>Network</category>
+  <icon href="http://mojo.informatik.uni-erlangen.de/interfaces/images/SkypeBlue_512x512.png" type="image/png"/>
+  <group arch="Linux-i386" license="Freely Distributable">
+    <implementation id="sha1new=df6db5a22a8cb8cae6cf68f877f354b08002f324" main="skype" released="2011-06-08" stability="testing" version="2.2.0.35">
+    <archive extract="skype-2.2.0.35" href="http://download.skype.com/linux/skype-2.2.0.35.tar.bz2" size="23079739" type="application/x-bzip-compressed-tar"/>
+      <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/libXss.xml"/>
+  </implementation>
+    <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/libXss.xml"/>
+    <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/libXv.xml"/>
+    <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/qt-x11.xml"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJN/R+yAAoJEFX/wTZE6YDhu54IAIulIn3CbyHJcoGkDNDN3eLYY/bT1McRhLgS
+LIiU8WhQ5iApH4COlEZdX+cDeDzxMSPv5u9wpWvPdoMA7qTt8P/x8jygvUvZAI83TO8CPBH6erlO
+Dp7A6MkUNahKRG/dUHFtOQ4eSEl7GUQoaJOyynltFlCoYJ8NCkaMXAbEFHqockipbpJUiKnzNO7M
+Ea6tqIOS/qgj2+1b1p4voKnzLAX/BoMRG6gbCvXP9iHlBZK2qIPtQNdAcrjrfy7Zhs7g7MLrQe7/
+WM+lGlIuRULBNPm8x5nOcNqg+2S9uyveh+UlzzepO3KV8tYx6uxNAMocCZIPE1fWR5zMdffePuS3
+Hzw=
+
+-->

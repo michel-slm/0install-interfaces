@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://mojo.informatik.uni-erlangen.de/interfaces/2011/qt-x11.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>qt-x11</name>
+  <summary>Qt GUI-related libraries</summary>
+  <description>
+Qt libraries used for drawing widgets and OpenGL items.</description>
+  <homepage>http://www.qtsoftware.com/</homepage>
+  <category>Graphics</category>
+  <group arch="Linux-*" license="OSI Approved :: BSD License (revised)" stability="stable">
+    <package-implementation distributions="RPM" package="qt-x11"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJN/RqdAAoJEFX/wTZE6YDhAdIIAJjwlZCrBhD/UtWLmtOzIwoE4DjjGzr+tRFp
+tz0W0fvy7xgv4h+YnmH93Nzclm46qo35Cs3c/hCrZTfW47hCqbrgeymCwMDQMDw87DuKDck+1Rt9
+jaebIDp2OERZnG6B3DL9BONIz0AZbYwcuM4PnZXbk7dJ1PYgAHsvd+g96nAaBxVO3JBcSbgWM5Iu
+4Yh5CwjNuyOcuRMd3Wh6pHNVAls7/MvjnH941l0ULc+0iOZeuFuYRZBp4zLPe9QfL69/oUXY3QBy
+uw+8vB30OrEs6XIghOsaJuAOlVoIhRct8xI26CsU4XSuh4w9MiUDYKtZEqj3f2DYWEaBXvr1Rc7L
+E2s=
+
+-->
