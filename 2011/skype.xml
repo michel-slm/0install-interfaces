@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
 <interface uri="http://mojo.informatik.uni-erlangen.de/interfaces/2011/skype.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
-  <name>skype</name>
+  <name>Skype</name>
   <summary>Free Internet telephony that just works</summary>
   <description>
 Skype is software that enables the world's conversations. Millions of
@@ -30,11 +30,11 @@ use Skype to make low-cost calls to landlines and mobiles.
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJN/R+yAAoJEFX/wTZE6YDhu54IAIulIn3CbyHJcoGkDNDN3eLYY/bT1McRhLgS
-LIiU8WhQ5iApH4COlEZdX+cDeDzxMSPv5u9wpWvPdoMA7qTt8P/x8jygvUvZAI83TO8CPBH6erlO
-Dp7A6MkUNahKRG/dUHFtOQ4eSEl7GUQoaJOyynltFlCoYJ8NCkaMXAbEFHqockipbpJUiKnzNO7M
-Ea6tqIOS/qgj2+1b1p4voKnzLAX/BoMRG6gbCvXP9iHlBZK2qIPtQNdAcrjrfy7Zhs7g7MLrQe7/
-WM+lGlIuRULBNPm8x5nOcNqg+2S9uyveh+UlzzepO3KV8tYx6uxNAMocCZIPE1fWR5zMdffePuS3
-Hzw=
+iQEcBAABAgAGBQJN/SDyAAoJEFX/wTZE6YDhVHgIALb72P8LSfy9A57Ft7nnswvPFZPb3nX0P3EN
+OMR+/CvO+3jBV7KsY4j58qGNPxa+NQ44BvnCq267q+vv1geEFEZtkfxiAl7cYESNZwHeVuxzcRJG
+z8dfbTjohVr/YRmYepUj8Z2Q4n8mk/Xe4p2KHLULj1M8beDV20M3AOa2wnxMQQrJnrt1El2+8WZf
+0P2xBbTc1DQh/Qr7mbZFVdj85QGM3RNoNoWaWY5YBmjS12arFTHVMw9xVfZMb9jMDM+Lls9Pp7QC
+tORm1hZi0gGPr8w0DLfQ/zJhMcY3gyxhTECVfsCqinEyIRE+VOdl0vAW1n5eSePk4eAg9LqRzEf+
+UHg=
 
 -->

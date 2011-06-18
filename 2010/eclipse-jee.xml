@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
 <interface uri="http://mojo.informatik.uni-erlangen.de/interfaces/2010/eclipse-jee.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
-  <name>eclipse-jee</name>
+  <name>Eclipse JEE</name>
   <summary>Eclipse IDE for Java EE Developers</summary>
   <description>
 Tools for Java developers creating Java EE and Web applications, including a
@@ -38,11 +38,11 @@ Java IDE, tools for Java EE, JPA, JSF, Mylyn and others.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJN9xpYAAoJEFX/wTZE6YDhGyEH/i5Y7dgsghlQgqQBLxut95ls8xApeZl+YbNc
-Xx18YF9mI0ck1njZ023e6Pc+oq3AZfspgQGnz4hs0u+OF6VoUb90qoUV1fAAxBE7rLvldfZNj2tm
-QxAnE472J9N/zY6u1Yfrma10LWlUUzkTvmcabKEvuG4ezXy1ZzRbDUHzZWx04jvKC1IJtQFy5rEJ
-i0KTc1uCS9HmLYdAFi18FFsoRhNSDdaaaVJJVT+wX1lexqi0jFTDktFf1L1Mu7IivzwmxCJTuOaG
-IRUslppO+aBgZwxwbHk0znHZ1PA9QBgx2/cLXZp690zmNhbaSpF5auJjSK4r+htr+Rakh6MkCX3V
-arM=
+iQEcBAABAgAGBQJN/SC+AAoJEFX/wTZE6YDheVwH/RJ2YTul6j4x+jbjO26+Bya/Qrv1Dvp9h5/D
+W+wcJwxGXwwsnW6SEs6fshnEor4s71QRLMPndK+gLvaD/pOgReoZgkdcsEByag1MGAlqbB6vbIlQ
+7edVMeke2rbRxFwf127KFTkJ2nWcJswFCQSD+g/VO8qURTQieGOicvxGu7tBLbarTteduC4z11D8
+AN7i2XDu7NwKEirjv4xu+v+rrLoCxK3/gjfYcrkagyRKji/i/SMfn7KABc4JI8pco3sPaUjy27a2
+zjQUroiMZEybqoXCxqkWdHWH6YE7afSVxdykIO2TXr+MbTkDcbICYftQ5rLmAftbIGBka25gtxW2
+CgA=
 
 -->
