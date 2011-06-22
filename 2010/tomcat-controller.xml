@@ -16,6 +16,9 @@ stopping the read-only Tomcat server as installed using its 0install feed.</desc
     <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2010/tomcat.xml">
       <environment insert="" mode="prepend" name="CATALINA_HOME"/>
     </requires>
+    <implementation id="sha1new=7f75d0e64f5fe9f8bb3b0c7346bfe391fd0c9882" main="bin/tomcat.sh" released="2011-06-22" version="0.1.3">
+      <archive extract="tomcat-controller-0.1.3" href="http://mojo.informatik.uni-erlangen.de/interfaces/dist/tomcat-controller-0.1.3.tar.bz2" size="806" type="application/x-bzip-compressed-tar"/>
+    </implementation>
     <implementation id="sha1new=e3d000d6b2d0e02e69bcdebdb212ea95009922e1" main="bin/tomcat.sh" released="2010-08-02" version="0.1.2">
       <archive extract="tomcat-controller-0.1.2" href="http://mojo.informatik.uni-erlangen.de/interfaces/dist/tomcat-controller-0.1.2.tar.bz2" size="772" type="application/x-bzip-compressed-tar"/>
     </implementation>
@@ -28,11 +31,11 @@ stopping the read-only Tomcat server as installed using its 0install feed.</desc
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJMYtClAAoJEFX/wTZE6YDhhCQIAIuWBVlB8K+Uam2rlfForGo0OVGY+pDhJ/TN
-E40UkRixfxJ1q9w+ddlootBI1bxnuiZviYdivnR8OuQT0rMh/8Bmy0noDHCyFcUmYApWr4aKjXdY
-2DshF+g01/Q4CLwnCmbHGB2l+MMUUbeyjvWL7ZAFCHcujRps4xk08BBFOkKWSg89lfRH5s37AU3T
-0sC/uwIdiKexlvU5d2xtXrOGKQ2ijXmA+soPXEibSAa6uzXpHldwjqNiooMskdfio05UiDBHeene
-fBVfdGg0/1P1J7PN6WBITmakCFLeQlHVWYCgNIX/gUOMKIwSovlCjXQKLxp8Qe22bH7RE5jek6Eg
-T54=
+iQEcBAABAgAGBQJOAdm7AAoJEFX/wTZE6YDhP0sH+waAXUH1XL4gl9XSyL77OYO5QK61ZboDa8af
+ggORAInZPJMUdFI5reybk03GppfDjS2deKFqgwDh5Det1FjktxHx9V3ft2cUaN6xZTIl1D5sxG55
+Dlj86xpOKjC1DrRaBq+twpKnBdSIXr31GnqyUemYq/0udfyVWkuvDYAyx/MD/RlUexVB/rlS6mjC
+sIMeB76eLz5BycyIijgInhrRgb5ePJs/E84LjFN5d28kq7B9IeLGkUBD2+/VYT2KLyCdPm/H8OBF
+jpeXz0xlN1xDuObkqh9yQbjSyDVmh0CPoRLEzT/eu2x3Wf4gr62FNnHaLX1TKeyLDQpZYZqaPRVW
+5Eg=
 
 -->
