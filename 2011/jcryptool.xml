@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://mojo.informatik.uni-erlangen.de/interfaces/2011/jcryptool.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>jcryptool</name>
+  <summary>cryptography e-learning platform</summary>
+  <description>
+JCrypTool is the new cryptography e-learning platform. Developed as an open-
+source project based on the Eclipse Rich Client Platform (RCP), it enables
+students, teachers, developers, and anyone else interested in cryptography to
+apply and analyze cryptographic algorithms in a modern, easy-to-use application.
+Its aim is to create a new form of e-learning by not just encouraging users to
+learn about cryptography and apply the algorithms themselves, but also to
+develop their own cryptographic plug-ins and extend the JCrypTool platform in
+new directions. JCrypTool already includes a wealth of cryptographic mechanisms
+including classic, symmetric, and asymmetric encryption, hash functions,
+analysis tools, and number games.</description>
+  <homepage>http://jcryptool.sourceforge.net/</homepage>
+  <category>Education</category>
+  <icon href="http://mojo.informatik.uni-erlangen.de/interfaces/images/JCrypTool.png" type="image/png"/>
+  <group license="Eclipse Public License">
+    <group released="2010-12-29" stability="testing" version="1.0.0" version-modifier="-rc4">
+    <implementation arch="Linux-i386" id="sha1new=546a9e69757244baff6720450942b896c252e182" main="JCrypTool">
+      <archive extract="jcryptool" href="http://downloads.sourceforge.net/project/jcryptool/jcryptool/JCrypTool%20Release%20Candidate%204/jcryptool-1.0.0-RC4.linux.gtk.x86.zip" size="55666631" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=7812a5635ad05d4ef2ed10b22d46d7ba9551355d" main="JCrypTool">
+    <archive extract="jcryptool" href="http://downloads.sourceforge.net/project/jcryptool/jcryptool/JCrypTool%20Release%20Candidate%204/jcryptool-1.0.0-RC4.linux.gtk.x86_64.zip" size="55872995" type="application/zip"/>
+  </implementation>
+  </group>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJOA8cnAAoJEFX/wTZE6YDhcyEH/1XLS4937P535O4Fs7/7YAK9de1SOwZzS58s
+TtDFztuyUkm0eaASCy523ym5/PmNVe4oTwqnuuaVuBFrfETuBbARSMgjt7nt+dDv5ddj9aG/Jj+e
+cgLHaQkAsIjW2Rt7rAWxtSVGTU1QeUJBDJi8Y+MblkckGx+34f94QzxxQ1PO1KAcvTVbJmXGet9o
+MtaXItI/lslVU1lnLwYWnxCRWdrBan/KJu78V/a6Lsphd7Zji8qVssbb21eMdYa+ziu503uakv01
+m+VqzPOkEBPGnSEBrnax51sZ4vbEfnlrPTRUYGNkgIEm1z7kydIMktjO76FBWNWRj1QZMmzzBAWW
+WKU=
+
+-->
