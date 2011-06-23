@@ -13,8 +13,8 @@ Java IDE, tools for Java EE, JPA, JSF, Mylyn and others.</description>
     <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2010/java.xml"/>
     <group stability="stable">
       <group arch="Linux-i386">
- <implementation id="sha1new=b6111eff989d2e0b2d7941cd7b6e7413f20ac15f" main="eclipse" released="2011-06-03" stability="testing" version="3.7.0-rc4">
-   <archive extract="eclipse" href="http://mirror.selfnet.de/eclipse/technology/epp/downloads/release/indigo/RC4/eclipse-jee-indigo-RC4-linux-gtk.tar.gz" size="221426566" type="application/x-compressed-tar"/>
+ <implementation id="sha1new=9ece8f4533b9aceba45d021a93cef7f11d2df4c2" main="eclipse" released="2011-06-22" version="3.7.0">
+   <archive extract="eclipse" href="http://mirror.selfnet.de/eclipse/technology/epp/downloads/release/indigo/R/eclipse-jee-indigo-linux-gtk.tar.gz" size="220979370" type="application/x-compressed-tar"/>
  </implementation>
  <implementation id="sha1new=4697c714199c53643026267c5fe683f16c6e1144" main="eclipse" released="2011-02-25" version="3.6.2">
    <archive extract="eclipse" href="http://ftp.wh2.tu-dresden.de/pub/mirrors/eclipse/eclipse/downloads/drops/R-3.6.2-201102101200/eclipse-SDK-3.6.2-linux-gtk.tar.gz" size="178731178" type="application/x-compressed-tar"/>
@@ -24,8 +24,8 @@ Java IDE, tools for Java EE, JPA, JSF, Mylyn and others.</description>
 	</implementation>
       </group>
       <group arch="Linux-x86_64">
- <implementation id="sha1new=1cae90b9d3e71348869b30b06c1739dd100cb0bf" main="eclipse" released="2011-06-03" stability="testing" version="3.7.0-rc4">
-   <archive extract="eclipse" href="http://mirror.selfnet.de/eclipse/technology/epp/downloads/release/indigo/RC4/eclipse-jee-indigo-RC4-linux-gtk-x86_64.tar.gz" size="221592196" type="application/x-compressed-tar"/>
+ <implementation id="sha1new=2596fd832e7a99cc0efc08f72d4324839ea7ba2d" main="eclipse" released="2011-06-22" version="3.7.0">
+   <archive extract="eclipse" href="http://mirror.selfnet.de/eclipse/technology/epp/downloads/release/indigo/R/eclipse-jee-indigo-linux-gtk-x86_64.tar.gz" size="221203238" type="application/x-compressed-tar"/>
  </implementation>
  <implementation id="sha1new=e2b0661ae4f1935a4345324761eff23255a1820d" main="eclipse" released="2011-02-25" version="3.6.2">
    <archive extract="eclipse" href="http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/technology/epp/downloads/release/helios/SR2/eclipse-jee-helios-SR2-linux-gtk-x86_64.tar.gz" size="215235232" type="application/x-compressed-tar"/>
@@ -38,11 +38,11 @@ Java IDE, tools for Java EE, JPA, JSF, Mylyn and others.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJN/SC+AAoJEFX/wTZE6YDheVwH/RJ2YTul6j4x+jbjO26+Bya/Qrv1Dvp9h5/D
-W+wcJwxGXwwsnW6SEs6fshnEor4s71QRLMPndK+gLvaD/pOgReoZgkdcsEByag1MGAlqbB6vbIlQ
-7edVMeke2rbRxFwf127KFTkJ2nWcJswFCQSD+g/VO8qURTQieGOicvxGu7tBLbarTteduC4z11D8
-AN7i2XDu7NwKEirjv4xu+v+rrLoCxK3/gjfYcrkagyRKji/i/SMfn7KABc4JI8pco3sPaUjy27a2
-zjQUroiMZEybqoXCxqkWdHWH6YE7afSVxdykIO2TXr+MbTkDcbICYftQ5rLmAftbIGBka25gtxW2
-CgA=
+iQEcBAABAgAGBQJOA1o+AAoJEFX/wTZE6YDh+ywH/1nTpGRsnEfBGR7fvJ5JqqEHUBs9Ke/nMFxZ
+5uEbUHqYSQ3NvPMvFi7R305+rEnR5p2erCv1JrQYgImIxqqd3I/rfLQr7KSb9IZOUnuS3YrDYT+I
+Gn8q6aprhGebniBrECnQvcCMB/CuOlXy4qg41z+ghcSNh7u4xGoAgiY6E/I94hGE20igxGlljnZY
+uwejyBQZ7z7ytr7dCOTu4QHLDFjP2L8tskBq5kpB3istvBv9L5WtGF6QT4KOcp2FSQx1UokgqeWU
+XWTD7OJvbnKdRl2s3YpvMWUS5+MaJQqF9iCm7ssq2t/IwGCh1a+GVU/Fowg74yQTIcKxHBTKhw6p
+nIU=
 
 -->
