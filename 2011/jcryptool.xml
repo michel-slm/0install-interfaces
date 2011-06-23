@@ -26,14 +26,15 @@ analysis tools, and number games.</description>
     <archive extract="jcryptool" href="http://downloads.sourceforge.net/project/jcryptool/jcryptool/JCrypTool%20Release%20Candidate%204/jcryptool-1.0.0-RC4.linux.gtk.x86_64.zip" size="55872995" type="application/zip"/>
   </implementation>
   </group>
+    <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2010/java.xml"/>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJOA8cnAAoJEFX/wTZE6YDhcyEH/1XLS4937P535O4Fs7/7YAK9de1SOwZzS58s
-TtDFztuyUkm0eaASCy523ym5/PmNVe4oTwqnuuaVuBFrfETuBbARSMgjt7nt+dDv5ddj9aG/Jj+e
-cgLHaQkAsIjW2Rt7rAWxtSVGTU1QeUJBDJi8Y+MblkckGx+34f94QzxxQ1PO1KAcvTVbJmXGet9o
-MtaXItI/lslVU1lnLwYWnxCRWdrBan/KJu78V/a6Lsphd7Zji8qVssbb21eMdYa+ziu503uakv01
-m+VqzPOkEBPGnSEBrnax51sZ4vbEfnlrPTRUYGNkgIEm1z7kydIMktjO76FBWNWRj1QZMmzzBAWW
-WKU=
+iQEcBAABAgAGBQJOA8fxAAoJEFX/wTZE6YDhxOoH/25zOug/eyVMU3pzMB5cBF1ghHC7mGzSGV7G
+jEtfz3xFGtGlb4PDcgPbf/Duc6xPWgfSVgoGzQTYVnTSWFjo3RrVATxQ4KsdC1273SBzIL0lPiYf
+O5texNBkPcRLiyy9/SGTa3q9du+aExRILgQhp8gi7HBEH2ob9w58cokD/NFu1HJ9J2KUN2aYrHVT
+iAAfp95bbsCMzif3PGchpKR9n3xosG38bVdJX2ROXdFVNzccOTpCqBXPofG5RODIu5fwrHz6PudT
+AauwBKDgvR5OpcV+0C0uDsvT9/p2zRJ7hVmb8vZH71giPj8mlH+35liudORP0WboLBsVT71NYYhr
+UCk=
 
 -->
