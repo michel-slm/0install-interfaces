@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://mojo.informatik.uni-erlangen.de/interfaces/2011/thunderbird.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Thunderbird</name>
+  <summary>Email, RSS and newsgroup client with integrated spam filter</summary>
+  <description>
+Thunderbird is a full-featured email, RSS and newsgroup client that makes
+emailing safer, faster and easier than ever before. It supports different mail
+accounts (POP, IMAP, Gmail), has a simple mail account setup wizard, one-click
+address book, tabbed interface, an integrated learning spam filter, advanced
+search and indexing capabilities, and offers easy organization of mails with
+tagging and virtual folders. It also features unrivalled extensibility.</description>
+  <homepage>http://www.mozillamessaging.com/en-US/thunderbird/</homepage>
+  <category>Network</category>
+  <icon href="http://spreadthunderbird.com/sites/default/files/spreadthunderbird_logo.png" type="image/png"/>
+  <group license="OSI Approved :: Mozilla Public License (MPL)">
+    <group released="2011-06-22" stability="testing" version="5.0" version-modifier="-pre2">
+    <implementation arch="Linux-x86_64" id="sha1new=ddeea9416013f9c8913a02ec27f4b41187d9e4ec" main="thunderbird">
+      <archive extract="thunderbird" href="http://releases.mozilla.org/pub/mozilla.org/thunderbird/releases/5.0b2/linux-x86_64/en-US/thunderbird-5.0b2.tar.bz2" size="18512800" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i686" id="sha1new=15a84ce36690a83071c8f8b2fbe969813774b342" main="thunderbird">
+    <archive extract="thunderbird" href="http://releases.mozilla.org/pub/mozilla.org/thunderbird/releases/5.0b2/linux-i686/en-US/thunderbird-5.0b2.tar.bz2" size="16677059" type="application/x-bzip-compressed-tar"/>
+  </implementation>
+  </group>
+    <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/dbus-glib.xml"/>
+    <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/gtk2.xml">
+      <version before="3.0.0"/>
+    </requires>
+  </group>
+  <package-implementation distribution="RPM" main="/usr/bin/thunderbird" package="thunderbird"/>
+  <package-implementation distributions="Debian" main="/usr/bin/thunderbird" package="thunderbird"/>
+  <package-implementation distributions="Gentoo" main="/usr/bin/thunderbird" package="mail-client/thunderbird"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJOBhW8AAoJEFX/wTZE6YDh/EAH/jkiit9w7RGUSpy+oYC4j7426eod350tggVI
+bkH2c8iZVH6TGL6z0ZyeGYPD+rqAKTyIYZyCoRrE83lInUMfEIWDg1ARoncFFfHrC6bKKHxi3v+e
+7ajtWr+3zPc2P/nZ36DfEjcbGVW2ZK/Yu4ShKSmoF5aNDqrhzc2mafmigKK7iZD/DcpZ9Rl57PC6
+5jdbwSvVolKs3paFBfZvd7ZHIhKtZNjdSk/oGs4qKbDjimQjbul5zWBzmTWcjn9yJfGSpo7lrbVG
+lglFMz88R5aKh0Xxmu70KPRLj0glJ3Z1o7fE9YEZeoTLwCKO0MeVM6/Jsby63RADiOmww6ymlHux
+qgs=
+
+-->

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://mojo.informatik.uni-erlangen.de/interfaces/2011/dbus-glib.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>dbus-glib</name>
+  <summary>GLib bindings for D-Bus</summary>
+  <description>
+D-Bus add-on library to integrate the standard D-Bus library with
+the GLib thread abstraction and main loop.
+</description>
+  <homepage>http://www.freedesktop.org/software/dbus/</homepage>
+  <category>System</category>
+  <group/>
+  <package-implementation distribution="RPM" package="dbus-glib"/>
+  <package-implementation distributions="Debian" package="libdbus-glib-1-2"/>
+  <package-implementation distributions="Gentoo" package="dev-libs/dbus-glib"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJOBhNWAAoJEFX/wTZE6YDhvjkH/ilRxuqAoCHRjTkkN0WXUbAueeqmjZ4+IlJi
+o0OgETOosVu4lKHXHpdv3KJiyyaFlZApe/kON8xswDfqAbHA+8etu0fZzFBmz0QvshPF4fznCJ+9
+sn915qzXgcQY9IE3YgDMn7oZiclURd2waQIrhdkdW3lbuQeo2XzUrHS1dHBVVsA9kdpHApRB3q8p
+ERfCjIHkw3JYULdrvgWHkZij0MgC0uQriZhonq8Ps3+xiq0fi0s9HbBMWdNXa8RZn81R3tCEvjC1
+TGiCjSjmRSRYALy03UYbRgbamR7E84GeHCNqgTyVIGlKKCct5pwtbDahoYNxsCuFEl3lKber6I29
+eRs=
+
+-->

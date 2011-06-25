@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://mojo.informatik.uni-erlangen.de/interfaces/2011/gtk2.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>gtk2</name>
+  <summary>The GIMP ToolKit (GTK+), a library for creating GUIs for X</summary>
+  <description>
+GTK+ is a multi-platform toolkit for creating graphical user
+interfaces. Offering a complete set of widgets, GTK+ is suitable for
+projects ranging from small one-off tools to complete application
+suites.
+</description>
+  <homepage>http://www.gtk.org/</homepage>
+  <category>System</category>
+  <group/>
+  <package-implementation distribution="RPM" package="gtk2"/>
+  <package-implementation distributions="Debian" package="libgtk2.0-0"/>
+  <package-implementation distributions="Gentoo" package="x11-libs/gtk+"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJOBhNPAAoJEFX/wTZE6YDhZMIIALixEBOInh0JZ6PHBKJdfSvuh215yoMUr3+x
+dsH++XIyZLDweaI1QtomvbnwjOsoosCQR/UOXCl2X7q62RUdBQLa8kummGz5wg38Sex6A4ViM+JA
+qlKyxUNNdBEtqGMo7ZNKItUqNXDxXtzviqXSW0wZ0NruEMqmIRkz+dN+M6tveThELKL6i8fflUDV
+2R3ROT2GB3kaAfXPwMPc7fycojwuBjEPL/I+5/s/p0eEYNhjCe2ocxqXFebxQZdLRsAI1rA20PxD
+zQ4Z+8oNVBaQxosGbkyZUkdP/+NVbl2JOYrwaajwqLyfA0BwzTvGeFHhbJnrACF9tXrd1xYa5Dc2
+uQY=
+
+-->
