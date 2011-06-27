@@ -13,29 +13,36 @@ stopping the read-only Tomcat server as installed using its 0install feed.</desc
   <homepage>http://tomcat.apache.org/</homepage>
   <icon href="http://mojo.informatik.uni-erlangen.de/interfaces/images/tomcat-power.png" type="image/png"/>
   <group license="The Apache License 2.0">
+    <group stability="stable">
+    <implementation id="sha1new=21ecb959e52846bcabf282b181236a62f304093f" main="bin/tomcat.sh" released="2011-06-27" version="0.2.0">
+      <archive extract="tomcat-controller-0.2.0" href="http://mojo.informatik.uni-erlangen.de/interfaces/dist/tomcat-controller-0.2.0.tar.bz2" size="655" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+  </group>
+    <group stability="testing">
+      <implementation id="sha1new=7f75d0e64f5fe9f8bb3b0c7346bfe391fd0c9882" main="bin/tomcat.sh" released="2011-06-22" version="0.1.3">
+      <archive extract="tomcat-controller-0.1.3" href="http://mojo.informatik.uni-erlangen.de/interfaces/dist/tomcat-controller-0.1.3.tar.bz2" size="806" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+      <implementation id="sha1new=e3d000d6b2d0e02e69bcdebdb212ea95009922e1" main="bin/tomcat.sh" released="2010-08-02" version="0.1.2">
+      <archive extract="tomcat-controller-0.1.2" href="http://mojo.informatik.uni-erlangen.de/interfaces/dist/tomcat-controller-0.1.2.tar.bz2" size="772" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+      <implementation id="sha1new=9e2d8babbe9dd823b652e6c91a6781d72e487f6b" main="bin/tomcat.sh" released="2010-08-02" version="0.1.1">
+      <archive extract="tomcat-controller-0.1.1" href="http://mojo.informatik.uni-erlangen.de/interfaces/dist/tomcat-controller-0.1.1.tar.bz2" size="726" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+      <implementation id="sha1new=236b1c0ef7fc64471b4edf4e39500debd55cdc42" main="bin/tomcat.sh" released="2010-08-02" version="0.1.0">
+    <archive extract="tomcat-controller-0.1.0" href="http://mojo.informatik.uni-erlangen.de/interfaces/dist/tomcat-controller-0.1.0.tar.bz2" size="639" type="application/x-bzip-compressed-tar"/>
+  </implementation>
+    </group>
     <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2010/tomcat.xml">
       <environment insert="" mode="prepend" name="CATALINA_HOME"/>
     </requires>
-    <implementation id="sha1new=7f75d0e64f5fe9f8bb3b0c7346bfe391fd0c9882" main="bin/tomcat.sh" released="2011-06-22" version="0.1.3">
-      <archive extract="tomcat-controller-0.1.3" href="http://mojo.informatik.uni-erlangen.de/interfaces/dist/tomcat-controller-0.1.3.tar.bz2" size="806" type="application/x-bzip-compressed-tar"/>
-    </implementation>
-    <implementation id="sha1new=e3d000d6b2d0e02e69bcdebdb212ea95009922e1" main="bin/tomcat.sh" released="2010-08-02" version="0.1.2">
-      <archive extract="tomcat-controller-0.1.2" href="http://mojo.informatik.uni-erlangen.de/interfaces/dist/tomcat-controller-0.1.2.tar.bz2" size="772" type="application/x-bzip-compressed-tar"/>
-    </implementation>
-    <implementation id="sha1new=9e2d8babbe9dd823b652e6c91a6781d72e487f6b" main="bin/tomcat.sh" released="2010-08-02" version="0.1.1">
-      <archive extract="tomcat-controller-0.1.1" href="http://mojo.informatik.uni-erlangen.de/interfaces/dist/tomcat-controller-0.1.1.tar.bz2" size="726" type="application/x-bzip-compressed-tar"/>
-    </implementation>
-    <implementation id="sha1new=236b1c0ef7fc64471b4edf4e39500debd55cdc42" main="bin/tomcat.sh" released="2010-08-02" version="0.1.0">
-    <archive extract="tomcat-controller-0.1.0" href="http://mojo.informatik.uni-erlangen.de/interfaces/dist/tomcat-controller-0.1.0.tar.bz2" size="639" type="application/x-bzip-compressed-tar"/>
-  </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJOAdm7AAoJEFX/wTZE6YDhP0sH+waAXUH1XL4gl9XSyL77OYO5QK61ZboDa8af
-ggORAInZPJMUdFI5reybk03GppfDjS2deKFqgwDh5Det1FjktxHx9V3ft2cUaN6xZTIl1D5sxG55
-Dlj86xpOKjC1DrRaBq+twpKnBdSIXr31GnqyUemYq/0udfyVWkuvDYAyx/MD/RlUexVB/rlS6mjC
-sIMeB76eLz5BycyIijgInhrRgb5ePJs/E84LjFN5d28kq7B9IeLGkUBD2+/VYT2KLyCdPm/H8OBF
-jpeXz0xlN1xDuObkqh9yQbjSyDVmh0CPoRLEzT/eu2x3Wf4gr62FNnHaLX1TKeyLDQpZYZqaPRVW
-5Eg=
+iQEcBAABAgAGBQJOCEIKAAoJEFX/wTZE6YDhcW0H+wR/vJ44F86IhglCsXZZzOgLN1Bv+1G0lrU1
+I/McisjVtF9ddtLpgNYXJq9CGIs3ZYcT59wr/G2I9XJYK6dQsXCLg6JkqsUN9xKR0uparEcl7yxf
+/gcu41ydsblskyYT4XXQhCTaO9Sh+QbHi2pYaLoOSdXlDESVvLsfj6cEweaGQcH3vlaNPdytvPGM
+YYjANTtGpz94blY4jN+P/AM72yWNKyV9BztYAwM7FnuHCRrR8zzuuw3naH+HEagCR5BQb5FJ/upy
+IrstUwwR56zYfDAuerMWSyeQdEnOVqUL3jELz1h3rRKQrmj4J9vMuU2NnvQHkhihKefvCFDDD+Yq
+V/4=
 
 -->
