@@ -14,6 +14,14 @@ tagging and virtual folders. It also features unrivalled extensibility.</descrip
   <category>Network</category>
   <icon href="http://spreadthunderbird.com/sites/default/files/spreadthunderbird_logo.png" type="image/png"/>
   <group license="OSI Approved :: Mozilla Public License (MPL)">
+    <group released="2011-06-28" stability="stable" version="5.0">
+      <implementation arch="Linux-x86_64" id="sha1new=540b3463d4bbdbcbcedccf458626749ae98b371f" main="thunderbird">
+      <archive extract="thunderbird" href="http://releases.mozilla.org/pub/mozilla.org/thunderbird/releases/5.0/linux-x86_64/en-US/thunderbird-5.0.tar.bz2" size="18477606" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+      <implementation arch="Linux-i686" id="sha1new=a0332627fb6b5657d601e9850bf8a598725820cd" main="thunderbird">
+        <archive extract="thunderbird" href="http://releases.mozilla.org/pub/mozilla.org/thunderbird/releases/5.0/linux-i686/en-US/thunderbird-5.0.tar.bz2" size="16641285" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    </group>
     <group released="2011-06-22" stability="testing" version="5.0" version-modifier="-pre2">
     <implementation arch="Linux-x86_64" id="sha1new=ddeea9416013f9c8913a02ec27f4b41187d9e4ec" main="thunderbird">
       <archive extract="thunderbird" href="http://releases.mozilla.org/pub/mozilla.org/thunderbird/releases/5.0b2/linux-x86_64/en-US/thunderbird-5.0b2.tar.bz2" size="18512800" type="application/x-bzip-compressed-tar"/>
@@ -32,11 +40,11 @@ tagging and virtual folders. It also features unrivalled extensibility.</descrip
   <package-implementation distributions="Gentoo" main="/usr/bin/thunderbird" package="mail-client/thunderbird"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJOBhW8AAoJEFX/wTZE6YDh/EAH/jkiit9w7RGUSpy+oYC4j7426eod350tggVI
-bkH2c8iZVH6TGL6z0ZyeGYPD+rqAKTyIYZyCoRrE83lInUMfEIWDg1ARoncFFfHrC6bKKHxi3v+e
-7ajtWr+3zPc2P/nZ36DfEjcbGVW2ZK/Yu4ShKSmoF5aNDqrhzc2mafmigKK7iZD/DcpZ9Rl57PC6
-5jdbwSvVolKs3paFBfZvd7ZHIhKtZNjdSk/oGs4qKbDjimQjbul5zWBzmTWcjn9yJfGSpo7lrbVG
-lglFMz88R5aKh0Xxmu70KPRLj0glJ3Z1o7fE9YEZeoTLwCKO0MeVM6/Jsby63RADiOmww6ymlHux
-qgs=
+iQEcBAABAgAGBQJOCioyAAoJEFX/wTZE6YDhDUQIAKN/VKhYNnG11xKhwPDBs8Fvj+QoMBJ83ZnC
+fa4E6VlhJocs3dY4Z0WeCmX8dBoptBYhE3HFPrwQ/qFm096OdxpyaF3EL3OsHkBt1qeuFT2pHcbf
+6k5g3aZPASMSqR9mbiWRx1muO9kGv2ThoMyYcvUue4C2v2ZkUOYW24DZSpf/7pVTTay4xWEZrjzQ
+ryggezId74u3b8b+wyAhBufGJCIlc3S6V1XovwPJUQ0hMWxXr8/9DqCe1DLeq8tdjENbYjA+RIJT
+LcX3TRH8eMP0HkcuPfXjVHOoebvTIgtd7z0nz3l4KTtQ7WAthThFNNLn09sNs0A7Qnoa35/xHTPD
+CoM=
 
 -->
