@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://mojo.informatik.uni-erlangen.de/interfaces/2011/maven.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>maven</name>
+  <summary>Java software project management and comprehension tool</summary>
+  <description>
+Apache Maven is a software project management and comprehension tool. Based on
+the concept of a project object model (POM), Maven can manage a project's build,
+reporting and documentation from a central piece of information.</description>
+  <homepage>http://maven.apache.org/</homepage>
+  <category>Development</category>
+  <group license="The Apache License 2.0">
+    <group stability="stable">
+      <implementation id="sha1new=125a0aa1bbf997c13192007fcd394088f339b303" main="bin/mvn" released="2011-03-04" version="3.0.3">
+    <archive extract="apache-maven-3.0.3" href="http://mirror.netcologne.de/apache.org//maven/binaries/apache-maven-3.0.3-bin.tar.gz" size="3054807" type="application/x-compressed-tar"/>
+  </implementation>
+      <implementation id="sha1new=3d6c2e01916223061527d60b9599b7b1989a63e8" main="bin/mvn" released="2009-08-11" version="2.2.1">
+        <archive extract="apache-maven-2.2.1" href="http://mirror.netcologne.de/apache.org//maven/binaries/apache-maven-2.2.1-bin.tar.gz" size="2840961" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+    <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2010/java.xml"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJOCuUjAAoJEFX/wTZE6YDhA7AIAI6TOdSAY2im1mD+SfT8QR3R0/vdFJpOTy0u
+BEtTeZIkTs+ADzp+1Dn6E8zPfuOMFWVm7otUAQz0bUsjoSo6O23Ih++JOC8UzmUtEEgvQNFFnMju
+FcGHXmFjOkmdA5jh/mtj4P3FXv/jQv0Ga5IkEcMlpIZxDXf4QSW7/WbO/HpsAsfoMF+1/KSaTNGn
+fdXsmzmy0ZJDQHonok04/GMFpNCmMo+3nSvNJtOjI9bd8yiRgBxDzdVQXP1AVsBrLSBOWwKIbT4F
+mEasHln1GUrIS8IkjIm1aB3tFAxSEqvfbQNNMopsnWkf6R9oLh+DpeQB8K8uGao9kTY/DBMuicMR
+Trs=
+
+-->
