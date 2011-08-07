@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://mojo.informatik.uni-erlangen.de/interfaces/2011/groovy.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>groovy</name>
+  <summary>An agile dynamic language for the Java Platform</summary>
+  <description>
+Groovy is an agile dynamic language for the JVM combining lots of great features
+from languages like Python, Ruby and Smalltalk and making them available to the
+Java developers using a Java-like syntax.
+
+Groovy is designed to help you get things done on the Java platform in a
+quicker, more concise and fun way - bringing the power of Python and Ruby inside
+the Java platform.
+
+Groovy can be used as an alternative compiler to javac to generate standard Java
+bytecode to be used by any Java project or it can be used dynamically as an
+alternative language such as for scripting Java objects, templating or writing
+unit test cases.</description>
+  <homepage>http://groovy.codehaus.org/</homepage>
+  <category>Development</category>
+  <icon href="http://media.xircles.codehaus.org/_projects/groovy/_logos/medium.png" type="image/png"/>
+  <group license="The Apache License 2.0">
+    <implementation id="sha1new=30f4e003dc1b70a1b52a7c0cbe3cd544b4e04df4" main="bin/groovyConsole" released="2011-07-21" stability="testing" version="1.9.0" version-modifier="-pre1">
+      <archive extract="groovy-1.9.0-beta-1" href="http://dist.groovy.codehaus.org/distributions/groovy-binary-1.9.0-beta-1.zip" size="16010072" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=d53502c514b84bedc7ff97b0f29a7596980cae13" main="bin/groovyConsole" released="2011-07-21" stability="stable" version="1.8.1">
+    <archive extract="groovy-1.8.1" href="http://dist.groovy.codehaus.org/distributions/groovy-binary-1.8.1.zip" size="15703979" type="application/zip"/>
+  </implementation>
+    <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2010/java.xml"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJOPtltAAoJEFX/wTZE6YDhGUkH/1O6Ozr5tkLJ0GmipMJeRb/lBu7wlX+MwawZ
+zuJYTvgRcmQehGLcozkdYIOEYfWD0kxkIlaNZa61Hf9mr0pHDkvVQANJHIf7/svFu3mr/8qMtexN
+LEAPUyD1LFR9n91WqSlIxzko1JLXvCfdBCd/JFfLKP9rhTkXrpBEKV3PTB/2f8VqExuTvxdlJKsI
+yQ0O9BLUlqyoSUb/mYmTt505zgbR09t5kDL//AsEk7NinlR7E7IC2OiREy7Csz8Iq074r9+0LLp9
+W4roSMdm5Ou2L4VrMCsyDTOwF+dw3fhZpzrHAMSX8tNTH6PvNxbGE75rsFZh6xTD6ta2s2UsFjXP
+MOk=
+
+-->
