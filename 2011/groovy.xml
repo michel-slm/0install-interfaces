@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
 <interface uri="http://mojo.informatik.uni-erlangen.de/interfaces/2011/groovy.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
-  <name>groovy</name>
+  <name>Groovy</name>
   <summary>An agile dynamic language for the Java Platform</summary>
   <description>
 Groovy is an agile dynamic language for the JVM combining lots of great features
@@ -30,11 +30,11 @@ unit test cases.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJOPtltAAoJEFX/wTZE6YDhGUkH/1O6Ozr5tkLJ0GmipMJeRb/lBu7wlX+MwawZ
-zuJYTvgRcmQehGLcozkdYIOEYfWD0kxkIlaNZa61Hf9mr0pHDkvVQANJHIf7/svFu3mr/8qMtexN
-LEAPUyD1LFR9n91WqSlIxzko1JLXvCfdBCd/JFfLKP9rhTkXrpBEKV3PTB/2f8VqExuTvxdlJKsI
-yQ0O9BLUlqyoSUb/mYmTt505zgbR09t5kDL//AsEk7NinlR7E7IC2OiREy7Csz8Iq074r9+0LLp9
-W4roSMdm5Ou2L4VrMCsyDTOwF+dw3fhZpzrHAMSX8tNTH6PvNxbGE75rsFZh6xTD6ta2s2UsFjXP
-MOk=
+iQEcBAABAgAGBQJOPtqYAAoJEFX/wTZE6YDh+scIAJwd5r30LyQZjlm3dCXl2fBxVxu1IAQu7RtW
+FjOCtyQB22/+CCZa6diJqJaaAprqLnefYxv6Tk43oFnpeNaCUsv12cBrd6rO1PB7ZUevSaI2QboV
+iLYEET2zjzgJ95aYLUqrSw1omZXUb8jzhYpDYPrfo/tZJPnTpodQsqZgCOenbshZ+MlWWzLQI+zk
+CXsdhGApp+BlrxCmymwTwdn/gQifW/BMWDIg316JJv9weW2VcvAaTopykUQkSOH0XdB5+bLCogsl
+GJQ4oOXgTO6xAUA/eTIx7A6TgfZ07NxeJG1fNsttjekgaHSd+x0XIcoS12OfLEALZP6WUhNykYPd
+ZNI=
 
 -->
