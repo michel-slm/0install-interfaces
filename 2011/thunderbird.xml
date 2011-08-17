@@ -51,17 +51,17 @@ tagging and virtual folders. It also features unrivalled extensibility.</descrip
       <version before="3.0.0"/>
     </requires>
   </group>
-  <package-implementation distributions="Debian,RPM" main="/usr/bin/thunderbird" package="thunderbird"/>
+  <package-implementation distributions="Debian RPM" main="/usr/bin/thunderbird" package="thunderbird"/>
   <package-implementation distributions="RPM" main="/usr/bin/thunderbird" package="MozillaThunderbird"/>
   <package-implementation distributions="Gentoo" main="/usr/bin/thunderbird" package="mail-client/thunderbird"/>
   <package-implementation distributions="Debian" main="/usr/bin/icedove" package="thunderbird"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJOS9OOAAoJEFX/wTZE6YDhSBYH/30ZX3Nbm6cwZgbbZwoVcF8tkU9qiH6nBGk7
-7mYVWE6fwa0moYOKwIvGIf5CIsxxLoFBsOnyoxr5Kpw910iojmfJ551b2/wE9lb50YtbO3UmlIlM
-3J3RhcThHMkQxqb8QWpppdC+WU37mWC2871VwmiJYvz7VK879tKhsmasS/Isslo+RMlA5e31jgt6
-2rtswn5NmvVnqi2WFVofu44XouGEUy637LOaPjvZmdPeitUqkVdFRNtmrK/k3R5+86NcmPlacl3g
-aouj4hMfmIj68LYtZ1mQVj31B+rcqcnplcTe0RuBxXPmIjEbnA17Ig5qiHxjjXc1233LWE4PJZ/H
-gt4=
+iQEcBAABAgAGBQJOS9izAAoJEFX/wTZE6YDhRVUIAL6Y2liGDMeRcd88lE31Aac+806qUFneeLml
+tn4X4WYK3pDbW8D2CuM2a+Dp6kRz68W/9kA5mdcCG9J3DmOONI/ScfqFkUABoFademoMdRWbS2gS
+HLsHc4KmdqPWHy1Neu4o/F3JLIQ013VNiSRRBJkuXMwH1tmXflKaey3Mk6LsoR+W9ElMTIdQ5TUk
+2Qg0dEDh8CmKKF/DguPImFpD0CzOMsRFQo3v8rkdDfIMQ2ahUPk8o8B2KK/ovip0nE+i/k1Jc7/J
+zi/tsX/ASaWlqzbfK/Vxw3Z6I7lZU5NcUHuy9ay1fW3TK32lL7jfRT+U+G3eYovhBIfCF75/Bmsg
+Pgk=
 
 -->

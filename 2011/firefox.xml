@@ -20,17 +20,17 @@ compliance, performance and portability.</description>
     </group>
     <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/gtk2.xml"/>
   </group>
-  <package-implementation distributions="Debian,RPM" main="/usr/bin/firefox" package="firefox"/>
+  <package-implementation distributions="Debian RPM" main="/usr/bin/firefox" package="firefox"/>
   <package-implementation distributions="RPM" main="/usr/bin/firefox" package="MozillaFirefox"/>
   <package-implementation distributions="Gentoo" main="/usr/bin/firefox" package="www-client/firefox"/>
   <package-implementation distributions="Debian" main="/usr/bin/iceweasel" package="iceweasel"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJOS9EqAAoJEFX/wTZE6YDhXLEH/jPunlq3HJ9whqHgKQGY2Wd2CgJoETEs7O+H
-0KX6Woyy46k3SV6U+aBB1sTXZ6RmMdO0jwesWJTJK7JvGz5i8mfk5xFEwoX+hzfsc3YvVIv+0Z9N
-QFS8Ca5MSjcX7fB7jws+Jr8fY6QBS3FJpRUKTBuv25bQxA6K3/bPScCh05wIqdU8hyLXkqnsRxlw
-ZHKsUSu/SdNLBAy7AidIu14O8pvy8m32AOxWlHYFrgZ1K73DQua1sF6q6zYqIjh+Tfmhtez8x6wI
-XxEkmLZYJ3/i6POqvTZv7A9BizhOECnykdnAv3/LwaGXaXxwgkqHTcMPqobS03ijlJY9AI7w6VRT
-RBU=
+iQEcBAABAgAGBQJOS9jkAAoJEFX/wTZE6YDhBDYIAIHYWqWgGJmkV5SrjmpSsz+ApHedk23YB0Ur
+8L4KU1oYKusuJ4aYpW1tjOV6Bus8rjIcv/rp0N2PCXdl4eRbXZ36xoyvI8jXxlQhVVBtivyCL7Fe
+FUj6304sdHVO0rh3rVrosCtKlHz7YJ3IsEomwWcEbJmIQaL17K5BAfAnB8nKntrnc5oFopa86ymj
+IMnBVyOXbV15AhLHGmKInH9hmVuuSfy4ZzKniS4FP2RIvJZRtwjFitdaIS0Evkonm5x6XKNpGlYI
+FEdd3dtsRJtJepESooXa110B1SnhW3dg+rgt5td2sK+5sWwEnhG3kskXMWQmZGkZ04gwCSdu2pAH
+pe4=
 
 -->
