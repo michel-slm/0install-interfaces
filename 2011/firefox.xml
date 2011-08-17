@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://mojo.informatik.uni-erlangen.de/interfaces/2011/firefox.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>firefox</name>
+  <summary>Mozilla Firefox Web browser</summary>
+  <description>
+Mozilla Firefox is an open-source web browser, designed for standards
+compliance, performance and portability.</description>
+  <homepage>http://www.mozilla.com/firefox/</homepage>
+  <category>Network</category>
+  <icon href="http://people.mozilla.com/~faaborg/files/shiretoko/firefoxIcon/firefox-256.png" type="image/png"/>
+  <group license="OSI Approved :: Mozilla Public License (MPL)">
+    <group released="2011-08-16" stability="stable" version="6.0">
+      <implementation arch="Linux-i686" id="sha1new=1c0a3fc42341f94ee0c4a0f0c2f1612abf1b1aaf" main="firefox">
+        <archive extract="firefox" href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/6.0/linux-i686/en-US/firefox-6.0.tar.bz2" size="15083240" type="application/x-bzip-compressed-tar"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=f9738edb02faebb69e84e4e7d7fcf0d522a3ea9e" main="firefox">
+    <archive extract="firefox" href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/6.0/linux-x86_64/en-US/firefox-6.0.tar.bz2" size="16667227" type="application/x-bzip-compressed-tar"/>
+  </implementation>
+    </group>
+    <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/gtk2.xml"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJOS7jTAAoJEFX/wTZE6YDhhrIH/195AaP6tVddUPV069AEy8om+BipHxmL+MoB
+/f5Nl/zucNh59PMyaDxjnpSiYDfc0N0i10E4c7GnAN8Flo4n/UKRBihQVs7cHEpR6yeBwbqjbmLx
+mZC33d791ei1Y+doXeJimaUVMm7v5Bozi/0ASiXnrtYoEGdLopXvC7Ybj+kMH3169+EXtgO9/lqx
+9WWL1CuowtVU11qoXI0rOD1P23Ik7CWA/A9yahQs21hBVzdNlGYxIEBjox3fswpqDfezRwmMo2zO
+zqtVNZVx7E0fhxXTJulployTQ6qKaPa1xN30wBE+elEKhzz9UayRpKy6Gelu15kZdc/rxxsmxqSo
+pWE=
+
+-->
