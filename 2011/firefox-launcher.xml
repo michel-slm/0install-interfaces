@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://mojo.informatik.uni-erlangen.de/interfaces/2011/firefox-launcher.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Firefox (launcher)</name>
+  <summary>Launcher script for Mozilla Firefox Web browser</summary>
+  <description>
+Mozilla Firefox is an open-source web browser, designed for standards
+compliance, performance and portability.
+
+This feed provides a launcher script that configures Firefox to pick up system
+plugins, potentially wrapped using nspluginwrapper</description>
+  <homepage>http://www.mozilla.com/firefox/</homepage>
+  <icon href="http://people.mozilla.com/~faaborg/files/shiretoko/firefoxIcon/firefox-256.png" type="image/png"/>
+  <category>Network</category>
+  <group license="OSI Approved :: Mozilla Public License (MPL)">
+    <group stability="testing">
+      <implementation id="sha1new=07b65da6980f4d4854a463bef56bece1a133ae87" main="firefox.sh" released="2011-08-17" version="0.1.0">
+    <archive extract="firefox-launcher-0.1.0" href="http://mojo.informatik.uni-erlangen.de/interfaces/dist/firefox-launcher-0.1.0.tar.bz2" size="3826" type="application/x-bzip-compressed-tar"/>
+  </implementation>
+    </group>
+    <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/firefox.xml">
+      <environment insert="" mode="prepend" name="FIREFOX_HOME"/>
+    </requires>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJOTANSAAoJEFX/wTZE6YDhrnIH/j/1YYzUJfTpg4yfKlVbAAovXzN7ODNqYxyo
+77abm24Al+Tao8bd0aa5EAysUud5P2t5hU1IrY76dPZmuJ4UTkdpeofRTQQmm0bVY9xd2Yd+dnpV
+kz0diJW2rbYtmpcYKEQ/itirk4DXdig+E9niRg6+HlKX6VLTe3z4T8Wxdo8PuD4lNrM5E+dIOWvY
+6jPr1dzpL64l2WT5Ml2XCucx+nE7WLwnBVQ+67loVcKZtMlujEzoeOWWAWOEkRmq6sk37K9npTLd
+XwPbzcn46xIroDWZeLQgw9T0Y3HvzSWSK+FnsvlZ5sAkqZTP4qmecQqE7e9amByDmwI2BusyKL0c
+M5M=
+
+-->
