@@ -19,7 +19,6 @@ compliance, performance and portability.</description>
   </implementation>
     </group>
     <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/gtk2.xml"/>
-    <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/nspluginwrapper.xml"/>
   </group>
   <package-implementation distributions="Debian RPM" main="/usr/bin/firefox" package="firefox"/>
   <package-implementation distributions="RPM" main="/usr/bin/firefox" package="MozillaFirefox"/>
@@ -27,11 +26,11 @@ compliance, performance and portability.</description>
   <package-implementation distributions="Debian" main="/usr/bin/iceweasel" package="iceweasel"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJOTAN5AAoJEFX/wTZE6YDhhNQH/ApecwvmHRltP4x6DcDWQdOJHWdGETD31SI+
-2KAKUjpzBOhNAfhg9LFeK0dgWoRv2o8akpkzl1AmUsc5XVZIJtxGb8OzlN7NC+iZ9QDRLuTOQmU5
-IYlmvvYLRrX8Zy/OcP4mPLW3Vky9tNB8ESrQKe8GuD5DycGadQHQPexzTaJJI7TDe5SEzxu6RXeJ
-lBLQjkObyycMw2Riybt0y5xJLs16upOz6FRUQfKO88D1lsoiJZk2/IQgEv5WGHniNibO4FMZvGf3
-Nqvb8g6Ipi9I3oz1iTg4WIIfMn5XAv0i7hBtuOTHAwqF015fiv5FiDzXWlFh0Bf9fBA/sTSL6yMX
-fmE=
+iQEcBAABAgAGBQJOTASFAAoJEFX/wTZE6YDhr1sIALseI5JGu7a+tKpxFMNgjGo3Vj5PNcAUx6C0
+ifxGy00NKWxLqygfsttqdi/VlPAxNzEW/Opi/NaoDpGq45CviKyj7sJYv3QFB1GdNlFdlyc4rK12
+f6A6ksA+FOVjYsQGJ+cmHvRlpCI1vcbPbzvw/ij80TnGVS2IuHJ6nXOwD7diY1Ab+ImXb0Bkx5U2
+r37f4hseCZifEZjeGnV4GCW6Ms7bCGatr5u5Wx4p1be78CrOPNfGYctbLtu3g/NqIuQhuN0YwvBB
+4meula1JEUdkTMStfzDc75CYBq1Vzcqs4E2+34qL3IDGPtQW2ni59jCwH6vhMwEbDVpFOwGRJKH8
+FcQ=
 
 -->
