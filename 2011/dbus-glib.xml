@@ -4,22 +4,22 @@
   <name>dbus-glib</name>
   <summary>GLib bindings for D-Bus</summary>
   <description>
-D-Bus add-on library to integrate the standard D-Bus library with
-the GLib thread abstraction and main loop.
-</description>
+D-Bus add-on library to integrate the standard D-Bus library with the GLib
+thread abstraction and main loop.</description>
   <homepage>http://www.freedesktop.org/software/dbus/</homepage>
   <category>System</category>
   <group/>
-  <package-implementation distribution="RPM" package="dbus-glib"/>
+  <package-implementation distributions="RPM" package="dbus-glib"/>
+  <package-implementation distributions="RPM" package="dbus-1-glib"/>
   <package-implementation distributions="Debian" package="libdbus-glib-1-2"/>
   <package-implementation distributions="Gentoo" package="dev-libs/dbus-glib"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJOBhNWAAoJEFX/wTZE6YDhvjkH/ilRxuqAoCHRjTkkN0WXUbAueeqmjZ4+IlJi
-o0OgETOosVu4lKHXHpdv3KJiyyaFlZApe/kON8xswDfqAbHA+8etu0fZzFBmz0QvshPF4fznCJ+9
-sn915qzXgcQY9IE3YgDMn7oZiclURd2waQIrhdkdW3lbuQeo2XzUrHS1dHBVVsA9kdpHApRB3q8p
-ERfCjIHkw3JYULdrvgWHkZij0MgC0uQriZhonq8Ps3+xiq0fi0s9HbBMWdNXa8RZn81R3tCEvjC1
-TGiCjSjmRSRYALy03UYbRgbamR7E84GeHCNqgTyVIGlKKCct5pwtbDahoYNxsCuFEl3lKber6I29
-eRs=
+iQEcBAABAgAGBQJOS9KrAAoJEFX/wTZE6YDhBC0H/0CbGpl/bH79wb4UFG+wZctqupLqhVocjnBK
+QV59REpRsqInzv5iec7b5HNJnbWKUTlT3BHJ35onTIAXM4+ztU/RWwH5zpCupB7U+nn6YuhqGY4j
+B112FgxzBzPe5JMKjy+0EVWqZWtKMZTL6b9uYoRZ9iCEZ+4dxoAeerGb1jHqeTZfHjlTBTluNK8J
+h4S2U+gOftEuosLg+GLWGHnqNgpjwk+7wXscFvX2b7hkyVo4ZQz0VGoGh7u8hJB+ECBAy7HKV8Mk
+0NPC3MMuYhSS0Fz7pJ2bzCnVMQZ3gY3rNrWyE2+lkxCJyMN+VXZnq5V4G/O/jDiGLi8MS96PG7xv
+46Q=
 
 -->
