@@ -10,6 +10,14 @@ compliance, performance and portability.</description>
   <category>Network</category>
   <icon href="http://people.mozilla.com/~faaborg/files/shiretoko/firefoxIcon/firefox-256.png" type="image/png"/>
   <group license="OSI Approved :: Mozilla Public License (MPL)">
+    <group released="2011-08-25" stability="testing" version="7.0-pre2">
+      <implementation arch="Linux-i686" id="sha1new=c9bdeffbe3abf08ef6f1f1f429f660531c607b30" main="firefox">
+        <archive extract="firefox" href="http://releases.mozillaonline.com/pub/mozilla.org/firefox/releases/7.0b2/linux-i686/en-US/firefox-7.0b2.tar.bz2" size="15866147" type="application/x-bzip-compressed-tar"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=166700fbca9e26f354a52b93b2ff9e5bc549d2e6" main="firefox">
+        <archive extract="firefox" href="http://releases.mozillaonline.com/pub/mozilla.org/firefox/releases/7.0b2/linux-x86_64/en-US/firefox-7.0b2.tar.bz2" size="17484590" type="application/x-bzip-compressed-tar"/>
+      </implementation>
+    </group>
     <group released="2011-08-16" stability="stable" version="6.0">
       <implementation arch="Linux-i686" id="sha1new=1c0a3fc42341f94ee0c4a0f0c2f1612abf1b1aaf" main="firefox">
         <archive extract="firefox" href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/6.0/linux-i686/en-US/firefox-6.0.tar.bz2" size="15083240" type="application/x-bzip-compressed-tar"/>
@@ -26,11 +34,11 @@ compliance, performance and portability.</description>
   <package-implementation distributions="Debian" main="/usr/bin/iceweasel" package="iceweasel"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJOTASFAAoJEFX/wTZE6YDhr1sIALseI5JGu7a+tKpxFMNgjGo3Vj5PNcAUx6C0
-ifxGy00NKWxLqygfsttqdi/VlPAxNzEW/Opi/NaoDpGq45CviKyj7sJYv3QFB1GdNlFdlyc4rK12
-f6A6ksA+FOVjYsQGJ+cmHvRlpCI1vcbPbzvw/ij80TnGVS2IuHJ6nXOwD7diY1Ab+ImXb0Bkx5U2
-r37f4hseCZifEZjeGnV4GCW6Ms7bCGatr5u5Wx4p1be78CrOPNfGYctbLtu3g/NqIuQhuN0YwvBB
-4meula1JEUdkTMStfzDc75CYBq1Vzcqs4E2+34qL3IDGPtQW2ni59jCwH6vhMwEbDVpFOwGRJKH8
-FcQ=
+iQEcBAABAgAGBQJOV1QbAAoJEFX/wTZE6YDhVMIH/REt7oS1bMhUYXdxkqpgILveSERZT+GuK5HR
+mpWC8VcpjZmm8oBxAUBi8Lrs86ydga1YPt7H7uDiAFQdyUoQqOC52cFLsEPKLpvMwQPpko5gOalK
+tw3s+XPB+fxzlyHh4cP/4RSHPq3zVKfl69bLZ5hpsWQZvprP+ec/rJcheEOeMxWSv9h9h+DO21Rl
+3WNI6On076oIJ8IC0yi5yo0qt9deGKggULhAJwJEoMJJJBjtFKLBIvRzGNwCIqw7aLCIvwJaWqtr
+07wGzFffnIz0365V/p0lfdRqrJuNYo932LkGvBKAc8qUWO7IKMmtxfsVqz9D4lfPWWdoyDpM+91V
+AZk=
 
 -->
