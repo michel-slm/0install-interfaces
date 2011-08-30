@@ -14,6 +14,9 @@ plugins, potentially wrapped using nspluginwrapper</description>
   <category>Network</category>
   <group license="OSI Approved :: Mozilla Public License (MPL)">
     <group stability="testing">
+      <implementation id="sha1new=18129f388b956f246984d02c78c482703b610847" main="firefox.sh" released="2011-08-30" version="0.1.1">
+        <archive extract="firefox-launcher-0.1.1" href="http://mojo.informatik.uni-erlangen.de/interfaces/dist/firefox-launcher-0.1.1.tar.bz2" size="609" type="application/x-bzip-compressed-tar"/>
+      </implementation>
       <implementation id="sha1new=07b65da6980f4d4854a463bef56bece1a133ae87" main="firefox.sh" released="2011-08-17" version="0.1.0">
     <archive extract="firefox-launcher-0.1.0" href="http://mojo.informatik.uni-erlangen.de/interfaces/dist/firefox-launcher-0.1.0.tar.bz2" size="3826" type="application/x-bzip-compressed-tar"/>
   </implementation>
@@ -24,11 +27,11 @@ plugins, potentially wrapped using nspluginwrapper</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJOTANSAAoJEFX/wTZE6YDhrnIH/j/1YYzUJfTpg4yfKlVbAAovXzN7ODNqYxyo
-77abm24Al+Tao8bd0aa5EAysUud5P2t5hU1IrY76dPZmuJ4UTkdpeofRTQQmm0bVY9xd2Yd+dnpV
-kz0diJW2rbYtmpcYKEQ/itirk4DXdig+E9niRg6+HlKX6VLTe3z4T8Wxdo8PuD4lNrM5E+dIOWvY
-6jPr1dzpL64l2WT5Ml2XCucx+nE7WLwnBVQ+67loVcKZtMlujEzoeOWWAWOEkRmq6sk37K9npTLd
-XwPbzcn46xIroDWZeLQgw9T0Y3HvzSWSK+FnsvlZ5sAkqZTP4qmecQqE7e9amByDmwI2BusyKL0c
-M5M=
+iQEcBAABAgAGBQJOXI4vAAoJEFX/wTZE6YDhXDEIAJPSkokWIGLyhapHF7Ii6L8pPLePogwLFIRF
+bkAOpug53IIx4xFT832W9RY2BGhG47utW2xSyqnxo6dEXNbPKUniV9oHGnoj7YP25rUaCu61sjt8
+ECiCQNkyfRHn4fZFAxyRcOl4NJ+a9CsNN2vlqZzXiym9nDlC7aO9fkw5924C6QpZOole6QDIChPE
+Fmlt8lFYA90dEIYGmFZs46yNZkKRVrf5svm5BpW+5CRw3DgbDivwVo8yu3YvXv0tFbdosTVf9szR
+vadYUCvItXJg8jmKJsb2MmI1ydO8QPyXJ+7lxOpEkD+ZCTcUVLk3YfYxoFH2ZwHDJCC7+5RSgs4j
+K5U=
 
 -->
