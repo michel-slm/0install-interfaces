@@ -14,6 +14,22 @@ tagging and virtual folders. It also features unrivalled extensibility.</descrip
   <category>Network</category>
   <icon href="http://spreadthunderbird.com/sites/default/files/spreadthunderbird_logo.png" type="image/png"/>
   <group license="OSI Approved :: Mozilla Public License (MPL)">
+    <group released="2011-08-26" stability="testing" version="7.0-pre1">
+      <implementation arch="Linux-x86_64" id="sha1new=01e6beb4bbcdf28c8778f4ef33ba69a73d1e10e7" main="thunderbird">
+        <archive extract="thunderbird" href="http://releases.mozillaonline.com/pub/mozilla.org/thunderbird/releases/7.0b1/linux-x86_64/en-US/thunderbird-7.0b1.tar.bz2" size="18649212" type="application/x-bzip-compressed-tar"/>
+      </implementation>
+      <implementation arch="Linux-i686" id="sha1new=8439d0d26adf64dd77377ace1d0bf981bdb0a99d" main="thunderbird" version="7.0-pre1">
+        <archive extract="thunderbird" href="http://releases.mozillaonline.com/pub/mozilla.org/thunderbird/releases/7.0b1/linux-i686/en-US/thunderbird-7.0b1.tar.bz2" size="16233038" type="application/x-bzip-compressed-tar"/>
+      </implementation>
+    </group>
+    <group released="2011-08-31" stability="stable" version="6.0.1">
+      <implementation arch="Linux-x86_64" id="sha1new=32c20da94343cc5470fff3bb1d6b079dfb57b5a2" main="thunderbird">
+        <archive extract="thunderbird" href="http://releases.mozilla.org/pub/mozilla.org/thunderbird/releases/6.0.1/linux-x86_64/en-US/thunderbird-6.0.1.tar.bz2" size="18865331" type="application/x-bzip-compressed-tar"/>
+      </implementation>
+      <implementation arch="Linux-i686" id="sha1new=146d55c3a660ed369e2fc9ad1aca2d4f11f73fd4" main="thunderbird">
+        <archive extract="thunderbird" href="http://releases.mozilla.org/pub/mozilla.org/thunderbird/releases/6.0.1/linux-i686/en-US/thunderbird-6.0.1.tar.bz2" size="16408402" type="application/x-bzip-compressed-tar"/>
+      </implementation>
+    </group>
     <group released="2011-08-16" stability="stable" version="6.0">
       <implementation arch="Linux-i686" id="sha1new=86e4be11b404786c82684c8a1dac2d802866f8ff" main="thunderbird">
         <archive extract="thunderbird" href="http://releases.mozilla.org/pub/mozilla.org/thunderbird/releases/6.0/linux-i686/en-US/thunderbird-6.0.tar.bz2" size="16411468" type="application/x-bzip-compressed-tar"/>
@@ -57,11 +73,11 @@ tagging and virtual folders. It also features unrivalled extensibility.</descrip
   <package-implementation distributions="Debian" main="/usr/bin/icedove" package="thunderbird"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJOS9izAAoJEFX/wTZE6YDhRVUIAL6Y2liGDMeRcd88lE31Aac+806qUFneeLml
-tn4X4WYK3pDbW8D2CuM2a+Dp6kRz68W/9kA5mdcCG9J3DmOONI/ScfqFkUABoFademoMdRWbS2gS
-HLsHc4KmdqPWHy1Neu4o/F3JLIQ013VNiSRRBJkuXMwH1tmXflKaey3Mk6LsoR+W9ElMTIdQ5TUk
-2Qg0dEDh8CmKKF/DguPImFpD0CzOMsRFQo3v8rkdDfIMQ2ahUPk8o8B2KK/ovip0nE+i/k1Jc7/J
-zi/tsX/ASaWlqzbfK/Vxw3Z6I7lZU5NcUHuy9ay1fW3TK32lL7jfRT+U+G3eYovhBIfCF75/Bmsg
-Pgk=
+iQEcBAABAgAGBQJOZgu/AAoJEFX/wTZE6YDhyYYIAL2A6hOSfe0Ba9LJIiljke4GcNJflIQdOkGr
+He6k+IVX7kRH/o562RQQmHSF3YJ7zWFdaNXQOPeTz+K3LazuQxSNzqDUep47KXuOnDgVGYqVjx2i
+IQhebreRS4KyAd/Z4DaKHtVFMB3VuUROdQfS9muEP8biaqnuNGLKbR1RCBvD3WnmyW9DQMc3J3Mm
+LGUgYJlmOz0w3Xab/+X7AcdvCPB1RjrjBJCk0ZwmsGN/xRbkFo9RseHrz7grItfVKTwYZ4TL+qym
+zekCJ1srKbr7kl210atGmdasp54d5uAlHIvwRbfg57H30WTWtThOxLDrahJn9fUjx8QDwgTpoL6L
+YJ4=
 
 -->
