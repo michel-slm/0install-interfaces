@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://mojo.informatik.uni-erlangen.de/interfaces/2011/intellij-idea.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>IntelliJ IDEA Community Edition</name>
+  <summary>Java IDE</summary>
+  <description>
+IntelliJ IDEA is a code-centric IDE focused on developer productivity. The
+editor deeply understands your code and knows its way around the codebase, makes
+great suggestions right when you need them, and is always ready to help you
+shape your code.
+
+IntelliJ IDEA Community Edition is the open source version of IntelliJ IDEA, a
+premier IDE for Java, Groovy and other programming languages.</description>
+  <homepage>http://www.jetbrains.com/idea/</homepage>
+  <category>Development</category>
+  <icon href="http://www.jetbrains.com/img/logos/intellijIdea.png" type="image/png"/>
+  <group license="The Apache License 2.0">
+    <implementation id="sha1new=813020eb5bf4dba9222808ae1eee15114dd2bb2e" main="bin/idea.sh" released="2011-08-31" stability="stable" version="10.5.2">
+    <archive extract="idea-IC-107.587" href="http://download-ln.jetbrains.com/idea/ideaIC-10.5.2.tar.gz" size="84691012" type="application/x-compressed-tar"/>
+  </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJOafreAAoJEFX/wTZE6YDhvh8IAKemo2Jllshw50hxwjEodKH+rvT8I3RgICLl
+RwE8e3D9+EIazHl+zFQCmYR7D0uOoYa/tYtGV409RhUzj0ZwybUwERmliTw4GuCI39jjtELXMPJB
+3+7MIZlqdpdGwFIzu3E4CaGC4K5KDT17q2tk86tberiECUdZe3/nGwTQzrGMQG/uwC8BCqtOZdzS
+N/ieJJPIgym2KnzsanKlSgN4HhuTl8Bk9HQPIin6hyiRESBrplILzhPqYX28wTb5g00/+ymUKJn1
+b/eSaLt0CJ7iduSg1UiFA/qyzR1bDHqdSVaWGJ0raUHy/nDPFOZadmUN7aP1EBDGfzVKUSIiv2vH
+1D4=
+
+-->

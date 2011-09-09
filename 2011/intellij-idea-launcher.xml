@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://mojo.informatik.uni-erlangen.de/interfaces/2011/intellij-idea-launcher.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>IntelliJ IDEA Community Edition (launcher)</name>
+  <summary>Launcher script for the IntelliJ IDEA Community Edition IDE</summary>
+  <description>
+This feed provides a launcher script that makes sure IDEA can find a Java SDK,
+by setting the appropriate environment variable if none are set.</description>
+  <homepage>http://www.jetbrains.com/idea/</homepage>
+  <category>Development</category>
+  <icon href="http://www.jetbrains.com/img/logos/intellijIdea.png" type="image/png"/>
+  <implementation id="sha1new=047b5bbcc4a4fcbb77a17f44d7e862ac42068d56" main="idea.sh" released="2011-09-09" stability="testing" version="0.1.0">
+    <archive extract="intellij-idea-launcher-0.1.0" href="http://mojo.informatik.uni-erlangen.de/interfaces/2011/intellij-idea-launcher-0.1.0.tar.bz2" size="554" type="application/x-bzip-compressed-tar"/>
+    <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/intellij-idea.xml">
+      <environment insert="" mode="prepend" name="IDEA_HOME"/>
+    </requires>
+  </implementation>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJOafrhAAoJEFX/wTZE6YDhvE0IAK7wx99hdYeUdnZzJUUl4ieY9WcWDKYcYnbh
+GH/gxS93biuEqm5lCbb/A3dEdXgEZAhkahJyAYI1F4O7N+u8F0gjE+C7ZmTSeOU4L60EzdbBl0yd
+6T7QcSlmaUNiwzANGmQ+aYIxSZonzSFKPJ6Uav3Qgx1g98Td2XeyO5/hxQ6XipPwYx6kbLU2geV1
++xUFB36lRFjqWYbmzCjPPP6Fdd3YYFU1hEJPUFCKeG4wCBHQeb4l+pa4yDarXGGGxFQvxBGmNrDo
+Ma/gbB/GKrTHhI5x4vMhhEMNxYriljU4+7v+C3Dg35KmcXaSpBtEoMudDYourVP+6ZANubxbxgDC
+uAA=
+
+-->
