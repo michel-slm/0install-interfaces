@@ -10,6 +10,14 @@ compliance, performance and portability.</description>
   <category>Network</category>
   <icon href="http://people.mozilla.com/~faaborg/files/shiretoko/firefoxIcon/firefox-256.png" type="image/png"/>
   <group license="OSI Approved :: Mozilla Public License (MPL)">
+    <group released="2011-09-27" stability="stable" version="7.0">
+      <implementation arch="Linux-i686" id="sha1new=e735cf0025ea51ae27f8be7169ae4bde836b0d28" main="firefox">
+        <archive extract="firefox" href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/7.0/linux-i686/en-US/firefox-7.0.tar.bz2" size="15254511" type="application/x-bzip-compressed-tar"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=99eca6159b92611ef457528b180bc4d8100279a3" main="firefox">
+        <archive extract="firefox" href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/7.0/linux-x86_64/en-US/firefox-7.0.tar.bz2" size="16890399" type="application/x-bzip-compressed-tar"/>
+      </implementation>
+    </group>
     <group released="2011-09-16" stability="testing" version="7.0-pre6">
       <implementation arch="Linux-i686" id="sha1new=73f1d43bed21b1376256e52cec7549dfda75614a" main="firefox">
         <archive extract="firefox" href="http://dm-download02.mozilla.org/pub/mozilla.org/firefox/releases/7.0b6/linux-i686/en-US/firefox-7.0b6.tar.bz2" size="15876752" type="application/x-bzip-compressed-tar"/>
@@ -74,11 +82,11 @@ compliance, performance and portability.</description>
   <package-implementation distributions="Debian" main="/usr/bin/iceweasel" package="iceweasel"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJOeFbBAAoJEFX/wTZE6YDhCBUH/jzcwZ2uDOirLeClrxl4snv9GvlKrLwjjQX2
-erQfFUfUJRClVX9dUHmo6QQ7O9mNm4EvalmRv7YIuwsvW1u4nutjtsLXMIzaiGkIGvaan6DnQW4J
-JiFV8asaxJeCyA0+nBxVzfqqmJ0dSyrruEbBONDy4YW9TQvfGXKdMtmxK51ACUcyJ+5EZwQeYoRA
-o5HJV7ZBanB+Ago8VwLwLXBW4YYdAcTXDmN7FNNUhl96Wp9CZzr0cgfbLsA12CE9XcDEd8eRopN2
-tLlCi3/Jn3Ljodvsyjmyc2hRjEObE7cLfBrfOUbVQLlos7dJpXutWHvX7OXoQVPrZeI+wpZ+UBFL
-rzQ=
+iQEcBAABAgAGBQJOgvvMAAoJEFX/wTZE6YDhXFAH/1r2u6+vOeUFXIQYiz5KJ/F1KRGUuJ21hwOT
+LeW84x530clzopp4t56vYO24q5oi6rbY4UrH9IzTqWR98Sjy2blsGm750a6iqRwP0WlDwkb4Y0Yu
+XN40MKMj6C0UIl74rbs5gLNcC464vhPhAr2L2LLH/k2gKL05i4PEfVn3bcSGkcCqBDcnC2ScdUQ7
+9s++Swwx5TbEhKjPoRR+ZgbG9lY9eeTFJFrRpH6RFeeF03gN3TKVnq+IX44loWc4vAEkiiUov6qN
+lazLgYvOF6mY8Vu+gi5TLkdTpNI7tV34+E6/sYS4v88BmltRyo7yTa119PmhuolTpx6CrZMCxpzM
+8jE=
 
 -->
