@@ -10,11 +10,19 @@ compliance, performance and portability.</description>
   <category>Network</category>
   <icon href="http://people.mozilla.com/~faaborg/files/shiretoko/firefoxIcon/firefox-256.png" type="image/png"/>
   <group license="OSI Approved :: Mozilla Public License (MPL)">
+    <group released="2011-09-29" stability="testing" version="8.0" version-modifier="-pre1">
+      <implementation arch="Linux-x86_64" id="sha1new=564cb134d50d2a6dffc9300b3a7dc2187bc86e1b" main="firefox">
+        <archive extract="firefox" href="http://mozilla.3c.stonekitty.net/firefox/releases/8.0b1/linux-x86_64/en-US/firefox-8.0b1.tar.bz2" size="18574116" type="application/x-bzip-compressed-tar"/>
+      </implementation>
+      <implementation arch="Linux-i686" id="sha1new=9f0964ec436a858176f5d632c0af2a8c3daccbfc" main="firefox">
+        <archive extract="firefox" href="http://download.mozilla.org/?product=firefox-8.0b1&amp;os=linux&amp;lang=en-US" size="16841151" type="application/x-bzip-compressed-tar"/>
+      </implementation>
+    </group>
     <group released="2011-09-29" stability="stable" version="7.0.1">
-      <implementation arch="Linux-x86_64" id="sha1new=289602c79163f605a5e74cc5a718d1d7158522c2" main="firefox" released="2011-09-30" version="7.0.1">
+      <implementation arch="Linux-x86_64" id="sha1new=289602c79163f605a5e74cc5a718d1d7158522c2" main="firefox">
         <archive extract="firefox" href="http://3347-mozilla.voxcdn.com/pub/mozilla.org/firefox/releases/7.0.1/linux-x86_64/en-US/firefox-7.0.1.tar.bz2" size="16905662" type="application/x-bzip-compressed-tar"/>
       </implementation>
-      <implementation arch="Linux-i686" id="sha1new=6afd7783f7f2e60a03c8ff06db9aab60ba0fdae2" main="firefox" released="2011-09-30" version="7.0.1">
+      <implementation arch="Linux-i686" id="sha1new=6afd7783f7f2e60a03c8ff06db9aab60ba0fdae2" main="firefox">
         <archive extract="firefox" href="http://download.mozilla.org/?product=firefox-7.0.1&amp;os=linux&amp;lang=en-US" size="15252909" type="application/x-bzip-compressed-tar"/>
       </implementation>
     </group>
@@ -26,11 +34,11 @@ compliance, performance and portability.</description>
   <package-implementation distributions="Debian" main="/usr/bin/iceweasel" package="iceweasel"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJOhdgXAAoJEFX/wTZE6YDhq7sIAJRb+O9/0gw2p+pDXlP0OyejEHrhY+nQfIPj
-k5A4EaKQEWQGqcDQ/nGlkg+1KJLGEA5eC69HS8LN8wkQ2s7hd9IZrqeLThEIKUgwzTeXV8IwlMuL
-S6pORoCPHNFmDe7ujGrHVRRUYrKZcBt6FiolM2LUoeyP4o4Q3KYqKXKIUqavAY3Qb7xuA7YsBtRm
-CcQvjxH8iXa88Q6ss42x4Lr5pypofA5RYNR4xXf656J/p9Kr0/UPCt6exXjhp1Y/1S3SXlmHt1EU
-bJx66a/ev1rkxB/Y7AHQzPtrS4zMpxZD4OPi1dVVK1QZRf7NFCBHfl432hxUnDa2fK/iqLY4dr/i
-N5k=
+iQEcBAABAgAGBQJOhd73AAoJEFX/wTZE6YDhkzgH/2sblYeQnTGKU/QyIfk2ywwlU2slanrrTOul
+MNfHCGeKPfbzHSLZ9861bndNVmMTuLCAKcxFEDRmcyQvnIk2/+iX3wl1HyXPhKw6gQbfng4DNmDt
+8c0Yov9z3oL3fD+ZZPMP7duvs8knHAHZtaHZ8wZigBbvJbvARlTNR/RxrrrlgD+JdrrnrAcYzzh+
+WpcQB5FsfM0mrm1sCgZxaJXNKDVW1XxzsjTt3pLTvpnlkrEuCACkvROdj4k6pJbO3wDGv3N8CgIy
+9k1Nvr8Kp1SduDOkBfDmwzR305BFveCXCPFnLK3zsbt9dYXWgwQ4Mt5ccQ4NAQiGbATJHrVQAqWY
+s38=
 
 -->
