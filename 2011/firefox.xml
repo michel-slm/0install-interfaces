@@ -10,69 +10,13 @@ compliance, performance and portability.</description>
   <category>Network</category>
   <icon href="http://people.mozilla.com/~faaborg/files/shiretoko/firefoxIcon/firefox-256.png" type="image/png"/>
   <group license="OSI Approved :: Mozilla Public License (MPL)">
-    <group released="2011-09-27" stability="stable" version="7.0">
-      <implementation arch="Linux-i686" id="sha1new=e735cf0025ea51ae27f8be7169ae4bde836b0d28" main="firefox">
-        <archive extract="firefox" href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/7.0/linux-i686/en-US/firefox-7.0.tar.bz2" size="15254511" type="application/x-bzip-compressed-tar"/>
+    <group released="2011-09-29" stability="stable" version="7.0.1">
+      <implementation arch="Linux-x86_64" id="sha1new=289602c79163f605a5e74cc5a718d1d7158522c2" main="firefox" released="2011-09-30" version="7.0.1">
+        <archive extract="firefox" href="http://3347-mozilla.voxcdn.com/pub/mozilla.org/firefox/releases/7.0.1/linux-x86_64/en-US/firefox-7.0.1.tar.bz2" size="16905662" type="application/x-bzip-compressed-tar"/>
       </implementation>
-      <implementation arch="Linux-x86_64" id="sha1new=99eca6159b92611ef457528b180bc4d8100279a3" main="firefox">
-        <archive extract="firefox" href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/7.0/linux-x86_64/en-US/firefox-7.0.tar.bz2" size="16890399" type="application/x-bzip-compressed-tar"/>
+      <implementation arch="Linux-i686" id="sha1new=6afd7783f7f2e60a03c8ff06db9aab60ba0fdae2" main="firefox" released="2011-09-30" version="7.0.1">
+        <archive extract="firefox" href="http://download.mozilla.org/?product=firefox-7.0.1&amp;os=linux&amp;lang=en-US" size="15252909" type="application/x-bzip-compressed-tar"/>
       </implementation>
-    </group>
-    <group released="2011-09-16" stability="testing" version="7.0-pre6">
-      <implementation arch="Linux-i686" id="sha1new=73f1d43bed21b1376256e52cec7549dfda75614a" main="firefox">
-        <archive extract="firefox" href="http://dm-download02.mozilla.org/pub/mozilla.org/firefox/releases/7.0b6/linux-i686/en-US/firefox-7.0b6.tar.bz2" size="15876752" type="application/x-bzip-compressed-tar"/>
-      </implementation>
-      <implementation arch="Linux-x86_64" id="sha1new=72b38a2983e56dd9f67b7f9e6321d4bbea30ee73" main="firefox">
-        <archive extract="firefox" href="http://dm-download02.mozilla.org/pub/mozilla.org/firefox/releases/7.0b6/linux-x86_64/en-US/firefox-7.0b6.tar.bz2" size="17455894" type="application/x-bzip-compressed-tar"/>
-      </implementation>
-    </group>
-    <group released="2011-09-08" stability="testing" version="7.0" version-modifier="-pre5">
-      <implementation arch="Linux-i686" id="sha1new=fd1777cfa4b0103546137d20f3ff639f5f68ffde" main="firefox">
-        <archive extract="firefox" href="http://dm-download02.mozilla.org/pub/mozilla.org/firefox/releases/7.0b5/linux-i686/en-US/firefox-7.0b5.tar.bz2" size="15879558" type="application/x-bzip-compressed-tar"/>
-      </implementation>
-      <implementation arch="Linux-x86_64" id="sha1new=d43d36ea642f0a4f1ed811445a7b77e842d3f488" main="firefox">
-        <archive extract="firefox" href="http://dm-download02.mozilla.org/pub/mozilla.org/firefox/releases/7.0b5/linux-x86_64/en-US/firefox-7.0b5.tar.bz2" size="17441872" type="application/x-bzip-compressed-tar"/>
-      </implementation>
-    </group>
-    <group released="2011-09-02" stability="testing" version="7.0-pre4">
-      <implementation arch="Linux-i686" id="sha1new=a7d6c9086bcd77dc33f73fb192feef4424d12c54" main="firefox">
-        <archive extract="firefox" href="http://releases.mozillaonline.com/pub/mozilla.org/firefox/releases/7.0b4/linux-i686/en-US/firefox-7.0b4.tar.bz2" size="15878987" type="application/x-bzip-compressed-tar"/>
-      </implementation>
-      <implementation arch="Linux-x86_64" id="sha1new=ba3b830702fa47edc7c6d8a19691bc77de554430" main="firefox">
-        <archive extract="firefox" href="http://releases.mozillaonline.com/pub/mozilla.org/firefox/releases/7.0b4/linux-x86_64/en-US/firefox-7.0b4.tar.bz2" size="17477113" type="application/x-bzip-compressed-tar"/>
-      </implementation>
-    </group>
-    <group released="2011-08-24" stability="testing" version="7.0-pre2">
-      <implementation arch="Linux-i686" id="sha1new=c9bdeffbe3abf08ef6f1f1f429f660531c607b30" main="firefox">
-        <archive extract="firefox" href="http://releases.mozillaonline.com/pub/mozilla.org/firefox/releases/7.0b2/linux-i686/en-US/firefox-7.0b2.tar.bz2" size="15866147" type="application/x-bzip-compressed-tar"/>
-      </implementation>
-      <implementation arch="Linux-x86_64" id="sha1new=166700fbca9e26f354a52b93b2ff9e5bc549d2e6" main="firefox">
-        <archive extract="firefox" href="http://releases.mozillaonline.com/pub/mozilla.org/firefox/releases/7.0b2/linux-x86_64/en-US/firefox-7.0b2.tar.bz2" size="17484590" type="application/x-bzip-compressed-tar"/>
-      </implementation>
-    </group>
-    <group released="2011-09-06" stability="stable" version="6.0.2">
-      <implementation arch="Linux-i686" id="sha1new=41d19f315e6594dc768984390c2cbde99d9e8633" main="firefox" version="6.0.2">
-      <archive extract="firefox" href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/6.0.2/linux-i686/en-US/firefox-6.0.2.tar.bz2" size="15092592" type="application/x-bzip-compressed-tar"/>
-    </implementation>
-      <implementation arch="Linux-x86_64" id="sha1new=e869fc6c41f45dd97e678f46c481077836ebbbf6" main="firefox" version="6.0.2">
-      <archive extract="firefox" href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/6.0.2/linux-x86_64/en-US/firefox-6.0.2.tar.bz2" size="16656264" type="application/x-bzip-compressed-tar"/>
-    </implementation>
-    </group>
-    <group released="2011-08-30" stability="stable" version="6.0.1">
-    <implementation arch="Linux-i686" id="sha1new=404d8c826f1b0010afe28fedc3ad1bb90acd009a" main="firefox">
-        <archive extract="firefox" href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/6.0.1/linux-i686/en-US/firefox-6.0.1.tar.bz2" size="15087411" type="application/x-bzip-compressed-tar"/>
-      </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=d639245a7fa1c25e1a674f292db0aa68fad392b2" main="firefox">
-        <archive extract="firefox" href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/6.0.1/linux-x86_64/en-US/firefox-6.0.1.tar.bz2" size="16718608" type="application/x-bzip-compressed-tar"/>
-      </implementation>
-  </group>
-    <group released="2011-08-16" stability="stable" version="6.0">
-      <implementation arch="Linux-i686" id="sha1new=1c0a3fc42341f94ee0c4a0f0c2f1612abf1b1aaf" main="firefox">
-        <archive extract="firefox" href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/6.0/linux-i686/en-US/firefox-6.0.tar.bz2" size="15083240" type="application/x-bzip-compressed-tar"/>
-      </implementation>
-      <implementation arch="Linux-x86_64" id="sha1new=f9738edb02faebb69e84e4e7d7fcf0d522a3ea9e" main="firefox">
-    <archive extract="firefox" href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/6.0/linux-x86_64/en-US/firefox-6.0.tar.bz2" size="16667227" type="application/x-bzip-compressed-tar"/>
-  </implementation>
     </group>
     <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/gtk2.xml"/>
   </group>
@@ -82,11 +26,11 @@ compliance, performance and portability.</description>
   <package-implementation distributions="Debian" main="/usr/bin/iceweasel" package="iceweasel"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJOgvvMAAoJEFX/wTZE6YDhXFAH/1r2u6+vOeUFXIQYiz5KJ/F1KRGUuJ21hwOT
-LeW84x530clzopp4t56vYO24q5oi6rbY4UrH9IzTqWR98Sjy2blsGm750a6iqRwP0WlDwkb4Y0Yu
-XN40MKMj6C0UIl74rbs5gLNcC464vhPhAr2L2LLH/k2gKL05i4PEfVn3bcSGkcCqBDcnC2ScdUQ7
-9s++Swwx5TbEhKjPoRR+ZgbG9lY9eeTFJFrRpH6RFeeF03gN3TKVnq+IX44loWc4vAEkiiUov6qN
-lazLgYvOF6mY8Vu+gi5TLkdTpNI7tV34+E6/sYS4v88BmltRyo7yTa119PmhuolTpx6CrZMCxpzM
-8jE=
+iQEcBAABAgAGBQJOhdgXAAoJEFX/wTZE6YDhq7sIAJRb+O9/0gw2p+pDXlP0OyejEHrhY+nQfIPj
+k5A4EaKQEWQGqcDQ/nGlkg+1KJLGEA5eC69HS8LN8wkQ2s7hd9IZrqeLThEIKUgwzTeXV8IwlMuL
+S6pORoCPHNFmDe7ujGrHVRRUYrKZcBt6FiolM2LUoeyP4o4Q3KYqKXKIUqavAY3Qb7xuA7YsBtRm
+CcQvjxH8iXa88Q6ss42x4Lr5pypofA5RYNR4xXf656J/p9Kr0/UPCt6exXjhp1Y/1S3SXlmHt1EU
+bJx66a/ev1rkxB/Y7AHQzPtrS4zMpxZD4OPi1dVVK1QZRf7NFCBHfl432hxUnDa2fK/iqLY4dr/i
+N5k=
 
 -->
