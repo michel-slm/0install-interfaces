@@ -14,13 +14,13 @@ tagging and virtual folders. It also features unrivalled extensibility.</descrip
   <category>Network</category>
   <icon href="http://spreadthunderbird.com/sites/default/files/spreadthunderbird_logo.png" type="image/png"/>
   <group license="OSI Approved :: Mozilla Public License (MPL)">
-    <group released="2011-09-27" stability="stable" version="7.0">
-      <implementation arch="Linux-x86_64" id="sha1new=3fb564c53f306c7d57946a651c775b0789e88146" main="thunderbird">
-        <archive extract="thunderbird" href="http://3347-mozilla.voxcdn.com/pub/mozilla.org/thunderbird/releases/7.0/linux-x86_64/en-US/thunderbird-7.0.tar.bz2" size="18683921" type="application/x-bzip-compressed-tar"/>
+    <group released="2011-09-30" stability="stable" version="7.0.1">
+      <implementation arch="Linux-x86_64" id="sha1new=e1fe2bc8d5087508b15d4109d86992ddb72ef454" main="thunderbird">
+        <archive extract="thunderbird" href="http://3347-mozilla.voxcdn.com/pub/mozilla.org/thunderbird/releases/7.0.1/linux-x86_64/en-US/thunderbird-7.0.1.tar.bz2" size="18670961" type="application/x-bzip-compressed-tar"/>
       </implementation>
-      <implementation arch="Linux-i686" id="sha1new=f6cb0790585d29663aeb89e30e1fb87a68adde1b" main="thunderbird" version="7.0">
-      <archive extract="thunderbird" href="http://download.mozilla.org/?product=thunderbird-7.0&amp;os=linux&amp;lang=en-US" size="16304677" type="application/x-bzip-compressed-tar"/>
-    </implementation>
+      <implementation arch="Linux-i686" id="sha1new=64a84649cdf15190661a69747dd1dcb4395324c4" main="thunderbird">
+        <archive extract="thunderbird" href="http://download.mozilla.org/?product=thunderbird-7.0.1&amp;os=linux&amp;lang=en-US" size="16226919" type="application/x-bzip-compressed-tar"/>
+      </implementation>
     </group>
     <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/dbus-glib.xml"/>
     <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/gtk2.xml">
@@ -33,11 +33,11 @@ tagging and virtual folders. It also features unrivalled extensibility.</descrip
   <package-implementation distributions="Debian" main="/usr/bin/icedove" package="thunderbird"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJOhKz8AAoJEFX/wTZE6YDh1EAH/3WVi7hrIamM9rnTiwKzGAt6jpf+Dk3JJ+BZ
-UgwmtIGKlNMIN9tc01gB9FpcDxOLa4Vzs8+dy/Y58tU7tFGxv9AdWu/7mNoKIYMTBiPVLGV6CWiS
-vD/CEldMo19Z6pmMv2bSSvX8Q1VVoYc8Ql5lqYcXsM1Ic6WVKP7s4YkHGWaCGtrIhj50zlFCDXF5
-7Gr0LYRStHDq3cAFN40Wvx+w8jdz+wvNnm3sx6LMDi/U0/7pywBX9FJFX0GtdQdF4d6Or/faQwkP
-YKmQhCHFjE3wLkOfxJYiPu1ObLp+w7fGJUA6fBNU6t12QUXfo40vmtgqz6u6nXY/meUrKDf2bKDC
-3LM=
+iQEcBAABAgAGBQJOh19+AAoJEFX/wTZE6YDhHjwH/2mYGWR150+Ks+S5Z+fe/H2R1xnfSnpA28CP
+zAYj26vcbp51rm0+cLOkOmfhhkTk/dmE+jSAIU0q82QfxWJjsGnVDB9LbjSvav+i95w5Saxo5lRi
+9rB8S6LnBL/yUjFOmVXzhD0MzOigx8fkbFxln6q1LfcSZxWpddNPbqDt9V0Itq8rT0sUAEh9H1n7
+xclov5PIZGpPX4bZEglHbAQURw3CvEthVqnH4gbdZiPCsxOe8Rr+m+UbtogA8s7O1YuVKC/27jU0
+v1DZpz9cuAFUxMLxzBZLvEN15Y39jD0+LHGNS+sFzdjabUArwNYOkTxZl9dpggImOysw8caimDVB
+wjg=
 
 -->
