@@ -14,6 +14,14 @@ tagging and virtual folders. It also features unrivalled extensibility.</descrip
   <category>Network</category>
   <icon href="http://spreadthunderbird.com/sites/default/files/spreadthunderbird_logo.png" type="image/png"/>
   <group license="OSI Approved :: Mozilla Public License (MPL)">
+    <group released="2011-10-04" stability="testing" version="8.0" version-modifier="-pre1">
+      <implementation arch="Linux-x86_64" id="sha1new=6d493a5e177125fe64afe33bee31d7eb56cadea2" main="thunderbird" version="8.0" version-modifier="-pre1">
+        <archive extract="thunderbird" href="http://mozilla.3c.stonekitty.net/thunderbird/releases/8.0b1/linux-x86_64/en-US/thunderbird-8.0b1.tar.bz2" size="20870630" type="application/x-bzip-compressed-tar"/>
+      </implementation>
+      <implementation arch="Linux-i686" id="sha1new=8799e8629d92f99221b4d246dc981210367c11e6" main="thunderbird">
+        <archive extract="thunderbird" href="http://download.mozilla.org/?product=thunderbird-8.0b1&amp;os=linux&amp;lang=en-US" size="18046707" type="application/x-bzip-compressed-tar"/>
+      </implementation>
+    </group>
     <group released="2011-09-30" stability="stable" version="7.0.1">
       <implementation arch="Linux-x86_64" id="sha1new=e1fe2bc8d5087508b15d4109d86992ddb72ef454" main="thunderbird">
         <archive extract="thunderbird" href="http://3347-mozilla.voxcdn.com/pub/mozilla.org/thunderbird/releases/7.0.1/linux-x86_64/en-US/thunderbird-7.0.1.tar.bz2" size="18670961" type="application/x-bzip-compressed-tar"/>
@@ -33,11 +41,11 @@ tagging and virtual folders. It also features unrivalled extensibility.</descrip
   <package-implementation distributions="Debian" main="/usr/bin/icedove" package="thunderbird"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJOh19+AAoJEFX/wTZE6YDhHjwH/2mYGWR150+Ks+S5Z+fe/H2R1xnfSnpA28CP
-zAYj26vcbp51rm0+cLOkOmfhhkTk/dmE+jSAIU0q82QfxWJjsGnVDB9LbjSvav+i95w5Saxo5lRi
-9rB8S6LnBL/yUjFOmVXzhD0MzOigx8fkbFxln6q1LfcSZxWpddNPbqDt9V0Itq8rT0sUAEh9H1n7
-xclov5PIZGpPX4bZEglHbAQURw3CvEthVqnH4gbdZiPCsxOe8Rr+m+UbtogA8s7O1YuVKC/27jU0
-v1DZpz9cuAFUxMLxzBZLvEN15Y39jD0+LHGNS+sFzdjabUArwNYOkTxZl9dpggImOysw8caimDVB
-wjg=
+iQEcBAABAgAGBQJOjRVdAAoJEFX/wTZE6YDhsYkH/22Vtacs0+5p7N+rLEWyfz773K5A6gGtnOlC
+YZazDK/xP6Jwyyu1NU0TNV91C+1/8ZfwgxalAPaEsPkM3gooMGAFZ+00Ady3oM1sjhNzElraGXMJ
+u9yG4eNYTl5UydHP5iHmGiXobSWhv09Cz53P468Zwml4iYqvPBxOr6k840/DvHT8pLWhxmbglsQZ
+OoXCFuzzTqRdUsPsFIkuNfFJlGyBWitqg1Psd0bFsfuvhCGA5dHjCpgjmbstXo/L1kVQJ57R1IYm
+6XPxv8Zp91JuE+g1oQGRulKMV0Alo6M0QpHF+K/A+rOw0jlHTjJddBeT6xcndg3oKOP3KzekgCMN
+s18=
 
 -->
