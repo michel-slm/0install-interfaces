@@ -24,17 +24,18 @@ use Skype to make low-cost calls to landlines and mobiles.
     <archive extract="skype-2.2.0.35" href="http://download.skype.com/linux/skype-2.2.0.35.tar.bz2" size="23079739" type="application/x-bzip-compressed-tar"/>
       <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/libXss.xml"/>
   </implementation>
+    <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/alsa-plugins-pulseaudio.xml"/>
     <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/libXss.xml"/>
     <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/libXv.xml"/>
     <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/qt-x11.xml"/>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJN/SDyAAoJEFX/wTZE6YDhVHgIALb72P8LSfy9A57Ft7nnswvPFZPb3nX0P3EN
-OMR+/CvO+3jBV7KsY4j58qGNPxa+NQ44BvnCq267q+vv1geEFEZtkfxiAl7cYESNZwHeVuxzcRJG
-z8dfbTjohVr/YRmYepUj8Z2Q4n8mk/Xe4p2KHLULj1M8beDV20M3AOa2wnxMQQrJnrt1El2+8WZf
-0P2xBbTc1DQh/Qr7mbZFVdj85QGM3RNoNoWaWY5YBmjS12arFTHVMw9xVfZMb9jMDM+Lls9Pp7QC
-tORm1hZi0gGPr8w0DLfQ/zJhMcY3gyxhTECVfsCqinEyIRE+VOdl0vAW1n5eSePk4eAg9LqRzEf+
-UHg=
+iQEcBAABAgAGBQJOoyrTAAoJEFX/wTZE6YDhm+kH/AkbN58H3tn3lp2nemB+cl3SEv66v0XATwy6
+pDx1UlKpT04Qg27ZuKjIxwmJvZnrGRj6/f5OvhkWkOhFJfVLpL79PbJ8s94NNZD80ilZlWPEfF1k
+Q8AKNnIOXq9yMJE0q3UZ+D0BwgtUCd6ZNn0QRdIEZfHcHFwFBMjeVlZZoUvE7U4ZiIut/vX6FxZr
+WgVV68nloYUFXgPTlOaMUWEhSsl5FIOJMfjPViQkPkK3gSckf27J5PETTvL7Z+tk22qAbtNmFQBs
+m6174X/0qNa96tNu0HpuCKO7PT22MUaXMgZiOd3ZG0u9uj8zvcodkdKpAdTnj2dvZpmQEe5xXHmA
+oPk=
 
 -->

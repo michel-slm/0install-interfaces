@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://mojo.informatik.uni-erlangen.de/interfaces/2011/alsa-plugins-pulseaudio.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>alsa-plugins-pulseaudio</name>
+  <summary>Alsa to PulseAudio backend</summary>
+  <description>
+This plugin allows any program that uses the ALSA API to access a PulseAudio
+sound daemon. In other words, native ALSA applications can play and record sound
+across a network. There are two plugins in the suite, one for PCM and one for
+mixer control.</description>
+  <homepage>http://www.alsa-project.org/</homepage>
+  <category>Graphics</category>
+  <group arch="Linux-*" license="OSI Approved :: GNU Lesser General Public License (LGPL)" stability="stable">
+    <package-implementation distributions="RPM" package="alsa-plugins-pulseaudio"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJOoysHAAoJEFX/wTZE6YDhGUEH/ii/OOsCuxDd19ziXKcJk0rWMbF3YOt7hY1y
+rHJbdZgnVUtIylSHtMpvsCOfMqTFIvwgMhzoAXf26hxf2m3T4IPCRsZiz4pbblT6DtW2WnnrIUr1
+PVzCY8oH8vPe3/0tgfEqkGLYOfiXjhevQr5S/Qi6sZ6fmAo5/2H0HT3ChIvTSsy2L4WqwAg000t6
+VnEnIL3QTS/lWihgcWHAUfSgSjl8s8o+tBeo2hvUPqXLtVpXD9jnR86MhGjPw2/Q85AmTUddozMl
+bzBV8a/z1z5VchnBWw1QrZLWfREACQNgTJKrsceJZDHalknGZb5aa0apYGmo28ZPcixAgR3CxDMb
+ivc=
+
+-->
