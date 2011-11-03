@@ -12,7 +12,7 @@ compliance, performance and portability.</description>
   <group license="OSI Approved :: Mozilla Public License (MPL)">
     <group released="2011-11-01" stability="testing" version="8.0-pre6">
       <implementation arch="Linux-x86_64" id="sha1new=a25a25d21364ee2bf2b67b161fab3a5ef1df303c" main="firefox">
-        <archive extract="firefox" href="http://dm-download02.mozilla.org/pub/mozilla.org/firefox/releases/8.0b6/linux-x86_64/en-US/firefox-8.0b6.tar.bz2" size="18604267" type="application/x-bzip-compressed-tar"/>
+        <archive extract="firefox" href="http://pv-mirror01.mozilla.org/pub/mozilla.org/firefox/releases/8.0b6/linux-x86_64/en-US/firefox-8.0b6.tar.bz2" size="18604267" type="application/x-bzip-compressed-tar"/>
       </implementation>
       <implementation arch="Linux-i686" id="sha1new=8395d3ead0555be8eb8b93b52bbd3edb9906dec6" main="firefox">
         <archive extract="firefox" href="http://dm-download02.mozilla.org/pub/mozilla.org/firefox/releases/8.0b6/linux-i686/en-US/firefox-8.0b6.tar.bz2" size="16845394" type="application/x-bzip-compressed-tar"/>
@@ -34,11 +34,11 @@ compliance, performance and portability.</description>
   <package-implementation distributions="Debian" main="/usr/bin/iceweasel" package="iceweasel"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJOsmsTAAoJEFX/wTZE6YDhyiYH/i4+1ZpQS/nt8HHekDIU7HOkdC96XXWfx2UZ
-vK7WlIE3OFpX9VPJafvJ8qalt1hFEKjihR4EvOGxsT22l/im/X1P3zcLuGQ3PohhTZLdXcUs/nTo
-rSNzdvGvoWrTkqUOVwIK9gwASmu0LEM/ZHqEGQtFdwC2agq1LFtPMVOfzWVfAc4kE9vgM94n78ih
-ucg2yCc/4bouagk77lvbtgTA6BG4m/0Xeh7tf4b8OpZgcBzKX0ghj3nhsDP4qOqNMfaBHWD2L/In
-JxzGC4Cb9gaYgMovnnX+2ue1Fz7/LQRYdNju/Rq2eCQQC1Rg2cfLyIN+iwZzRybtQQKcNjcgilFH
-N6Y=
+iQEcBAABAgAGBQJOsu0FAAoJEFX/wTZE6YDhIgIH/2FC9sih57D5yU9kID2tY/IbRD0pC3P42FIW
+TUwGz0hktBK3IS9Pv8E+PlIzf8X4hXTY3m6UFEfAAKWdJgbNJ3GqHn+dGExRYVvxlGiilz6FxgqZ
+AcnYOEgyiDIA3Kqq/etT9ouoVADkfaYLsX6Rf4d0umt6tDZYuMm2wQjnCE/sB89SY02X5ib7cWmp
++C95YRIRg1bQgW+OF9AhEEJJn7d1WWoAtFmkUiIlR7kZ5YHUXf9fIOpipLZBdi/xuknCmmiNbjUp
+vz2SKjACmN8aS+2IO/2WcWg2RJzGKqbMQ7zEGu0fQPx+uuoYUcHhIR/NmoeyWS7UT9CKlUCsy+0R
+MDE=
 
 -->
