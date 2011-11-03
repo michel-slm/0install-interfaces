@@ -14,12 +14,12 @@ tagging and virtual folders. It also features unrivalled extensibility.</descrip
   <category>Network</category>
   <icon href="http://spreadthunderbird.com/sites/default/files/spreadthunderbird_logo.png" type="image/png"/>
   <group license="OSI Approved :: Mozilla Public License (MPL)">
-    <group released="2011-10-19" stability="testing" version="8.0-pre3">
-      <implementation arch="Linux-x86_64" id="sha1new=a226abd14d3dd16aa442eaa7a61bbdbf7e0e6496" main="thunderbird">
-        <archive extract="thunderbird" href="http://pv-mirror02.mozilla.org/pub/mozilla.org/thunderbird/releases/8.0b3/linux-x86_64/en-US/thunderbird-8.0b3.tar.bz2" size="20892037" type="application/x-bzip-compressed-tar"/>
+    <group released="2011-11-01" stability="testing" version="8.0-pre4">
+      <implementation arch="Linux-x86_64" id="sha1new=8802e5b308c77242842fd1ce84b034f379a68ecd" main="thunderbird">
+        <archive extract="thunderbird" href="http://releases.mozillaonline.com/pub/mozilla.org/thunderbird/releases/8.0b4/linux-x86_64/en-US/thunderbird-8.0b4.tar.bz2" size="20869378" type="application/x-bzip-compressed-tar"/>
       </implementation>
-      <implementation arch="Linux-i686" id="sha1new=7dc391dfdb6ad65e1156e071c8b70a2449e1e501" main="thunderbird">
-        <archive extract="thunderbird" href="http://download.mozilla.org/?product=thunderbird-8.0b3&amp;os=linux&amp;lang=en-US" size="18032063" type="application/x-bzip-compressed-tar"/>
+      <implementation arch="Linux-i686" id="sha1new=2c9ca9b15d8e7573596f6fa81e85ad88aadcac10" main="thunderbird">
+        <archive extract="thunderbird" href="http://download.mozilla.org/?product=thunderbird-8.0b4&amp;os=linux&amp;lang=en-US" size="18074169" type="application/x-bzip-compressed-tar"/>
       </implementation>
     </group>
     <group released="2011-09-30" stability="stable" version="7.0.1">
@@ -41,11 +41,11 @@ tagging and virtual folders. It also features unrivalled extensibility.</descrip
   <package-implementation distributions="Debian" main="/usr/bin/icedove" package="thunderbird"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJOqALgAAoJEFX/wTZE6YDhjVwIALJhRqbyzdg++UbMc5/lHbfNGzjomWz2NAOx
-qo5Aalz1VuJW/qOXt5u9/HZiOx26xGtYuzAs+M9g0xM/k0B/tWT0DY3buUpv3d7B62F17KOvh6Fk
-2jTeiWDKExPZUJ8KI0Nxle+FdjieL0jFPnw+scpzvtcVX+a7NOUYyXOEdLA8bwy8FfcGEsXWwSal
-/yVf4xD6rv5KPuTKhLPiWEgSygaMf56PNUNBc+En5CNpjhLpCWOTqUs+48Rujuxkp20l+H2j9p7f
-Pf68H5z1MHKeodm6CeSiwSmFSHrmQfA3oiGJU7xonQ3eR7Pan+QQi6o4xLNjFERaMSc2VuYdNgxv
-Cuc=
+iQEcBAABAgAGBQJOsmQ+AAoJEFX/wTZE6YDhgUgIAKaanHAIfaUSKzjNCTcSBuSi/Y9im7/VIcFn
+aYds5cQyyHU8xGp2pr3030wQom3wYII7rQUqBJk1vbgjgxEBI6d+J6TbgMSs0ILtb8fkS0os/ky7
+qSbK7BaYhkerYdjDP0l2KfErZoIA2QFbJfoRst/feqXLQwWFxsKCrwBev3/WaaJI/WHVRKoUKU4u
+chRh4SfH42XD1lvqnJecHbSj+xowDm5qn2UDcQblZ/NXoGi6tMXFszAG14bBRFfoMpPaC3+oq1QZ
+fJPG+fFWvWZR5s40di/6JaHhdngSOCbtB2tOhIPbODLOcvsKjqan6CsQ5UQtBVF3PoyYut3alTRv
+CaQ=
 
 -->
