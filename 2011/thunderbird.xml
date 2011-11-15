@@ -16,7 +16,7 @@ tagging and virtual folders. It also features unrivalled extensibility.</descrip
   <group license="OSI Approved :: Mozilla Public License (MPL)">
     <group released="2011-11-08" stability="stable" version="8.0">
       <implementation arch="Linux-x86_64" id="sha1new=4ad6051c4fe7f607b760999f63c8613b95e5cbf4" main="thunderbird">
-        <archive extract="thunderbird" href="http://3347-mozilla.voxcdn.com/pub/mozilla.org/thunderbird/releases/8.0/linux-x86_64/en-US/thunderbird-8.0.tar.bz2" size="20886942" type="application/x-bzip-compressed-tar"/>
+        <archive extract="thunderbird" href="http://mozilla.ftp.halifax.rwth-aachen.de/mozilla/thunderbird/releases/8.0/linux-x86_64/en-US/thunderbird-8.0.tar.bz2" size="20886942" type="application/x-bzip-compressed-tar"/>
       </implementation>
       <implementation arch="Linux-i686" id="sha1new=0deea5679c26aa3a7008193e7459cc802c156663" main="thunderbird">
         <archive extract="thunderbird" href="http://download.mozilla.org/?product=thunderbird-8.0&amp;os=linux&amp;lang=en-US" size="18055050" type="application/x-bzip-compressed-tar"/>
@@ -41,11 +41,11 @@ tagging and virtual folders. It also features unrivalled extensibility.</descrip
   <package-implementation distributions="Debian" main="/usr/bin/icedove" package="thunderbird"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJOujgpAAoJEFX/wTZE6YDhLXAH/iFwtAwnRbwIObYSGvvGkE/uPqq9+mBfrNtN
-k+uBPdAdGzOcOuYXqSo6BWQ0EVqMf44KgCOxXJ74im+6TTMfiOnVE6hZJ8mv43kKx+guBxfbbhFt
-TDNxYFGTQTMXFH3sAdMH/r2yLwzmNK7DXxt8VCH7JucMBthhAQSdbIzvhWeFAZliCeRo2J1rUUek
-/95cwQKuY/BMh4mHf2eY/0ee8W9dNRjgFLmrQgY9o4/3LZhm5MDh27dl48qy1fXuePXbGy6ZeK5I
-WYN3mBMevuxemfWUKOqso03txjMdSCriXbHmz9oEjcbgef/nKaH52wY8q/3hd9H7PUSw64/kriVh
-B8A=
+iQEcBAABAgAGBQJOwlySAAoJEFX/wTZE6YDhBxMH/2+EA9WwWNflW7zFyrfVjEyZ8UIBOyE+Gf4D
+uBDZfHtp2HiUpA4o1XE/YBW/SZALzIKb1Aarps7LIXg8E+vUmfEqJwi0TXgsD0bEJ+IaNxL1P2JG
+dv5HR9YX68EoCBnIVcXS01TjI40ccg5t8tcNDJ3psR23edmDXbG6W1Gn1oZNyBiI1jP/1IS66b5m
+6lwhCRd6TtBMburCLsLtYzZhapjIe/U/squCesc4vpDmImSNKgYRafN2X7gTadgwCCe79L/KXaWB
+RbN3jR/P3VYMJdo3C2sxAZQEPQL3MW5nbHmTPKh7jmEedu6aEctmdn+am5SIU+MCMlSBoyDUj0Tr
+O7g=
 
 -->
