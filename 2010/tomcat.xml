@@ -14,28 +14,22 @@ installation.</description>
   <icon href="http://mojo.informatik.uni-erlangen.de/interfaces/images/tomcat-power.png" type="image/png"/>
   <group license="The Apache License 2.0">
     <group stability="stable">
-      <implementation id="sha1new=36dd6206e7b5189af068ff224d45de525d829ee2" released="2011-08-11" version="7.0.20">
-      <archive extract="apache-tomcat-7.0.20" href="http://mirror.netcologne.de/apache.org/tomcat/tomcat-7/v7.0.20/bin/apache-tomcat-7.0.20.tar.gz" size="7415342" type="application/x-compressed-tar"/>
-    </implementation>
-      <implementation id="sha1new=ee92704161fae052d9298782a90a1a45d8cd7263" released="2011-06-17" version="7.0.16">
-      <archive extract="apache-tomcat-7.0.16" href="http://archive.apache.org/dist/tomcat/tomcat-7/v7.0.16/bin/apache-tomcat-7.0.16.tar.gz" size="7237506" type="application/x-compressed-tar"/>
-    </implementation>
-      <implementation id="sha1new=681014a2e569c8cd29472f6ba244941a12af413a" released="2011-08-18" version="6.0.33">
-        <archive extract="apache-tomcat-6.0.33" href="http://mirror.netcologne.de/apache.org/tomcat/tomcat-6/v6.0.33/bin/apache-tomcat-6.0.33.tar.gz" size="6531699" type="application/x-compressed-tar"/>
+      <implementation id="sha1new=2d32979f9270b86fe88c35ed512e09f7013f778b" released="2011-11-25" version="7.0.23">
+        <archive extract="apache-tomcat-7.0.23" href="http://mirror.netcologne.de/apache.org/tomcat/tomcat-7/v7.0.23/bin/apache-tomcat-7.0.23.tar.gz" size="7459741" type="application/x-compressed-tar"/>
       </implementation>
-      <implementation id="sha256=8bae5d6bf3642d707489302bc3b169a07f31eccc005fc44f933edd61b9cadd05" released="2011-02-04" version="6.0.32">
-      <archive extract="apache-tomcat-6.0.32" href="http://archive.apache.org/dist/tomcat/tomcat-6/v6.0.32/bin/apache-tomcat-6.0.32.tar.gz" size="6507748" type="application/x-compressed-tar"/>
-    </implementation>
+      <implementation id="sha1new=4753d595f95860bc051ad4f2eebb63ba753b44c9" released="2011-12-05" version="6.0.35">
+        <archive extract="apache-tomcat-6.0.35" href="http://mirror.netcologne.de/apache.org/tomcat/tomcat-6/v6.0.35/bin/apache-tomcat-6.0.35.tar.gz" size="6697806" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
     <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2010/java.xml"/>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJOTiMsAAoJEFX/wTZE6YDhslsH+QFeJSZ3pIusSWrVuxfK4lSBlOOKzQqSV8Hn
-5RJpygHB3/SPbeFioaZz+r9f95mkVL1TeabfxTp0qfrUiOxyKq9cK9kmNZ7ZZ9oeuDy+Vc8e0RBO
-l8tkiD73dQTWARWFTFNw8ztyVuPIzB6/eDDum5zZTWp5HIOI6JfaXoqzg8/U99thSM2/4izUYBmD
-gOCse6VnhUR9RWnpoyA0uCwsGEmosvmglghADjmJuZfJQXSe+3A4eKAT/o+zmHTVY7IjbB2TCTWZ
-0XmVwRYBo53E7Pevm8tj3QTuuvHq+3k2z8z0tG7dQV0/XEf3YQswf5nCtSuxJIAv0/9yPq4cNdEg
-weQ=
+iQEcBAABAgAGBQJO8bjmAAoJEFX/wTZE6YDh9v0IAI0eMISvLiKGew2WS+l/9ysHfNUvJUaYBxs+
+1aIQQ/RLFyhtaItrxiXCyMrgfq0DMnXBJg64d2Y0LTnWrEh12uoZoYubUkOzTQZfqB/p6jp/bxtf
+Fx6cSI8jgsEXdHi3yL+t1acSjgIWLkd3QIwpkJdIQmJyZrqGotgvwJSYqWaNAO7v1W6+Nv8q1l/r
+506izcJzTWvNAZhhx7ZArCAX6sn9i3GwRY1fpEZMiMCRVn0C5vILhkJiedNXoYStLQZAPaRdIeQX
+uHEawXlcHzvN+qHhiJOXDLJO0fyjQYDFkJYRIvP+6CI6zQFZ64KPcnnZd0nUzqcW0TNtjCZphsRr
+ZL8=
 
 -->
