@@ -10,20 +10,20 @@ compliance, performance and portability.</description>
   <category>Network</category>
   <icon href="http://people.mozilla.com/~faaborg/files/shiretoko/firefoxIcon/firefox-256.png" type="image/png"/>
   <group license="OSI Approved :: Mozilla Public License (MPL)">
-    <group released="2011-11-08" stability="stable" version="8.0">
-      <implementation arch="Linux-x86_64" id="sha1new=c85d1ed7b836fa497bf4a2790004fc012deae33b" main="firefox" version="8.0">
-        <archive extract="firefox" href="http://3347-mozilla.voxcdn.com/pub/mozilla.org/firefox/releases/8.0/linux-x86_64/en-US/firefox-8.0.tar.bz2" size="17941497" type="application/x-bzip-compressed-tar"/>
+    <group released="2011-12-21" stability="stable" version="9.0.1">
+      <implementation arch="Linux-x86_64" id="sha1new=289da143819cdfa0de11b0de92ec4ae56a4dc5c2" main="firefox">
+        <archive extract="firefox" href="http://ftp.uni-kl.de/pub/mozilla/firefox/releases/9.0.1/linux-x86_64/en-US/firefox-9.0.1.tar.bz2" size="18728703" type="application/x-bzip-compressed-tar"/>
       </implementation>
-      <implementation arch="Linux-i686" id="sha1new=0bebd24ab5a7353cd91f854702ebe03e3b7109c7" main="firefox" version="8.0">
-        <archive extract="firefox" href="http://download.mozilla.org/?product=firefox-8.0&amp;os=linux&amp;lang=en-US" size="16200442" type="application/x-bzip-compressed-tar"/>
+      <implementation arch="Linux-i686" id="sha1new=d342912300cf0263f815fddd35731995f530919f" main="firefox">
+        <archive extract="firefox" href="http://download.mozilla.org/?product=firefox-9.0.1&amp;os=linux&amp;lang=en-US" size="16840315" type="application/x-bzip-compressed-tar"/>
       </implementation>
     </group>
-    <group released="2011-11-01" stability="testing" version="8.0-pre6">
-      <implementation arch="Linux-x86_64" id="sha1new=a25a25d21364ee2bf2b67b161fab3a5ef1df303c" main="firefox">
-        <archive extract="firefox" href="http://pv-mirror01.mozilla.org/pub/mozilla.org/firefox/releases/8.0b6/linux-x86_64/en-US/firefox-8.0b6.tar.bz2" size="18604267" type="application/x-bzip-compressed-tar"/>
+    <group released="2012-01-04" stability="testing" version="10.0" version-modifier="-pre3">
+      <implementation arch="Linux-i686" id="sha1new=9704f9bd7f63a2abae203b9bc8ef1397c5a34dd7" main="firefox" version="10.0" version-modifier="-pre3">
+        <archive extract="firefox" href="http://pv-mirror02.mozilla.org/pub/mozilla.org/firefox/releases/10.0b3/linux-i686/en-US/firefox-10.0b3.tar.bz2" size="17750800" type="application/x-bzip-compressed-tar"/>
       </implementation>
-      <implementation arch="Linux-i686" id="sha1new=8395d3ead0555be8eb8b93b52bbd3edb9906dec6" main="firefox">
-        <archive extract="firefox" href="http://dm-download02.mozilla.org/pub/mozilla.org/firefox/releases/8.0b6/linux-i686/en-US/firefox-8.0b6.tar.bz2" size="16845394" type="application/x-bzip-compressed-tar"/>
+      <implementation arch="Linux-x86_64" id="sha1new=a1fd339ad371b4664e1809d342bbef639f8b8c6e" main="firefox">
+        <archive extract="firefox" href="http://pv-mirror02.mozilla.org/pub/mozilla.org/firefox/releases/10.0b3/linux-x86_64/en-US/firefox-10.0b3.tar.bz2" size="19423158" type="application/x-bzip-compressed-tar"/>
       </implementation>
     </group>
     <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/gtk2.xml"/>
@@ -34,11 +34,11 @@ compliance, performance and portability.</description>
   <package-implementation distributions="Debian" main="/usr/bin/iceweasel" package="iceweasel"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJOujaMAAoJEFX/wTZE6YDhKTAH/3zJq7EvNRMZ0o8gtv+XG4t9YWZ15puRSK1Z
-hxvtCBfa/rxDPBAveQJWr9+wgCiK/Z4UnPavjRq0oCoz+kheYjHkWsp6ORUCBf19h+YHLRVNtsSo
-w00D8EdZQJ/oCvlINcjYa+KLfG5RqiScHWahEgiBxrs8rPof30kkANMd9Bt5NChiTz65zIH+i0ZW
-ZcaTaEcCh+9PmETTgSnBzlE369RjTqjVUu4xDW4dPm77hLkg9QD+Nzcl8hv7bLkDqq2141WyHKvv
-0KpoMqvZwblYyxmolQvSGMMOWcebjx3JbGA+IY4tsVA93BbQQ+rFobsJYwWrM47ZTnUymJaLVjkw
-yms=
+iQEcBAABAgAGBQJPDWqcAAoJEFX/wTZE6YDhbRYH/2WH5AlT9m3mrai+4wvTuGVPtYK2BnNOClte
+5g32H7NM4v/SLV4+5xcOTfZqH9DMBs760soUkjijL9/cdu3r0rFvoupe/A45h+hgXaBq1rI+PlKT
+sX4fVVoTrjVFRSDTZDeC6E5wQ6DyYgB0igFKqNnPMvEHwnmBy5+jfZ/N6PMnOdjfVYOj03K+Bp7f
+VeVxbAUXWAQ1ymTGlaUiLMU/f4uBOlHXEmG31NiefRB5vgznS2qwOBvHmRmBcDMf4CDN9AL9f0mF
+1ddkYyoNGq+5GslE8LJ+5meNbiKfSbScBAIDJ1Xtc6c04q/oiOyJvA9xJj7Tqbgs0eQkCWQfGdif
+zu4=
 
 -->
