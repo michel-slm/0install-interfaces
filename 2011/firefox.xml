@@ -18,12 +18,12 @@ compliance, performance and portability.</description>
         <archive extract="firefox" href="http://download.mozilla.org/?product=firefox-9.0.1&amp;os=linux&amp;lang=en-US" size="16840315" type="application/x-bzip-compressed-tar"/>
       </implementation>
     </group>
-    <group released="2012-01-04" stability="testing" version="10.0" version-modifier="-pre3">
-      <implementation arch="Linux-i686" id="sha1new=9704f9bd7f63a2abae203b9bc8ef1397c5a34dd7" main="firefox" version="10.0" version-modifier="-pre3">
-        <archive extract="firefox" href="http://pv-mirror02.mozilla.org/pub/mozilla.org/firefox/releases/10.0b3/linux-i686/en-US/firefox-10.0b3.tar.bz2" size="17750800" type="application/x-bzip-compressed-tar"/>
+    <group released="2012-01-11" stability="testing" version="10.0" version-modifier="-pre4">
+      <implementation arch="Linux-i686" id="sha1new=e9d17569e017225782ed8c5e203b3e3a8d302023" main="firefox">
+        <archive extract="firefox" href="http://download.mozilla.org/?product=firefox-10.0b4&amp;os=linux&amp;lang=en-US" size="17751695" type="application/x-bzip-compressed-tar"/>
       </implementation>
-      <implementation arch="Linux-x86_64" id="sha1new=a1fd339ad371b4664e1809d342bbef639f8b8c6e" main="firefox">
-        <archive extract="firefox" href="http://pv-mirror02.mozilla.org/pub/mozilla.org/firefox/releases/10.0b3/linux-x86_64/en-US/firefox-10.0b3.tar.bz2" size="19423158" type="application/x-bzip-compressed-tar"/>
+      <implementation arch="Linux-x86_64" id="sha1new=ee1a49ea97570926707edbd9cc5f86f8b015485e" main="firefox">
+        <archive extract="firefox" href="http://dm-download02.mozilla.org/pub/mozilla.org/firefox/releases/10.0b4/linux-x86_64/en-US/firefox-10.0b4.tar.bz2" size="19442658" type="application/x-bzip-compressed-tar"/>
       </implementation>
     </group>
     <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/gtk2.xml"/>
@@ -34,11 +34,11 @@ compliance, performance and portability.</description>
   <package-implementation distributions="Debian" main="/usr/bin/iceweasel" package="iceweasel"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJPDWqcAAoJEFX/wTZE6YDhbRYH/2WH5AlT9m3mrai+4wvTuGVPtYK2BnNOClte
-5g32H7NM4v/SLV4+5xcOTfZqH9DMBs760soUkjijL9/cdu3r0rFvoupe/A45h+hgXaBq1rI+PlKT
-sX4fVVoTrjVFRSDTZDeC6E5wQ6DyYgB0igFKqNnPMvEHwnmBy5+jfZ/N6PMnOdjfVYOj03K+Bp7f
-VeVxbAUXWAQ1ymTGlaUiLMU/f4uBOlHXEmG31NiefRB5vgznS2qwOBvHmRmBcDMf4CDN9AL9f0mF
-1ddkYyoNGq+5GslE8LJ+5meNbiKfSbScBAIDJ1Xtc6c04q/oiOyJvA9xJj7Tqbgs0eQkCWQfGdif
-zu4=
+iQEcBAABAgAGBQJPExCbAAoJEFX/wTZE6YDhnZwH/2eYSbkSOGTcx/P6ymUY7TUzL9g8qgMIpKa0
+OTu9FR0vso9/A3xxAqFhyCVR04y8Fx0t3p7xkHT49Yn9ZvjKG20DA+g7MeZmxzbsyApT3nqHU6w8
+J0nY410NLKpN8wFrai8m131gniKBjyUCTtnZq5DDSGTkCuCmRMQMj8Q5mxMtUWTMXBWgS4ba+HNL
+PjQRGmKCbhC3LBLy/120loiPgKolUkhWcGJBvzhTf4CXzydeuD2FWw/cEgIzAYxSgFGo7lS76SM7
+3HaU5XBgqtfzv/DZTGIgNTItlV9ASd6KkPFBZx7WfCNQ1WAb10T2GUy4pU652jitTNcKKgIRG+5b
+9gs=
 
 -->
