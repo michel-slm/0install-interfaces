@@ -18,23 +18,23 @@ analysis tools, and number games.</description>
   <category>Education</category>
   <icon href="http://mojo.informatik.uni-erlangen.de/interfaces/images/JCrypTool.png" type="image/png"/>
   <group license="Eclipse Public License">
-    <group released="2010-12-29" stability="testing" version="1.0.0" version-modifier="-rc4">
-    <implementation arch="Linux-i386" id="sha1new=546a9e69757244baff6720450942b896c252e182" main="JCrypTool">
-      <archive extract="jcryptool" href="http://downloads.sourceforge.net/project/jcryptool/jcryptool/JCrypTool%20Release%20Candidate%204/jcryptool-1.0.0-RC4.linux.gtk.x86.zip" size="55666631" type="application/zip"/>
+    <group released="2011-12-29" stability="testing" version="1.0.0" version-modifier="-rc5">
+    <implementation arch="Linux-i386" id="sha1new=b62d2a1e7a2597c63292c871dc02969980ce63ce" main="JCrypTool">
+      <archive extract="jcryptool" href="http://downloads.sourceforge.net/project/jcryptool/jcryptool/JCrypTool%20Release%20Candidate%205/jcryptool-1.0.0-RC5.linux.gtk.x86.zip" size="62445688" type="application/zip"/>
     </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=7812a5635ad05d4ef2ed10b22d46d7ba9551355d" main="JCrypTool">
-    <archive extract="jcryptool" href="http://downloads.sourceforge.net/project/jcryptool/jcryptool/JCrypTool%20Release%20Candidate%204/jcryptool-1.0.0-RC4.linux.gtk.x86_64.zip" size="55872995" type="application/zip"/>
-  </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=c4062cf9d133c27aa82529fba453f27284bada43" main="JCrypTool">
+      <archive extract="jcryptool" href="http://downloads.sourceforge.net/project/jcryptool/jcryptool/JCrypTool%20Release%20Candidate%205/jcryptool-1.0.0-RC5.linux.gtk.x86_64.zip" size="62652306" type="application/zip"/>
+    </implementation>
   </group>
     <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2010/java.xml"/>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJOA8fxAAoJEFX/wTZE6YDhxOoH/25zOug/eyVMU3pzMB5cBF1ghHC7mGzSGV7G
-jEtfz3xFGtGlb4PDcgPbf/Duc6xPWgfSVgoGzQTYVnTSWFjo3RrVATxQ4KsdC1273SBzIL0lPiYf
-O5texNBkPcRLiyy9/SGTa3q9du+aExRILgQhp8gi7HBEH2ob9w58cokD/NFu1HJ9J2KUN2aYrHVT
-iAAfp95bbsCMzif3PGchpKR9n3xosG38bVdJX2ROXdFVNzccOTpCqBXPofG5RODIu5fwrHz6PudT
-AauwBKDgvR5OpcV+0C0uDsvT9/p2zRJ7hVmb8vZH71giPj8mlH+35liudORP0WboLBsVT71NYYhr
-UCk=
+iQEcBAABAgAGBQJPFIKEAAoJEFX/wTZE6YDhWF4IALRVLHYFsTAusmkIDi0VNzI0rFCXqsrA5oX0
+8EvrAF9j0dn1NLNPUZ6klkAM+aj5D3TRay5fDJicz3rJE22/tS5QCJNtxoqZ1qGNBm35CR3QZBuP
+UV6/aODfGFzsFZZCRVqUM5h5bb1TVQPZ8rIc7FLlDLA+Nd488oXIrny9bkbu/Uyu/Rq5EHmzejJ6
+W/ujfvCut8EeSOiDcsOrqOVg/3iv3vZKW2CJb3PI7IczDjhDRr5xKQTWLumt7zsjJ8BaBYlZeEBU
+wBMupEV0/PmPjT4nep978+SIugoc0iAnxNeLcRaG8V6EtRf99rMfCg3GlPzYJkWzNVu/bB6G7MBn
+sdQ=
 
 -->
