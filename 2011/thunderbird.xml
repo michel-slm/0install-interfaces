@@ -14,20 +14,20 @@ tagging and virtual folders. It also features unrivalled extensibility.</descrip
   <category>Network</category>
   <icon href="http://spreadthunderbird.com/sites/default/files/spreadthunderbird_logo.png" type="image/png"/>
   <group license="OSI Approved :: Mozilla Public License (MPL)">
-    <group released="2011-11-08" stability="stable" version="8.0">
-      <implementation arch="Linux-x86_64" id="sha1new=4ad6051c4fe7f607b760999f63c8613b95e5cbf4" main="thunderbird">
-        <archive extract="thunderbird" href="http://mozilla.ftp.halifax.rwth-aachen.de/mozilla/thunderbird/releases/8.0/linux-x86_64/en-US/thunderbird-8.0.tar.bz2" size="20886942" type="application/x-bzip-compressed-tar"/>
+    <group released="2011-12-23" stability="stable" version="9.0.1">
+      <implementation arch="Linux-x86_64" id="sha1new=4cf5b5cfb1750c46165d1bb21de24373ae5b92c9" main="thunderbird">
+        <archive extract="thunderbird" href="http://mirror2.hs-esslingen.de/ftp.mozilla.org/thunderbird/releases/9.0.1/linux-x86_64/en-US/thunderbird-9.0.1.tar.bz2" size="22025281" type="application/x-bzip-compressed-tar"/>
       </implementation>
-      <implementation arch="Linux-i686" id="sha1new=0deea5679c26aa3a7008193e7459cc802c156663" main="thunderbird">
-        <archive extract="thunderbird" href="http://download.mozilla.org/?product=thunderbird-8.0&amp;os=linux&amp;lang=en-US" size="18055050" type="application/x-bzip-compressed-tar"/>
+      <implementation arch="Linux-i686" id="sha1new=d452fd04f37fc92bc43f46af408db56e68be301c" main="thunderbird">
+        <archive extract="thunderbird" href="http://download.mozilla.org/?product=thunderbird-9.0.1&amp;os=linux&amp;lang=en-US" size="18995445" type="application/x-bzip-compressed-tar"/>
       </implementation>
     </group>
-    <group released="2011-11-03" stability="testing" version="8.0-pre5">
-      <implementation arch="Linux-x86_64" id="sha1new=b327b5ffcf871df70bab72ac1e58d20b86a5449d" main="thunderbird">
-        <archive extract="thunderbird" href="http://pv-mirror02.mozilla.org/pub/mozilla.org/thunderbird/releases/8.0b5/linux-x86_64/en-US/thunderbird-8.0b5.tar.bz2" size="20873569" type="application/x-bzip-compressed-tar"/>
+    <group released="2012-01-12" stability="testing" version="10.0" version-modifier="-pre3">
+      <implementation arch="Linux-x86_64" id="sha1new=d76ee23cf47965d40ea251812cbc8103d3f1d25f" main="thunderbird">
+        <archive extract="thunderbird" href="http://pv-mirror02.mozilla.org/pub/mozilla.org/thunderbird/releases/10.0b3/linux-x86_64/en-US/thunderbird-10.0b3.tar.bz2" size="22123466" type="application/x-bzip-compressed-tar"/>
       </implementation>
-      <implementation arch="Linux-i686" id="sha1new=5fd5561b0ae80b8c0271fab6442c0b68e37ffb3e" main="thunderbird">
-        <archive extract="thunderbird" href="http://download.mozilla.org/?product=thunderbird-8.0b5&amp;os=linux&amp;lang=en-US" size="18017634" type="application/x-bzip-compressed-tar"/>
+      <implementation arch="Linux-i686" id="sha1new=4b0e1c59b398053cc69aefa45c83246a6785acce" main="thunderbird">
+        <archive extract="thunderbird" href="http://download.mozilla.org/?product=thunderbird-10.0b3&amp;os=linux&amp;lang=en-US" size="19194624" type="application/x-bzip-compressed-tar"/>
       </implementation>
     </group>
     <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/dbus-glib.xml"/>
@@ -41,11 +41,11 @@ tagging and virtual folders. It also features unrivalled extensibility.</descrip
   <package-implementation distributions="Debian" main="/usr/bin/icedove" package="thunderbird"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJOwlySAAoJEFX/wTZE6YDhBxMH/2+EA9WwWNflW7zFyrfVjEyZ8UIBOyE+Gf4D
-uBDZfHtp2HiUpA4o1XE/YBW/SZALzIKb1Aarps7LIXg8E+vUmfEqJwi0TXgsD0bEJ+IaNxL1P2JG
-dv5HR9YX68EoCBnIVcXS01TjI40ccg5t8tcNDJ3psR23edmDXbG6W1Gn1oZNyBiI1jP/1IS66b5m
-6lwhCRd6TtBMburCLsLtYzZhapjIe/U/squCesc4vpDmImSNKgYRafN2X7gTadgwCCe79L/KXaWB
-RbN3jR/P3VYMJdo3C2sxAZQEPQL3MW5nbHmTPKh7jmEedu6aEctmdn+am5SIU+MCMlSBoyDUj0Tr
-O7g=
+iQEcBAABAgAGBQJPFBjRAAoJEFX/wTZE6YDhGs0H/18hQDsjC1sSSVTbN/RMaEA/AIa+4cBxlZc3
+q91IZ9pgR6CmN1pVm/9aoM7zAART33nzGvVakmnG/qQPRAa375AneRdqb5FS53HGEbQFbgTAgHt/
+9kSSzoECfTi+NBzL4qkVWX5JcUwdr9GD9AXuNW2T4d0g3h0xiFTtn3DzdlMPXdaQtEmgm1PEnWvy
+xPSm2ounPTyOodTSlo/W/EqEv4nGwm+MVBpuL743T4A1EdhkCifLsfwIqP7bSDJ96OnymdlOpU7E
+RtLYmW9vfcpLkCr0tgCiGixeHgsgEVwVZPCjO7JU08zO9T0lz4QU6CDohxvkHmt0gkRvlTjX4Spd
+WV8=
 
 -->
