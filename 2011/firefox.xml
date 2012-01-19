@@ -18,12 +18,12 @@ compliance, performance and portability.</description>
         <archive extract="firefox" href="http://download.mozilla.org/?product=firefox-9.0.1&amp;os=linux&amp;lang=en-US" size="16840315" type="application/x-bzip-compressed-tar"/>
       </implementation>
     </group>
-    <group released="2012-01-11" stability="testing" version="10.0" version-modifier="-pre4">
-      <implementation arch="Linux-i686" id="sha1new=e9d17569e017225782ed8c5e203b3e3a8d302023" main="firefox">
-        <archive extract="firefox" href="http://download.mozilla.org/?product=firefox-10.0b4&amp;os=linux&amp;lang=en-US" size="17751695" type="application/x-bzip-compressed-tar"/>
+    <group released="2012-01-18" stability="testing" version="10.0" version-modifier="-pre5">
+      <implementation arch="Linux-x86_64" id="sha1new=7b4b00d2521e30aeeef67ac0f9de5d2b2b0719ca" main="firefox">
+        <archive extract="firefox" href="http://dm-download02.mozilla.org/pub/mozilla.org/firefox/releases/10.0b5/linux-x86_64/en-US/firefox-10.0b5.tar.bz2" size="19489749" type="application/x-bzip-compressed-tar"/>
       </implementation>
-      <implementation arch="Linux-x86_64" id="sha1new=ee1a49ea97570926707edbd9cc5f86f8b015485e" main="firefox">
-        <archive extract="firefox" href="http://dm-download02.mozilla.org/pub/mozilla.org/firefox/releases/10.0b4/linux-x86_64/en-US/firefox-10.0b4.tar.bz2" size="19442658" type="application/x-bzip-compressed-tar"/>
+      <implementation arch="Linux-i686" id="sha1new=45aa92305b5d04f1b1f5c4f8879ab32ee08f5f4c" main="firefox">
+        <archive extract="firefox" href="http://download.mozilla.org/?product=firefox-10.0b5&amp;os=linux&amp;lang=en-US" size="17748460" type="application/x-bzip-compressed-tar"/>
       </implementation>
     </group>
     <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/gtk2.xml"/>
@@ -34,11 +34,11 @@ compliance, performance and portability.</description>
   <package-implementation distributions="Debian" main="/usr/bin/iceweasel" package="iceweasel"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJPExCbAAoJEFX/wTZE6YDhnZwH/2eYSbkSOGTcx/P6ymUY7TUzL9g8qgMIpKa0
-OTu9FR0vso9/A3xxAqFhyCVR04y8Fx0t3p7xkHT49Yn9ZvjKG20DA+g7MeZmxzbsyApT3nqHU6w8
-J0nY410NLKpN8wFrai8m131gniKBjyUCTtnZq5DDSGTkCuCmRMQMj8Q5mxMtUWTMXBWgS4ba+HNL
-PjQRGmKCbhC3LBLy/120loiPgKolUkhWcGJBvzhTf4CXzydeuD2FWw/cEgIzAYxSgFGo7lS76SM7
-3HaU5XBgqtfzv/DZTGIgNTItlV9ASd6KkPFBZx7WfCNQ1WAb10T2GUy4pU652jitTNcKKgIRG+5b
-9gs=
+iQEcBAABAgAGBQJPGEj2AAoJEFX/wTZE6YDhtXsIAKh4VbdCIqyeS3iE80+FzP2rMRmmLZqd7Iup
+WDDLtN1ULvd6Lao42hK/s5cRJKg5d9TUgiXfqq5nrD6EJkuFnNd2aLSqc4nlslYQPXHPMvM+7qr7
+0806rtfw5Cx1dYD4mieIfaIdA9oGoeJgqnAaWUBac+x6HtM0a5UxfNhoxIj3I91OOGMDL+eAW5bR
+GkwRxSmdgrNaCOIobpM+7jeGEGjBOFm5BLRKCSJppdT9wE3DCfJnH9pVfvxuQYkZir36lidbOdgO
+NM1KV/VVK50IPbzuixngUcV1AbrPiXYBBI4QvmNyb5UiKhrX9YLoUzIZgGQ1hKHUhDbI74ylk+Ss
+DD0=
 
 -->
