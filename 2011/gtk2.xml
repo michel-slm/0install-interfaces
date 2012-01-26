@@ -11,15 +11,17 @@ small one-off tools to complete application suites.</description>
   <category>System</category>
   <group/>
   <package-implementation distributions="RPM" package="gtk2"/>
+  <!-- openSUSE -->
+  <package-implementation distributions="RPM" package="libgtk-2_0-0"/>
   <package-implementation distributions="Debian" package="libgtk2.0-0"/>
   <package-implementation distributions="Gentoo" package="x11-libs/gtk+"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJOS9IGAAoJEFX/wTZE6YDhNSUH/RrCvIepKunQXQVbyrKw+coIdQMKhNYFTnHx
-vFZujifd/J7uuz2btdJrRFVqllC53V4qtjIPjOeq0lRIxFOWlVM8vxmzZbOAZP1MNd1Do54sJ+I/
-Smh+BXFN921kkrjUDHlwP7TYUp4qFcuazRs20F3d1i2DuL705Nusl7yplTIW7AbGaqIFitCeaaGQ
-ESksmyaKF+IwFDbvWBMl/9GMCpXDBIVLn4OZ0TVnc/3rXkXSP7OuYxEnPV+RabMVAXj/s+PUcXRZ
-bZ3YLGn+A0SUiBZ6G4BFKx3YQ0/6DcDBs0SxnxUwpGhG1CdNJzHEtfzhnON63awHP8SA8STUwUGX
-zqc=
+iQEcBAABAgAGBQJPIYT9AAoJEFX/wTZE6YDh63QH/Awi/IAXCks528EPco5TSSQEq5jOFoNmTUu1
+9pda7HhL8sdpCrEmQYEH//GsXb2DC6+4yJ7HcNKpWzjCZeNYMKeFov3qohmSyl6RQBNFtZ9OSXMZ
+hRGGOayF363u4qE+2N9TVhywueffSLjcz36XoIaOM3wjZYK4JTA/Tal7RREO6RmiapAm/9P+RUYY
+QFNg4A3/Hle3Ly4pCfl8T8ZBLGzj93Akin6zePRSW+NVD86sAqH4rYokPGRHDeo90wMXngRus7gZ
+l0gyrBpkbS5w0jdNAw/Pa3K+fpj8spLiTLueF7EgpVyyeUoaI/3p5jWXsYANvf37VdLIYYZC2wBf
+qgA=
 
 -->
