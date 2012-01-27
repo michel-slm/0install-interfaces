@@ -12,7 +12,7 @@ search and indexing capabilities, and offers easy organization of mails with
 tagging and virtual folders. It also features unrivalled extensibility.</description>
   <homepage>http://www.mozillamessaging.com/en-US/thunderbird/</homepage>
   <category>Network</category>
-  <icon href="http://spreadthunderbird.com/sites/default/files/spreadthunderbird_logo.png" type="image/png"/>
+  <icon href="http://avatar3.status.net/i/identica/49994-96-20090418170300.png" type="image/png"/>
   <group license="OSI Approved :: Mozilla Public License (MPL)">
     <group released="2011-12-23" stability="stable" version="9.0.1">
       <implementation arch="Linux-x86_64" id="sha1new=4cf5b5cfb1750c46165d1bb21de24373ae5b92c9" main="thunderbird">
@@ -22,12 +22,12 @@ tagging and virtual folders. It also features unrivalled extensibility.</descrip
         <archive extract="thunderbird" href="http://download.mozilla.org/?product=thunderbird-9.0.1&amp;os=linux&amp;lang=en-US" size="18995445" type="application/x-bzip-compressed-tar"/>
       </implementation>
     </group>
-    <group released="2012-01-12" stability="testing" version="10.0" version-modifier="-pre3">
-      <implementation arch="Linux-x86_64" id="sha1new=d76ee23cf47965d40ea251812cbc8103d3f1d25f" main="thunderbird">
-        <archive extract="thunderbird" href="http://pv-mirror02.mozilla.org/pub/mozilla.org/thunderbird/releases/10.0b3/linux-x86_64/en-US/thunderbird-10.0b3.tar.bz2" size="22123466" type="application/x-bzip-compressed-tar"/>
+    <group released="2012-01-25" stability="testing" version="10.0" version-modifier="-pre5">
+      <implementation arch="Linux-i686" id="sha1new=bee14b5ebcce6bf06d6a9b056741f83794522bfa" main="thunderbird">
+        <archive extract="thunderbird" href="http://download.mozilla.org/?product=thunderbird-10.0b5&amp;os=linux&amp;lang=en-US" size="19186872" type="application/x-bzip-compressed-tar"/>
       </implementation>
-      <implementation arch="Linux-i686" id="sha1new=4b0e1c59b398053cc69aefa45c83246a6785acce" main="thunderbird">
-        <archive extract="thunderbird" href="http://download.mozilla.org/?product=thunderbird-10.0b3&amp;os=linux&amp;lang=en-US" size="19194624" type="application/x-bzip-compressed-tar"/>
+      <implementation arch="Linux-x86_64" id="sha1new=383252f740bd18a5eb2a01d031574aa48e990f13" main="thunderbird">
+        <archive extract="thunderbird" href="http://pv-mirror01.mozilla.org/pub/mozilla.org/thunderbird/releases/10.0b5/linux-x86_64/en-US/thunderbird-10.0b5.tar.bz2" size="22066026" type="application/x-bzip-compressed-tar"/>
       </implementation>
     </group>
     <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/dbus-glib.xml"/>
@@ -41,11 +41,11 @@ tagging and virtual folders. It also features unrivalled extensibility.</descrip
   <package-implementation distributions="Debian" main="/usr/bin/icedove" package="thunderbird"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJPFBjRAAoJEFX/wTZE6YDhGs0H/18hQDsjC1sSSVTbN/RMaEA/AIa+4cBxlZc3
-q91IZ9pgR6CmN1pVm/9aoM7zAART33nzGvVakmnG/qQPRAa375AneRdqb5FS53HGEbQFbgTAgHt/
-9kSSzoECfTi+NBzL4qkVWX5JcUwdr9GD9AXuNW2T4d0g3h0xiFTtn3DzdlMPXdaQtEmgm1PEnWvy
-xPSm2ounPTyOodTSlo/W/EqEv4nGwm+MVBpuL743T4A1EdhkCifLsfwIqP7bSDJ96OnymdlOpU7E
-RtLYmW9vfcpLkCr0tgCiGixeHgsgEVwVZPCjO7JU08zO9T0lz4QU6CDohxvkHmt0gkRvlTjX4Spd
-WV8=
+iQEcBAABAgAGBQJPIprnAAoJEFX/wTZE6YDhuOEH/RhkycwvPHWk4zsmQ5QKlumfiYYfgSZX/zMP
+gaikVd2R0Wbri3mcgrGCZt7KdIVI720XoQaKG5SvNBQ345ca23Mbmy0ytq8sWFDsMRil11aT4Hxk
+2zV8aS+8eWDe6DJmUuWycMuQi+frwudJUh8GKJhfYvpuR7LZtFps1wB4/OlPIbvn3yqKl5dgHZoH
+t/dRnjSnTqttqX8PTR+N0Cgiq2lhdTPfuQSme1OJKSXDFeMeOZRcInE8SQQaJmJRsvKyqyXhK6ZI
+M1IY2p4Kk422MsyGWbjTJ1cCtT/sopnqypwSpsCq3p6EooT+KLE741aaCIO82MjDx/k+W/hl34y/
+rP8=
 
 -->
