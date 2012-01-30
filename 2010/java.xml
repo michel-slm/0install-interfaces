@@ -10,7 +10,10 @@ Java runtime environment</description>
   <group license="OSI Approved :: GNU General Public License v2">
     <package-implementation distributions="Debian" package="default-jre"/>
     <package-implementation distributions="RPM" package="java-1.6.0-openjdk"/>
+    <package-implementation distributions="RPM" package="java-1.7.0-openjdk"/>
+    <!-- openSUSE -->
     <package-implementation distributions="RPM" package="java-1_6_0-openjdk"/>
+    <package-implementation distributions="RPM" package="java-1_7_0-openjdk"/>
   </group>
   <group license="Other/Proprietary License">
     <package-implementation distributions="RPM" package="java-1_6_0-sun"/>
@@ -18,11 +21,11 @@ Java runtime environment</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJMYs/0AAoJEFX/wTZE6YDh0UgIALnbYTBfRdG2pmu6snf/35pfLreI5KCppnjN
-lFv8FlUN7G6ulGjI8x2PUSbgESOVV7fj8DiUa9oVEj3rrfhAzw2l1rjENUedGLlEnF4AQr+2Ws1n
-iroHFodUrsfS9IgsTHm4ydF8fEwAWIVOqbpuYfchWvKIt/qZjtpkfe+IiMP98q+LYK9HGGaQNks1
-DiIP+JMiA4ISo2T2ppohHkQjLfxZrNKe/5y+xIAF6Px0L1TO/FnxtuNnHfYoDmGluXnVOVnh/mvF
-NX0OwCOqmtkVU8o+YH7ACnPD5Bn4xsqpiDsyhlLrlMCFrVhuYmf4y3fRNdV+d0C5Y6HseOetmPF5
-6Dc=
+iQEcBAABAgAGBQJPJtVBAAoJEFX/wTZE6YDhJd4H/2vX2x625GtO7ki6al7J8+6CkbTWqnRJSyWB
+SU1OdNPJqKQO7+lGAmp/6z0ke9A/XAsJvE8va6xkiOMgUvAfXEE+7dnNB+TssPBczBZeCQaw2jiL
+lAQ/jVvUEP1Vq4sLlzVT9P/Av31jAoFKC/PkTKoZ9EqQhYglI1o/t1GAqoXm2/9HTUL89yYtZnQm
+S+ceOg+089ZJA9VG+NIHchgneU6PJiafYEzYYAFaBBVKBh96SdEuW8RYZmhcM1dRLKwsmkk9keSS
+6J1TJ1/sbNwcUD+Jkqo8Pq4ea3uFtFV71oitofsvHz0DT2mAHDL6MBl5RMwpawwJaeIc8IN7qrz9
+n1Y=
 
 -->
