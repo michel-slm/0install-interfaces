@@ -12,7 +12,7 @@ search and indexing capabilities, and offers easy organization of mails with
 tagging and virtual folders. It also features unrivalled extensibility.</description>
   <homepage>http://www.mozillamessaging.com/en-US/thunderbird/</homepage>
   <category>Network</category>
-  <icon href="http://avatar3.status.net/i/identica/49994-96-20090418170300.png" type="image/png"/>
+  <icon href="http://mojo.informatik.uni-erlangen.de/interfaces/images/thunderbird.png" type="image/png"/>
   <group license="OSI Approved :: Mozilla Public License (MPL)">
     <group released="2011-12-23" stability="stable" version="9.0.1">
       <implementation arch="Linux-x86_64" id="sha1new=4cf5b5cfb1750c46165d1bb21de24373ae5b92c9" main="thunderbird">
@@ -41,11 +41,11 @@ tagging and virtual folders. It also features unrivalled extensibility.</descrip
   <package-implementation distributions="Debian" main="/usr/bin/icedove" package="thunderbird"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJPIprnAAoJEFX/wTZE6YDhuOEH/RhkycwvPHWk4zsmQ5QKlumfiYYfgSZX/zMP
-gaikVd2R0Wbri3mcgrGCZt7KdIVI720XoQaKG5SvNBQ345ca23Mbmy0ytq8sWFDsMRil11aT4Hxk
-2zV8aS+8eWDe6DJmUuWycMuQi+frwudJUh8GKJhfYvpuR7LZtFps1wB4/OlPIbvn3yqKl5dgHZoH
-t/dRnjSnTqttqX8PTR+N0Cgiq2lhdTPfuQSme1OJKSXDFeMeOZRcInE8SQQaJmJRsvKyqyXhK6ZI
-M1IY2p4Kk422MsyGWbjTJ1cCtT/sopnqypwSpsCq3p6EooT+KLE741aaCIO82MjDx/k+W/hl34y/
-rP8=
+iQEcBAABAgAGBQJPKc/+AAoJEFX/wTZE6YDhYSYH/jrgaCMzWu7iZQRKgRyt+KDH+HzvO4qvOF39
+pf9hPfVK4uQQro6+g7fBxyR8LYzXNZyel6gb9xpP0PyUWbpIaY3Ct7zLBP65sGuznicXuxLKn9Hz
+wD8DZTa3vAHpSc7DMAeNrn07SJQwO9uroLMSQ9cMLhLKmF/FuwCUqLaBCIAQ3c7loKcHTaX4sESg
+FC5HDMZYFFK1MQoXM0a8GI5JjpqUg8vjlwytDm4Ha9x0xroCQpUwHB4A4yDcm4tpyKV3XWGMXT/u
+M917q8iEK3ygQiv1+m2ekOGHDhR7Wr68aqKmA76uFpP6Q0sw42xCY3Rein/WY8s3Gj9N2LeJrA/j
++U4=
 
 -->
