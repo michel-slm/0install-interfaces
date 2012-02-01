@@ -14,22 +14,24 @@ installation.</description>
   <icon href="http://mojo.informatik.uni-erlangen.de/interfaces/images/tomcat-power.png" type="image/png"/>
   <group license="The Apache License 2.0">
     <group stability="stable">
-      <implementation id="sha1new=2d32979f9270b86fe88c35ed512e09f7013f778b" released="2011-11-25" version="7.0.23">
-        <archive extract="apache-tomcat-7.0.23" href="http://mirror.netcologne.de/apache.org/tomcat/tomcat-7/v7.0.23/bin/apache-tomcat-7.0.23.tar.gz" size="7459741" type="application/x-compressed-tar"/>
-      </implementation>
       <implementation id="sha1new=4753d595f95860bc051ad4f2eebb63ba753b44c9" released="2011-12-05" version="6.0.35">
         <archive extract="apache-tomcat-6.0.35" href="http://mirror.netcologne.de/apache.org/tomcat/tomcat-6/v6.0.35/bin/apache-tomcat-6.0.35.tar.gz" size="6697806" type="application/x-compressed-tar"/>
       </implementation>
     </group>
+    <group stability="testing">
+    <implementation id="sha1new=a5eae143b31d1111dc0be62a166e01dea515a813" released="2012-01-21" version="7.0.25">
+        <archive extract="apache-tomcat-7.0.25" href="http://apache.mirror.clusters.cc/tomcat/tomcat-7/v7.0.25/bin/apache-tomcat-7.0.25.tar.gz" size="7527434" type="application/x-compressed-tar"/>
+      </implementation>
+  </group>
     <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2010/java.xml"/>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJO8bjmAAoJEFX/wTZE6YDh9v0IAI0eMISvLiKGew2WS+l/9ysHfNUvJUaYBxs+
-1aIQQ/RLFyhtaItrxiXCyMrgfq0DMnXBJg64d2Y0LTnWrEh12uoZoYubUkOzTQZfqB/p6jp/bxtf
-Fx6cSI8jgsEXdHi3yL+t1acSjgIWLkd3QIwpkJdIQmJyZrqGotgvwJSYqWaNAO7v1W6+Nv8q1l/r
-506izcJzTWvNAZhhx7ZArCAX6sn9i3GwRY1fpEZMiMCRVn0C5vILhkJiedNXoYStLQZAPaRdIeQX
-uHEawXlcHzvN+qHhiJOXDLJO0fyjQYDFkJYRIvP+6CI6zQFZ64KPcnnZd0nUzqcW0TNtjCZphsRr
-ZL8=
+iQEcBAABAgAGBQJPKVVgAAoJEFX/wTZE6YDhqZ4IALQTSm2eoCLtTtdWXcznQnU27ooJ0Yby8QCi
+S6IsdIN3z/mf50w6ezOwcbAGZj6YnViewmIwGIw8mpwIMeIB5zv5UVA1V6Q8VlT4D5KvsmbBhMLl
+cAq6fR0GhuZD4L61omPbtG1rfn548Zsgg2CiJiI4dTZtMsemnvTogdVNkopOgedsF6iUiZ3QhVXt
+fH5Io/ZUJGQ0aXJZb/rkfH1z7kcwiSbDMIOQCBXM5U5SGGF9EISesZ351YbDaU4hLaNqJXwbM9xK
+QRT7J+BEWDQNVQzxUiDDSoXyiBAGNHEqPF7fgvOfswUcsnOuKMDPGiDScrHEDA0WJZ7qoCa5EQ8p
+/EE=
 
 -->
