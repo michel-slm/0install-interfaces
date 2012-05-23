@@ -5,5 +5,5 @@ else
   FEEDS="$@"
 fi
 for feed in ${FEEDS}; do
-  0publish -x -k 44E980E1 ${feed}
+  0publish -u -x -k A36A937A ${feed}
 done
