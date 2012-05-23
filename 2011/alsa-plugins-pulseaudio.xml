@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://mojo.informatik.uni-erlangen.de/interfaces/2011/alsa-plugins-pulseaudio.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface uri="http://hircus.multics.org/interfaces/2011/alsa-plugins-pulseaudio.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>alsa-plugins-pulseaudio</name>
   <summary>Alsa to PulseAudio backend</summary>
   <description>
@@ -15,11 +15,11 @@ mixer control.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJOoysHAAoJEFX/wTZE6YDhGUEH/ii/OOsCuxDd19ziXKcJk0rWMbF3YOt7hY1y
-rHJbdZgnVUtIylSHtMpvsCOfMqTFIvwgMhzoAXf26hxf2m3T4IPCRsZiz4pbblT6DtW2WnnrIUr1
-PVzCY8oH8vPe3/0tgfEqkGLYOfiXjhevQr5S/Qi6sZ6fmAo5/2H0HT3ChIvTSsy2L4WqwAg000t6
-VnEnIL3QTS/lWihgcWHAUfSgSjl8s8o+tBeo2hvUPqXLtVpXD9jnR86MhGjPw2/Q85AmTUddozMl
-bzBV8a/z1z5VchnBWw1QrZLWfREACQNgTJKrsceJZDHalknGZb5aa0apYGmo28ZPcixAgR3CxDMb
-ivc=
+iQEcBAABAgAGBQJPvKq0AAoJEEr1VKujapN6dQIH/1apowB0AwSMy9wunmyGp5hm07WMBtgs2Wmb
++FdkS3Z9bdLmPS1gQ7SJ7C6lFLOfA2kuz9VYgS17tQ59TklQok9/fgRkFo/LtxflOhaVUZKG68lT
+xDxUGHRkHEoouVdnrX5PMSNHnO5NWQMFfZPuCtg5cLdA3T3xGKkZgjAzXPLwFNbvHvnAx+ON7f45
+ji1VNtfS8VnQDzBiVY14B1fwD3AyHXb5wBcoBH7invi+7IwKsb+AurePe7C0emyi1zW9AjXMqBmN
+3kmPyzIZ2aSV65Ydm2fiAhyVEzUlosejN6PlY8HG24KKeehl92iEDb2JfZQFp5hFcwpgVHMzRbvN
+Ark=
 
 -->

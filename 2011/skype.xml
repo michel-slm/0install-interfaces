@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://mojo.informatik.uni-erlangen.de/interfaces/2011/skype.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface uri="http://hircus.multics.org/interfaces/2011/skype.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>Skype</name>
   <summary>Free Internet telephony that just works</summary>
   <description>
@@ -18,24 +18,24 @@ use Skype to make low-cost calls to landlines and mobiles.
 * Free to download.</description>
   <homepage>http://www.skype.com/</homepage>
   <category>Network</category>
-  <icon href="http://mojo.informatik.uni-erlangen.de/interfaces/images/SkypeBlue_512x512.png" type="image/png"/>
+  <icon href="http://hircus.multics.org/interfaces/images/SkypeBlue_512x512.png" type="image/png"/>
   <group arch="Linux-i386" license="Freely Distributable">
     <implementation id="sha1new=df6db5a22a8cb8cae6cf68f877f354b08002f324" main="skype" released="2011-06-08" stability="testing" version="2.2.0.35">
     <archive extract="skype-2.2.0.35" href="http://download.skype.com/linux/skype-2.2.0.35.tar.bz2" size="23079739" type="application/x-bzip-compressed-tar"/>
-      <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/libXss.xml"/>
+      <requires interface="http://hircus.multics.org/interfaces/2011/libXss.xml"/>
   </implementation>
-    <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/alsa-plugins-pulseaudio.xml"/>
-    <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/libXss.xml"/>
-    <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/libXv.xml"/>
-    <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/qt-x11.xml"/>
+    <requires interface="http://hircus.multics.org/interfaces/2011/alsa-plugins-pulseaudio.xml"/>
+    <requires interface="http://hircus.multics.org/interfaces/2011/libXss.xml"/>
+    <requires interface="http://hircus.multics.org/interfaces/2011/libXv.xml"/>
+    <requires interface="http://hircus.multics.org/interfaces/2011/qt-x11.xml"/>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJOoyrTAAoJEFX/wTZE6YDhm+kH/AkbN58H3tn3lp2nemB+cl3SEv66v0XATwy6
-pDx1UlKpT04Qg27ZuKjIxwmJvZnrGRj6/f5OvhkWkOhFJfVLpL79PbJ8s94NNZD80ilZlWPEfF1k
-Q8AKNnIOXq9yMJE0q3UZ+D0BwgtUCd6ZNn0QRdIEZfHcHFwFBMjeVlZZoUvE7U4ZiIut/vX6FxZr
-WgVV68nloYUFXgPTlOaMUWEhSsl5FIOJMfjPViQkPkK3gSckf27J5PETTvL7Z+tk22qAbtNmFQBs
-m6174X/0qNa96tNu0HpuCKO7PT22MUaXMgZiOd3ZG0u9uj8zvcodkdKpAdTnj2dvZpmQEe5xXHmA
-oPk=
+iQEcBAABAgAGBQJPvKp/AAoJEEr1VKujapN6ljUH/1+VBRYksGH5X6yYSaKRavyiFLmir267/NCp
+HroJSfMY7/K2YpbyOqM/0kBZE96+ThM5OlsL8QjDNr2ou4BE1KRH76VKVAiY8E3XhpQ7nykegVT8
+5m5nxS/ApcKIgBfy9NkL9spdRfVGiQngpbd83zoXQ/wLp+pwKGcA5Cazx7FXTOLCNdj4L5vFAp5x
+UWO5ODZan45dZUrOas8BVypzfVTWneVs9nxOCx7IMgZKFSeIdEisH6IRrholP/2CQqFQXSI9VvSW
+t/L9q6giro/+5f1qebt2sDbMH27eW7mnGOZHK1qmuJXSHYzZ6lbCaYXmeZ2qIwT3rRhDyYIRmrrw
+k4E=
 
 -->

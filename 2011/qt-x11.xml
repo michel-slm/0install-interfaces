@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://mojo.informatik.uni-erlangen.de/interfaces/2011/qt-x11.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface uri="http://hircus.multics.org/interfaces/2011/qt-x11.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>qt-x11</name>
   <summary>Qt GUI-related libraries</summary>
   <description>
@@ -12,11 +12,11 @@ Qt libraries used for drawing widgets and OpenGL items.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJN/RqdAAoJEFX/wTZE6YDhAdIIAJjwlZCrBhD/UtWLmtOzIwoE4DjjGzr+tRFp
-tz0W0fvy7xgv4h+YnmH93Nzclm46qo35Cs3c/hCrZTfW47hCqbrgeymCwMDQMDw87DuKDck+1Rt9
-jaebIDp2OERZnG6B3DL9BONIz0AZbYwcuM4PnZXbk7dJ1PYgAHsvd+g96nAaBxVO3JBcSbgWM5Iu
-4Yh5CwjNuyOcuRMd3Wh6pHNVAls7/MvjnH941l0ULc+0iOZeuFuYRZBp4zLPe9QfL69/oUXY3QBy
-uw+8vB30OrEs6XIghOsaJuAOlVoIhRct8xI26CsU4XSuh4w9MiUDYKtZEqj3f2DYWEaBXvr1Rc7L
-E2s=
+iQEcBAABAgAGBQJPvKtGAAoJEEr1VKujapN6/0QH/1vG81MfTrhyJ8PJWN3J5LnwwbfShLJbbBP5
+/OcOOywbpFkmeaB1+KjgsSSqR8u04+LKOPoZzaBm/YBgAxP2/4fdnjg19Ra5+sHJkQxKMaB8Negc
+WnoL/N1ke5MvQtGMFPDzAuisKs4I3PW95dc/vsKu/VixOjyMG9WI5Bkj5z6a20slP9DPE+dKAR5p
+6XjjnqHFU95qQO4rLq2W2pwJI+4y0qowo6olVZ54kHhMv8yP/V6LELglRCycWh2DNLsKPr1+DbBx
+CMoKgeTapwD0ZGskAtRCRmKTnEtPvCjaBrtuAg9Y7pHO599OmxifuyNqm4j/AC8S2IHtSfwRikvu
+3rs=
 
 -->
