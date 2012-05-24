@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://mojo.informatik.uni-erlangen.de/interfaces/2010/java.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface uri="http://hircus.multics.org/interfaces/2010/java.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>java</name>
   <summary>Java Runtime Environment</summary>
   <description>
@@ -21,11 +21,11 @@ Java runtime environment</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJPJtVBAAoJEFX/wTZE6YDhJd4H/2vX2x625GtO7ki6al7J8+6CkbTWqnRJSyWB
-SU1OdNPJqKQO7+lGAmp/6z0ke9A/XAsJvE8va6xkiOMgUvAfXEE+7dnNB+TssPBczBZeCQaw2jiL
-lAQ/jVvUEP1Vq4sLlzVT9P/Av31jAoFKC/PkTKoZ9EqQhYglI1o/t1GAqoXm2/9HTUL89yYtZnQm
-S+ceOg+089ZJA9VG+NIHchgneU6PJiafYEzYYAFaBBVKBh96SdEuW8RYZmhcM1dRLKwsmkk9keSS
-6J1TJ1/sbNwcUD+Jkqo8Pq4ea3uFtFV71oitofsvHz0DT2mAHDL6MBl5RMwpawwJaeIc8IN7qrz9
-n1Y=
+iQEcBAABAgAGBQJPvh5pAAoJEEr1VKujapN6D18H/jTWc8r23VmSpjy6Qrz3JCBwclKcotjvAfrg
+Ccqj23uTcxZcFmEcEJ3ROHm00COurHOLf/Hq9li1+8rGsKh1LAu7jUlI1DVHf+8R1gcJNeEUO7R3
+swy8On488u/okdgXJy5mXCK9OG7D+N7THWBLI+bzhGy1NVZArHNB2DAKDqvL608M7E7OdDj8H95P
+5nB8AhWh80qNSBTFraHHCwcNQAm0no/d0KT2pfb4e41IxN4vx53POXvEj8zW8kECTMpNT7iwV8Vo
+Z11fCXTGrrnH7yV+vXN6148nRxVjGPzAdGoebaB/yzaSJRZWY2wtoY4vcpaZdcGTtDXtjKytHyE+
+0JQ=
 
 -->

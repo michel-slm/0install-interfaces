@@ -1,16 +1,16 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://mojo.informatik.uni-erlangen.de/interfaces/2010/eclipse-jee.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface uri="http://hircus.multics.org/interfaces/2010/eclipse-jee.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>Eclipse JEE</name>
   <summary>Eclipse IDE for Java EE Developers</summary>
   <description>
 Tools for Java developers creating Java EE and Web applications, including a
 Java IDE, tools for Java EE, JPA, JSF, Mylyn and others.</description>
   <homepage>http://eclipse.org/</homepage>
-  <icon href="http://mojo.informatik.uni-erlangen.de/interfaces/images/eclipse.png" type="image/png"/>
+  <icon href="http://hircus.multics.org/interfaces/images/eclipse.png" type="image/png"/>
   <category>Development</category>
   <group license="Eclipse Public License">
-    <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2010/java.xml"/>
+    <requires interface="http://hircus.multics.org/interfaces/2010/java.xml"/>
     <group stability="stable">
       <group arch="Linux-i386">
  <implementation id="sha1new=02b31d97de79c941c8e767daa6d11942d14037b5" main="eclipse" released="2012-02-24" version="3.7.2">
@@ -38,11 +38,11 @@ Java IDE, tools for Java EE, JPA, JSF, Mylyn and others.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJPUDNnAAoJEFX/wTZE6YDhP7UH/28KH+k7+NBrB+z2dcovh1gR1kgsAcHdiGD2
-uMu9FR6+JhNezD+CDMQ+LXbYgHZHGeDcC0QL0JUjKaaavsp1LQW+b4qSXzLwQ8rDVTYEAT/Vb0x2
-QgCx4+2t3UL43IsAt/mrHh+Lc1tsz6mRanLYmkt6j8yDk2flOSjTKqOWzIqpj4iwds9XPV3GPsTd
-69nRtAJVSo2rttZc2WfOIzGQF2WC0EAW6QPpT2bvzj+iGihXyyKlkSN2Ui9pxjJS10LApzoH4oAI
-jcbWQ04jPVFtdbvLZCRaMC8t4aq/ISGQcdRkTKjan6IvcvQI03B81skm61H1PPMJr4rULUH9lo+S
-0uc=
+iQEcBAABAgAGBQJPvh5fAAoJEEr1VKujapN6+KwH/0x2937UBNy+XZNnu6ugG2G4p1Yd8PAQs8yl
+M8SeZrFYmyqf8D3Hy0S4DWoeCtKnSMsM5Fj7bBKotG1xHu7ryzIzsXvXnNCwXe8TgQoST5Ck5so0
+DVQlvWKLRKumJQ3OLfG6+rxEudeYFCE0f/cpKn8IPpfLzxwr6ylKatBf2BUj75qyRfqHOBfrWHbq
+sdauVGOIipRxHVyEp+DXH1vGEj89ECjCbWQtlpmvzM17laguD8LFPD8FvUmLwLH/bAg+e1Tou7ku
+VsXXLiZuUxcFtBuJK6LlbWAmascg6zCPrfC3Iz3yR2rpVgbcA1MJ6zHpBSvqGzKLH15LlZB+NDVY
+++E=
 
 -->
