@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://mojo.informatik.uni-erlangen.de/interfaces/2011/maven.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface uri="http://hircus.multics.org/interfaces/2011/maven.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>maven</name>
   <summary>Java software project management and comprehension tool</summary>
   <description>
@@ -11,22 +11,22 @@ reporting and documentation from a central piece of information.</description>
   <category>Development</category>
   <group license="The Apache License 2.0">
     <group stability="stable">
-      <implementation id="sha1new=125a0aa1bbf997c13192007fcd394088f339b303" main="bin/mvn" released="2011-03-04" version="3.0.3">
-    <archive extract="apache-maven-3.0.3" href="http://mirror.netcologne.de/apache.org//maven/binaries/apache-maven-3.0.3-bin.tar.gz" size="3054807" type="application/x-compressed-tar"/>
-  </implementation>
+      <implementation id="sha1new=ad79e8041c0f56df14617d207370ef3d70141bea" main="bin/mvn" released="2012-01-20" version="3.0.4">
+        <archive extract="apache-maven-3.0.4" href="http://apache.mirrors.pair.com/maven/binaries/apache-maven-3.0.4-bin.tar.gz" size="4873043" type="application/x-compressed-tar"/>
+      </implementation>
       <implementation id="sha1new=3d6c2e01916223061527d60b9599b7b1989a63e8" main="bin/mvn" released="2009-08-11" version="2.2.1">
         <archive extract="apache-maven-2.2.1" href="http://mirror.netcologne.de/apache.org//maven/binaries/apache-maven-2.2.1-bin.tar.gz" size="2840961" type="application/x-compressed-tar"/>
       </implementation>
     </group>
-    <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2010/java.xml"/>
+    <requires interface="http://hircus.multics.org/interfaces/2010/java.xml"/>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJOCuUjAAoJEFX/wTZE6YDhA7AIAI6TOdSAY2im1mD+SfT8QR3R0/vdFJpOTy0u
-BEtTeZIkTs+ADzp+1Dn6E8zPfuOMFWVm7otUAQz0bUsjoSo6O23Ih++JOC8UzmUtEEgvQNFFnMju
-FcGHXmFjOkmdA5jh/mtj4P3FXv/jQv0Ga5IkEcMlpIZxDXf4QSW7/WbO/HpsAsfoMF+1/KSaTNGn
-fdXsmzmy0ZJDQHonok04/GMFpNCmMo+3nSvNJtOjI9bd8yiRgBxDzdVQXP1AVsBrLSBOWwKIbT4F
-mEasHln1GUrIS8IkjIm1aB3tFAxSEqvfbQNNMopsnWkf6R9oLh+DpeQB8K8uGao9kTY/DBMuicMR
-Trs=
+iQEcBAABAgAGBQJPwQtbAAoJEEr1VKujapN6x+cH/ifYB609CKei+NAf4RkRIMECFC28b9+hYkve
+3wUPoNj4nzAMug9xlICupCnPXw+XZu8WjtfwI3i4m2lAMHsAnAInOp/U1pQiObv8cBmUbMqKFgin
++kNzRcrj5saFnmtuXQQdAJe5r5BaityHApP9prOOcg/UloHWJwtkZhbud78rqXztP3MPt63BX1bo
+v14yZ91sbDTxFCAO6np6F2CJ8Wtat7HyDvB0BAtuDkLOBRZ0RbOt7efVdNxMieJsZOW5t34Ha60l
+A0+Iyu6f3awC3ZuUp2YOxoeawn7KkyzFkoAsuDwZk2hrg+k8xU4vVgU4HsEmdF0Las5cT6/xO/KR
+nOc=
 
 -->
