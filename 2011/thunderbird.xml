@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://mojo.informatik.uni-erlangen.de/interfaces/2011/thunderbird.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface uri="http://hircus.multics.org/interfaces/2011/thunderbird.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>Thunderbird</name>
   <summary>Email, RSS and newsgroup client with integrated spam filter</summary>
   <description>
@@ -12,26 +12,18 @@ search and indexing capabilities, and offers easy organization of mails with
 tagging and virtual folders. It also features unrivalled extensibility.</description>
   <homepage>http://www.mozillamessaging.com/en-US/thunderbird/</homepage>
   <category>Network</category>
-  <icon href="http://mojo.informatik.uni-erlangen.de/interfaces/images/thunderbird.png" type="image/png"/>
+  <icon href="http://hircus.multics.org/interfaces/images/thunderbird.png" type="image/png"/>
   <group license="OSI Approved :: Mozilla Public License (MPL)">
-    <group released="2011-12-23" stability="stable" version="9.0.1">
-      <implementation arch="Linux-x86_64" id="sha1new=4cf5b5cfb1750c46165d1bb21de24373ae5b92c9" main="thunderbird">
-        <archive extract="thunderbird" href="http://mirror2.hs-esslingen.de/ftp.mozilla.org/thunderbird/releases/9.0.1/linux-x86_64/en-US/thunderbird-9.0.1.tar.bz2" size="22025281" type="application/x-bzip-compressed-tar"/>
+    <group released="2012-06-05" stability="stable" version="13.0">
+      <implementation arch="Linux-i686" id="sha1new=bbe0fa9cee4fdf4d1c2c8e8ee5ee8082a24e7480" main="thunderbird">
+        <archive extract="thunderbird" href="http://download.mozilla.org/?product=thunderbird-13.0&amp;os=linux&amp;lang=en-US" size="20347765" type="application/x-bzip-compressed-tar"/>
       </implementation>
-      <implementation arch="Linux-i686" id="sha1new=d452fd04f37fc92bc43f46af408db56e68be301c" main="thunderbird">
-        <archive extract="thunderbird" href="http://download.mozilla.org/?product=thunderbird-9.0.1&amp;os=linux&amp;lang=en-US" size="18995445" type="application/x-bzip-compressed-tar"/>
-      </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=301c252d8aa61749bd134afd0d523d6098f6d7ef" main="thunderbird">
+    <archive extract="thunderbird" href="http://3347-mozilla.voxcdn.com/pub/mozilla.org/thunderbird/releases/13.0/linux-x86_64/en-US/thunderbird-13.0.tar.bz2" size="23380588" type="application/x-bzip-compressed-tar"/>
+  </implementation>
     </group>
-    <group released="2012-01-25" stability="testing" version="10.0" version-modifier="-pre5">
-      <implementation arch="Linux-i686" id="sha1new=bee14b5ebcce6bf06d6a9b056741f83794522bfa" main="thunderbird">
-        <archive extract="thunderbird" href="http://download.mozilla.org/?product=thunderbird-10.0b5&amp;os=linux&amp;lang=en-US" size="19186872" type="application/x-bzip-compressed-tar"/>
-      </implementation>
-      <implementation arch="Linux-x86_64" id="sha1new=383252f740bd18a5eb2a01d031574aa48e990f13" main="thunderbird">
-        <archive extract="thunderbird" href="http://pv-mirror01.mozilla.org/pub/mozilla.org/thunderbird/releases/10.0b5/linux-x86_64/en-US/thunderbird-10.0b5.tar.bz2" size="22066026" type="application/x-bzip-compressed-tar"/>
-      </implementation>
-    </group>
-    <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/dbus-glib.xml"/>
-    <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/gtk2.xml">
+    <requires interface="http://hircus.multics.org/interfaces/2011/dbus-glib.xml"/>
+    <requires interface="http://hircus.multics.org/interfaces/2011/gtk2.xml">
       <version before="3.0.0"/>
     </requires>
   </group>
@@ -41,11 +33,11 @@ tagging and virtual folders. It also features unrivalled extensibility.</descrip
   <package-implementation distributions="Debian" main="/usr/bin/icedove" package="thunderbird"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJPKc/+AAoJEFX/wTZE6YDhYSYH/jrgaCMzWu7iZQRKgRyt+KDH+HzvO4qvOF39
-pf9hPfVK4uQQro6+g7fBxyR8LYzXNZyel6gb9xpP0PyUWbpIaY3Ct7zLBP65sGuznicXuxLKn9Hz
-wD8DZTa3vAHpSc7DMAeNrn07SJQwO9uroLMSQ9cMLhLKmF/FuwCUqLaBCIAQ3c7loKcHTaX4sESg
-FC5HDMZYFFK1MQoXM0a8GI5JjpqUg8vjlwytDm4Ha9x0xroCQpUwHB4A4yDcm4tpyKV3XWGMXT/u
-M917q8iEK3ygQiv1+m2ekOGHDhR7Wr68aqKmA76uFpP6Q0sw42xCY3Rein/WY8s3Gj9N2LeJrA/j
-+U4=
+iQEcBAABAgAGBQJPzxQPAAoJEEr1VKujapN6OEkH+gNsyZ+ns89C2jS0Xytg7RD/wUimDrJQGjLG
+qwDeGAyAEqnCaSFnCvpEKQrBm/y63YdU+EXf6TJgo7rr1BS1pBSnZPQwKdExJNsu5HHHRKP8q0U6
+G3qwAMhIWQ4qVfcP+GEonDzTUWgEgh5ihj3sD+StsdMHXZxG4vRk42IVPUsagSpxWInMGQyps85c
+It4+t3jhEkOe6NDhkrRLz7H8IuogwK0MCfIJlO/jzZW2x9CoMgxo3CaRIz7BcGA7UOkQtqCDzHjz
+c7BA6NAb+AkbgaDlpJ8Gv64Fk6ZQdFv5+VGYV99tfweyZwfA/hlX9jSMhoclCzwv7sJFI39+5zED
+3d8=
 
 -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://mojo.informatik.uni-erlangen.de/interfaces/2011/gtk2.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface uri="http://hircus.multics.org/interfaces/2011/gtk2.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>gtk2</name>
   <summary>The GIMP ToolKit (GTK+), a library for creating GUIs for X</summary>
   <description>
@@ -17,11 +17,11 @@ small one-off tools to complete application suites.</description>
   <package-implementation distributions="Gentoo" package="x11-libs/gtk+"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJPIYT9AAoJEFX/wTZE6YDh63QH/Awi/IAXCks528EPco5TSSQEq5jOFoNmTUu1
-9pda7HhL8sdpCrEmQYEH//GsXb2DC6+4yJ7HcNKpWzjCZeNYMKeFov3qohmSyl6RQBNFtZ9OSXMZ
-hRGGOayF363u4qE+2N9TVhywueffSLjcz36XoIaOM3wjZYK4JTA/Tal7RREO6RmiapAm/9P+RUYY
-QFNg4A3/Hle3Ly4pCfl8T8ZBLGzj93Akin6zePRSW+NVD86sAqH4rYokPGRHDeo90wMXngRus7gZ
-l0gyrBpkbS5w0jdNAw/Pa3K+fpj8spLiTLueF7EgpVyyeUoaI/3p5jWXsYANvf37VdLIYYZC2wBf
-qgA=
+iQEcBAABAgAGBQJPzwa+AAoJEEr1VKujapN6CbwH/3KYvPnfoIynD9pWocPV/OZERkG6QHT1A242
+eC3NgLPsuAKXvIAZbvkC6QwmaW6quoEHcS1G3fVA703soz9d+vdO2DYd7ffFr0RjiNTv4Uo+ZqJI
+ZvkNUJdxHI1F4/HJ/T5WXSCKC7lSRIaSYMFXsqe0r+8iv/+HZT9qn4SAMuc7DP1As9fmg4pJQrf8
+DPFV4PaMVF7bIYjdKvaEs1xrKbH0kaxMb3STy9jEZvK66cOMBSmk0rtpqXAJqrIQGjl+2HFsBP85
++mAzAn4qTnRKRuDosPuud9wk33Kk+z0VL6KleIk2xWb0Ay7TT3o4g4RRxKj4A7F2uzNPzOKgh9Wy
+u5c=
 
 -->

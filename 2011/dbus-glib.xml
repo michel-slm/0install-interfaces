@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://mojo.informatik.uni-erlangen.de/interfaces/2011/dbus-glib.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface uri="http://hircus.multics.org/interfaces/2011/dbus-glib.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>dbus-glib</name>
   <summary>GLib bindings for D-Bus</summary>
   <description>
@@ -15,11 +15,11 @@ thread abstraction and main loop.</description>
   <package-implementation distributions="Gentoo" package="dev-libs/dbus-glib"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJOS9KrAAoJEFX/wTZE6YDhBC0H/0CbGpl/bH79wb4UFG+wZctqupLqhVocjnBK
-QV59REpRsqInzv5iec7b5HNJnbWKUTlT3BHJ35onTIAXM4+ztU/RWwH5zpCupB7U+nn6YuhqGY4j
-B112FgxzBzPe5JMKjy+0EVWqZWtKMZTL6b9uYoRZ9iCEZ+4dxoAeerGb1jHqeTZfHjlTBTluNK8J
-h4S2U+gOftEuosLg+GLWGHnqNgpjwk+7wXscFvX2b7hkyVo4ZQz0VGoGh7u8hJB+ECBAy7HKV8Mk
-0NPC3MMuYhSS0Fz7pJ2bzCnVMQZ3gY3rNrWyE2+lkxCJyMN+VXZnq5V4G/O/jDiGLi8MS96PG7xv
-46Q=
+iQEcBAABAgAGBQJPzwasAAoJEEr1VKujapN61ykH/0GMZT5zDKqqqlkUApZGdijhdzeEXXInBRcd
+0y4obRfso2uCGjqXuSjaGpo9fHMw8yuJNMpa1Kc8CxpBBwb/lutMsV8kWoioaw/cOC668WPV9M9o
+3oCCQBm/2ucn/HiC8jRrVs+jcwVNhsHayFCpqF6lH1vNPRK1fyRvGlkk+DCRECYt+gDq9mR5lxzN
+cNPBBcumu1YaT9Rltq1X7tkj6lBae81RlqsZmnjBZk5pxE9mpRLWJyZsBO1uljlm5/byUoekp5QW
+gTtjb3nkOuUqobARSJBOQ3GhrlAvERKN2Y9i3QuH4/0x9rjRZtQ6Yq1z6hCs9PeYyke3u1KQ3pIf
+shg=
 
 -->

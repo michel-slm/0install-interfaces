@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://mojo.informatik.uni-erlangen.de/interfaces/2011/firefox-launcher.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface uri="http://hircus.multics.org/interfaces/2011/firefox-launcher.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>Firefox (launcher)</name>
   <summary>Launcher script for Mozilla Firefox Web browser</summary>
   <description>
@@ -15,23 +15,23 @@ plugins, potentially wrapped using nspluginwrapper</description>
   <group license="OSI Approved :: Mozilla Public License (MPL)">
     <group stability="testing">
       <implementation id="sha1new=18129f388b956f246984d02c78c482703b610847" main="firefox.sh" released="2011-08-30" version="0.1.1">
-        <archive extract="firefox-launcher-0.1.1" href="http://mojo.informatik.uni-erlangen.de/interfaces/dist/firefox-launcher-0.1.1.tar.bz2" size="609" type="application/x-bzip-compressed-tar"/>
+        <archive extract="firefox-launcher-0.1.1" href="http://hircus.multics.org/interfaces/dist/firefox-launcher-0.1.1.tar.bz2" size="606" type="application/x-bzip-compressed-tar"/>
       </implementation>
       <implementation id="sha1new=07b65da6980f4d4854a463bef56bece1a133ae87" main="firefox.sh" released="2011-08-17" version="0.1.0">
-    <archive extract="firefox-launcher-0.1.0" href="http://mojo.informatik.uni-erlangen.de/interfaces/dist/firefox-launcher-0.1.0.tar.bz2" size="3826" type="application/x-bzip-compressed-tar"/>
+    <archive extract="firefox-launcher-0.1.0" href="http://hircus.multics.org/interfaces/dist/firefox-launcher-0.1.0.tar.bz2" size="528" type="application/x-bzip-compressed-tar"/>
   </implementation>
     </group>
-    <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2011/firefox.xml">
+    <requires interface="http://hircus.multics.org/interfaces/2011/firefox.xml">
       <environment insert="" mode="prepend" name="FIREFOX_HOME"/>
     </requires>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJOXI4vAAoJEFX/wTZE6YDhXDEIAJPSkokWIGLyhapHF7Ii6L8pPLePogwLFIRF
-bkAOpug53IIx4xFT832W9RY2BGhG47utW2xSyqnxo6dEXNbPKUniV9oHGnoj7YP25rUaCu61sjt8
-ECiCQNkyfRHn4fZFAxyRcOl4NJ+a9CsNN2vlqZzXiym9nDlC7aO9fkw5924C6QpZOole6QDIChPE
-Fmlt8lFYA90dEIYGmFZs46yNZkKRVrf5svm5BpW+5CRw3DgbDivwVo8yu3YvXv0tFbdosTVf9szR
-vadYUCvItXJg8jmKJsb2MmI1ydO8QPyXJ+7lxOpEkD+ZCTcUVLk3YfYxoFH2ZwHDJCC7+5RSgs4j
-K5U=
+iQEcBAABAgAGBQJPzxWJAAoJEEr1VKujapN6BTgH/0zmh1KxSNkH26V4sbp7L+g+xeUSxmuhl27J
+GKsu4i7QcST2DsegYWXM3V9H9Bk7yEhR16HdtvQP5DpSR7NGg9mFL0vnIb+zgNhrPs1pe0v0j0To
+NbHp7kNvrUnym4gj43mwRQgolC/cqQtSeOI8722ahwZ87icMKkgfxfDIgdAIM7Ui2P22U92OLXl7
+SUucbUR+qp+qxgnl2wRkq9y7vLYyyLyNEKKGoDtl2eB7FbKAiOLtXeXI6u+JYSTOBvxGBO90UrKh
+maVEbylKZTGpLqT1lUfTymegsIvN0Ou1+K2OttaozlEu319b0EUqtRExxeViEmkx3+UAKtdY4NYI
+aF4=
 
 -->
