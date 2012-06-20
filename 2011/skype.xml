@@ -20,10 +20,9 @@ use Skype to make low-cost calls to landlines and mobiles.
   <category>Network</category>
   <icon href="http://hircus.multics.org/interfaces/images/SkypeBlue_512x512.png" type="image/png"/>
   <group arch="Linux-i386" license="Freely Distributable">
-    <implementation id="sha1new=df6db5a22a8cb8cae6cf68f877f354b08002f324" main="skype" released="2011-06-08" stability="testing" version="2.2.0.35">
-    <archive extract="skype-2.2.0.35" href="http://download.skype.com/linux/skype-2.2.0.35.tar.bz2" size="23079739" type="application/x-bzip-compressed-tar"/>
-      <requires interface="http://hircus.multics.org/interfaces/2011/libXss.xml"/>
-  </implementation>
+    <implementation id="sha1new=bdd6d4bc1c748c63715f2c04bc4b798dd80b54a8" main="skype" released="2012-06-17" stability="stable" version="4.0.0.7">
+      <archive extract="skype-4.0.0.7" href="http://download.skype.com/linux/skype-4.0.0.7.tar.bz2" size="28817742" type="application/x-bzip-compressed-tar"/>
+    </implementation>
     <requires interface="http://hircus.multics.org/interfaces/2011/alsa-plugins-pulseaudio.xml"/>
     <requires interface="http://hircus.multics.org/interfaces/2011/libXss.xml"/>
     <requires interface="http://hircus.multics.org/interfaces/2011/libXv.xml"/>
@@ -31,11 +30,11 @@ use Skype to make low-cost calls to landlines and mobiles.
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJPvKp/AAoJEEr1VKujapN6ljUH/1+VBRYksGH5X6yYSaKRavyiFLmir267/NCp
-HroJSfMY7/K2YpbyOqM/0kBZE96+ThM5OlsL8QjDNr2ou4BE1KRH76VKVAiY8E3XhpQ7nykegVT8
-5m5nxS/ApcKIgBfy9NkL9spdRfVGiQngpbd83zoXQ/wLp+pwKGcA5Cazx7FXTOLCNdj4L5vFAp5x
-UWO5ODZan45dZUrOas8BVypzfVTWneVs9nxOCx7IMgZKFSeIdEisH6IRrholP/2CQqFQXSI9VvSW
-t/L9q6giro/+5f1qebt2sDbMH27eW7mnGOZHK1qmuJXSHYzZ6lbCaYXmeZ2qIwT3rRhDyYIRmrrw
-k4E=
+iQEcBAABAgAGBQJP4VTxAAoJEEr1VKujapN6958IAIYO78J1VJQpuZ+R/iNwcNAvLehOGyGqN20S
+O3lo5SpJCx+ifJNyQeDf5UIz0m2X8h5Tb9HclmG05A6h+29oKz/s4g50kKBhIY00TU5agfabQPvW
+av2Qa9mJ5kElvXh+XjyjbNP4tyvs3wTEBL0RNF5yUKthaHrJsPkwZ13+OXrinMPLPsd6WAXZWR7K
+kuAgJaqKPi0aFI2mVF1FgGPEf4d6Vf7no+FDPxq2xtH3ChsxKaZu5IoRqV6vN5k9wo6q81YFzhih
+DHB0zHndHGkz3HP5UGDLkITcAnH06bl6sNmVYqPh0bQedmJJfMUuW+hN+3ksi4vCAg8k8jq1WTip
+13w=
 
 -->
