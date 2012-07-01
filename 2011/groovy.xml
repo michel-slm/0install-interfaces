@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://mojo.informatik.uni-erlangen.de/interfaces/2011/groovy.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface uri="http://hircus.multics.org/interfaces/2011/groovy.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>Groovy</name>
   <summary>An agile dynamic language for the Java Platform</summary>
   <description>
@@ -20,21 +20,23 @@ unit test cases.</description>
   <category>Development</category>
   <icon href="http://media.xircles.codehaus.org/_projects/groovy/_logos/medium.png" type="image/png"/>
   <group license="The Apache License 2.0">
-    <implementation id="sha1new=30f4e003dc1b70a1b52a7c0cbe3cd544b4e04df4" main="bin/groovyConsole" released="2011-07-21" stability="testing" version="1.9.0" version-modifier="-pre1">
-      <archive extract="groovy-1.9.0-beta-1" href="http://dist.groovy.codehaus.org/distributions/groovy-binary-1.9.0-beta-1.zip" size="16010072" type="application/zip"/>
+    <group stability="stable">
+    <implementation id="sha1new=9161bb6c72524665653797677eb039032cdcc508" main="bin/groovyConsole" released="2012-06-28" version="2.0.0">
+      <archive extract="groovy-2.0.0" href="http://dist.groovy.codehaus.org/distributions/groovy-binary-2.0.0.zip" size="28084831" type="application/zip"/>
     </implementation>
     <implementation id="sha1new=d53502c514b84bedc7ff97b0f29a7596980cae13" main="bin/groovyConsole" released="2011-07-21" stability="stable" version="1.8.1">
     <archive extract="groovy-1.8.1" href="http://dist.groovy.codehaus.org/distributions/groovy-binary-1.8.1.zip" size="15703979" type="application/zip"/>
   </implementation>
-    <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2010/java.xml"/>
+  </group>
+    <requires interface="http://hircus.multics.org/interfaces/2010/java.xml"/>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJOPtqYAAoJEFX/wTZE6YDh+scIAJwd5r30LyQZjlm3dCXl2fBxVxu1IAQu7RtW
-FjOCtyQB22/+CCZa6diJqJaaAprqLnefYxv6Tk43oFnpeNaCUsv12cBrd6rO1PB7ZUevSaI2QboV
-iLYEET2zjzgJ95aYLUqrSw1omZXUb8jzhYpDYPrfo/tZJPnTpodQsqZgCOenbshZ+MlWWzLQI+zk
-CXsdhGApp+BlrxCmymwTwdn/gQifW/BMWDIg316JJv9weW2VcvAaTopykUQkSOH0XdB5+bLCogsl
-GJQ4oOXgTO6xAUA/eTIx7A6TgfZ07NxeJG1fNsttjekgaHSd+x0XIcoS12OfLEALZP6WUhNykYPd
-ZNI=
+iQEcBAABAgAGBQJP8ByEAAoJEEr1VKujapN6zZsH+wa/efFdN1B9Oj0ADUU9MovWeAIeDVy1YScq
+dt2RQGIdk8H4H702tIy+/pMsPz13MhEXSxfAVoKrWGMLtD1Y8XKJccpv4I9sQLgk0iQIJnJANB7j
+OTW+qKHJ11mhw9bK8laVwAr+sxges+cvHP+dg6AG1ZfPpFnoQpws0k0qz6/EDX5wDbTzczjyXFID
+RHNe3mD7EAxBBjyf3rCNuvYbk735wXg36Pt2rq5lC2qC3wiyYpyWQ7nlqSfXTb3yVR9wfk1A+DQB
+Z8srZ+Bqm3sZrqJz0sbauy05N6tyaF6JEWwSCAvA55sq4h4aly7N6siUTiENGUE88U5fW1Y/Osza
+pvw=
 
 -->
