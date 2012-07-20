@@ -14,13 +14,13 @@ tagging and virtual folders. It also features unrivalled extensibility.</descrip
   <category>Network</category>
   <icon href="http://hircus.multics.org/interfaces/images/thunderbird.png" type="image/png"/>
   <group license="OSI Approved :: Mozilla Public License (MPL)">
-    <group released="2012-06-05" stability="stable" version="13.0">
-      <implementation arch="Linux-i686" id="sha1new=bbe0fa9cee4fdf4d1c2c8e8ee5ee8082a24e7480" main="thunderbird">
-        <archive extract="thunderbird" href="http://download.mozilla.org/?product=thunderbird-13.0&amp;os=linux&amp;lang=en-US" size="20347765" type="application/x-bzip-compressed-tar"/>
+    <group released="2012-07-17" stability="stable" version="14.0">
+      <implementation arch="Linux-i686" id="sha1new=5b449b45735170df7f7a304790d6b5942eefb713" main="thunderbird" version="14.0">
+        <archive extract="thunderbird" href="http://download.mozilla.org/?product=thunderbird-14.0&amp;os=linux&amp;lang=en-US" size="20622085" type="application/x-bzip-compressed-tar"/>
       </implementation>
-      <implementation arch="Linux-x86_64" id="sha1new=301c252d8aa61749bd134afd0d523d6098f6d7ef" main="thunderbird">
-    <archive extract="thunderbird" href="http://3347-mozilla.voxcdn.com/pub/mozilla.org/thunderbird/releases/13.0/linux-x86_64/en-US/thunderbird-13.0.tar.bz2" size="23380588" type="application/x-bzip-compressed-tar"/>
-  </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=2aa043601d20eac1b12f8cb050e0a208a560744f" main="thunderbird">
+        <archive extract="thunderbird" href="http://3347-mozilla.voxcdn.com/pub/mozilla.org/thunderbird/releases/14.0/linux-x86_64/en-US/thunderbird-14.0.tar.bz2" size="23772663" type="application/x-bzip-compressed-tar"/>
+      </implementation>
     </group>
     <requires interface="http://hircus.multics.org/interfaces/2011/dbus-glib.xml"/>
     <requires interface="http://hircus.multics.org/interfaces/2011/gtk2.xml">
@@ -33,11 +33,11 @@ tagging and virtual folders. It also features unrivalled extensibility.</descrip
   <package-implementation distributions="Debian" main="/usr/bin/icedove" package="thunderbird"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJPzxQPAAoJEEr1VKujapN6OEkH+gNsyZ+ns89C2jS0Xytg7RD/wUimDrJQGjLG
-qwDeGAyAEqnCaSFnCvpEKQrBm/y63YdU+EXf6TJgo7rr1BS1pBSnZPQwKdExJNsu5HHHRKP8q0U6
-G3qwAMhIWQ4qVfcP+GEonDzTUWgEgh5ihj3sD+StsdMHXZxG4vRk42IVPUsagSpxWInMGQyps85c
-It4+t3jhEkOe6NDhkrRLz7H8IuogwK0MCfIJlO/jzZW2x9CoMgxo3CaRIz7BcGA7UOkQtqCDzHjz
-c7BA6NAb+AkbgaDlpJ8Gv64Fk6ZQdFv5+VGYV99tfweyZwfA/hlX9jSMhoclCzwv7sJFI39+5zED
-3d8=
+iQEcBAABAgAGBQJQCSzWAAoJEEr1VKujapN6pk8H/iDScYE5lWE80qXEmwynxiKikmPmSCvGKv08
+t61H9qLPpSKFMQO89WKhsDO8izYD4bImLysHqMsculDa3NYLXNCqAGJhkqq5G+0bVakqmYAHaSKm
+1XUwAHz2wtD2Z5WXWb27nRC9q6CjmAdvY4LVAgZGSznHOiVC28k8/AfOPmu6RfjtzyYRbCWbGPJS
+7E4Vk5BDsqVxO9g11wpUxpQ+haMN6iZQmdq6deGhoHW5mhF4nC05IjGVnVJJSazJhjFehYqYme/c
+fmSr38KrozGbuiYesHb1A9o0BvPShZ97cXxc6FEp6Poy83BRBjm5lCUkoMfmb+h+1UzVOGXs+K3R
+Wow=
 
 -->
