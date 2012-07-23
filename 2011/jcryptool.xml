@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://mojo.informatik.uni-erlangen.de/interfaces/2011/jcryptool.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface uri="http://hircus.multics.org/interfaces/2011/jcryptool.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>jcryptool</name>
   <summary>cryptography e-learning platform</summary>
   <description>
@@ -16,25 +16,25 @@ including classic, symmetric, and asymmetric encryption, hash functions,
 analysis tools, and number games.</description>
   <homepage>http://jcryptool.sourceforge.net/</homepage>
   <category>Education</category>
-  <icon href="http://mojo.informatik.uni-erlangen.de/interfaces/images/JCrypTool.png" type="image/png"/>
+  <icon href="http://hircus.multics.org/interfaces/images/JCrypTool.png" type="image/png"/>
   <group license="Eclipse Public License">
-    <group released="2011-12-29" stability="testing" version="1.0.0" version-modifier="-rc5">
-    <implementation arch="Linux-i386" id="sha1new=b62d2a1e7a2597c63292c871dc02969980ce63ce" main="JCrypTool">
-      <archive extract="jcryptool" href="http://downloads.sourceforge.net/project/jcryptool/jcryptool/JCrypTool%20Release%20Candidate%205/jcryptool-1.0.0-RC5.linux.gtk.x86.zip" size="62445688" type="application/zip"/>
+    <group released="2012-07-15" stability="testing" version="1.0.0-rc6">
+      <implementation arch="Linux-x86_64" id="sha1new=16d907e49c98e7accad736e02568981aa0f9ae29" main="JCrypTool">
+      <archive extract="jcryptool" href="http://cloud.github.com/downloads/jcryptool/core/jcryptool-1.0.0-RC6.linux.gtk.x86_64.zip" size="63633527" type="application/zip"/>
     </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=c4062cf9d133c27aa82529fba453f27284bada43" main="JCrypTool">
-      <archive extract="jcryptool" href="http://downloads.sourceforge.net/project/jcryptool/jcryptool/JCrypTool%20Release%20Candidate%205/jcryptool-1.0.0-RC5.linux.gtk.x86_64.zip" size="62652306" type="application/zip"/>
-    </implementation>
-  </group>
-    <requires interface="http://mojo.informatik.uni-erlangen.de/interfaces/2010/java.xml"/>
+      <implementation arch="Linux-i386" id="sha1new=68688eabf9cd4679d700958f33f6a90d4d9e35be" main="JCrypTool">
+        <archive extract="jcryptool" href="http://cloud.github.com/downloads/jcryptool/core/jcryptool-1.0.0-RC6.linux.gtk.x86.zip" size="63427084" type="application/zip"/>
+      </implementation>
+    </group>
+    <requires interface="http://hircus.multics.org/interfaces/2010/java.xml"/>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJPFIKEAAoJEFX/wTZE6YDhWF4IALRVLHYFsTAusmkIDi0VNzI0rFCXqsrA5oX0
-8EvrAF9j0dn1NLNPUZ6klkAM+aj5D3TRay5fDJicz3rJE22/tS5QCJNtxoqZ1qGNBm35CR3QZBuP
-UV6/aODfGFzsFZZCRVqUM5h5bb1TVQPZ8rIc7FLlDLA+Nd488oXIrny9bkbu/Uyu/Rq5EHmzejJ6
-W/ujfvCut8EeSOiDcsOrqOVg/3iv3vZKW2CJb3PI7IczDjhDRr5xKQTWLumt7zsjJ8BaBYlZeEBU
-wBMupEV0/PmPjT4nep978+SIugoc0iAnxNeLcRaG8V6EtRf99rMfCg3GlPzYJkWzNVu/bB6G7MBn
-sdQ=
+iQEcBAABAgAGBQJQDV9QAAoJEEr1VKujapN6f5UIAInHhQn1AvqSYFwGVgSc/Ltv62rgiWhgFZiQ
+ewSf2ii+B0UUQDwaDn8rsAaH7r4JSksGPRs97nrylXM68vWbSIJIWTSCbDsdOw4em8K/a279dZgD
+OHSN3/HORmhyeUO/EQhyfotA63X0pZH+XVE1U/MyhZiOJ2tGx1ROWkkGqBQtn+kYxGrY46jVqQXH
+RlN1SAk8OI0qCCJv4TE7MXK0uZAgYlFTNDr9TRgKZ5tJQLSc0FTbYVAYRYDSN63TYmncAyOdfmg1
+CXMwozxDOxNfudV/aodDvaZWeL/OCSBzbt5japHlzlgmYSOc4ZBsRkyRR+liV2JP0nsKMhkxC5b4
+OsQ=
 
 -->
