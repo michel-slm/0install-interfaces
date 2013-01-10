@@ -23,6 +23,9 @@ use Skype to make low-cost calls to landlines and mobiles.
     <implementation id="sha1new=bdd6d4bc1c748c63715f2c04bc4b798dd80b54a8" main="skype" released="2012-06-17" stability="stable" version="4.0.0.7">
       <archive extract="skype-4.0.0.7" href="http://download.skype.com/linux/skype-4.0.0.7.tar.bz2" size="28817742" type="application/x-bzip-compressed-tar"/>
     </implementation>
+    <implementation id="sha1new=f89640c98230a0e623546216573387ec8fef1292" main="skype" released="2012-11-15" stability="stable" version="4.1.0.20">
+      <archive extract="skype-4.1.0.20" href="http://download.skype.com/linux/skype-4.1.0.20.tar.bz2" size="30500691" type="application/x-bzip-compressed-tar"/>
+    </implementation>
     <requires interface="http://hircus.multics.org/interfaces/2011/alsa-plugins-pulseaudio.xml"/>
     <requires interface="http://hircus.multics.org/interfaces/2011/libXss.xml"/>
     <requires interface="http://hircus.multics.org/interfaces/2011/libXv.xml"/>
@@ -30,11 +33,11 @@ use Skype to make low-cost calls to landlines and mobiles.
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJP4VTxAAoJEEr1VKujapN6958IAIYO78J1VJQpuZ+R/iNwcNAvLehOGyGqN20S
-O3lo5SpJCx+ifJNyQeDf5UIz0m2X8h5Tb9HclmG05A6h+29oKz/s4g50kKBhIY00TU5agfabQPvW
-av2Qa9mJ5kElvXh+XjyjbNP4tyvs3wTEBL0RNF5yUKthaHrJsPkwZ13+OXrinMPLPsd6WAXZWR7K
-kuAgJaqKPi0aFI2mVF1FgGPEf4d6Vf7no+FDPxq2xtH3ChsxKaZu5IoRqV6vN5k9wo6q81YFzhih
-DHB0zHndHGkz3HP5UGDLkITcAnH06bl6sNmVYqPh0bQedmJJfMUuW+hN+3ksi4vCAg8k8jq1WTip
-13w=
+iQEcBAABAgAGBQJQ7u51AAoJEEr1VKujapN6LDcH/j/EpNH2/I3ksa4dZGEo6kcmli3EzHyjyGg4
+abd45zjUdBZo3H0BYCwvlYegI51gdmEIln6tjRCqIf46Tkjxn+63ZOCsux/AVsIPgtTVKRx1TWhc
+/J10dqXrC5VP0yR26NfmVbws6Oj6unOI/yDZ1ua/gOQJ2cJGm5oXfZXX4ButmS1hF5KrK67/0i0A
+zSvNL4Xd3vJfaFJUmUxno1jGCBKgFCy4X+JEzpeAoEWUwhPOnuthMp/jJFz4O69pp6cCksDyeygv
+MtO4ni8rrFA6y73upABAMA1A3+CIObNd3FtCsNe6Z2j9mI/SEDN1ib79rvWulVGkg/4kEWlbJXvl
+Nz4=
 
 -->
