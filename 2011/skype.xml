@@ -29,15 +29,12 @@ use Skype to make low-cost calls to landlines and mobiles.
     <requires interface="http://hircus.multics.org/interfaces/2011/alsa-plugins-pulseaudio.xml"/>
     <requires interface="http://hircus.multics.org/interfaces/2011/libXss.xml"/>
     <requires interface="http://hircus.multics.org/interfaces/2011/libXv.xml"/>
+    <requires interface="http://hircus.multics.org/interfaces/2011/qt-webkit.xml"/>
     <requires interface="http://hircus.multics.org/interfaces/2011/qt-x11.xml"/>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJQ7u51AAoJEEr1VKujapN6LDcH/j/EpNH2/I3ksa4dZGEo6kcmli3EzHyjyGg4
-abd45zjUdBZo3H0BYCwvlYegI51gdmEIln6tjRCqIf46Tkjxn+63ZOCsux/AVsIPgtTVKRx1TWhc
-/J10dqXrC5VP0yR26NfmVbws6Oj6unOI/yDZ1ua/gOQJ2cJGm5oXfZXX4ButmS1hF5KrK67/0i0A
-zSvNL4Xd3vJfaFJUmUxno1jGCBKgFCy4X+JEzpeAoEWUwhPOnuthMp/jJFz4O69pp6cCksDyeygv
-MtO4ni8rrFA6y73upABAMA1A3+CIObNd3FtCsNe6Z2j9mI/SEDN1ib79rvWulVGkg/4kEWlbJXvl
-Nz4=
+iEYEABECAAYFAlHsjV4ACgkQNd069XiIR3hOtwCdEe54HKzouFLEgZLAJKTfe+GkldYAnjQWBKec
+7/7i4o8RyKq5Yu8ZUn1u
 
 -->

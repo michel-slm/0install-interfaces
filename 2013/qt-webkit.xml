@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://hircus.multics.org/interfaces/2013/qt-webkit.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>qt-webkit</name>
+  <summary>Qt WebKit bindings</summary>
+  <description>
+Qt WebKit bindings..</description>
+  <homepage>http://www.qtsoftware.com/</homepage>
+  <category>Graphics</category>
+  <group arch="Linux-*" license="OSI Approved :: BSD License (revised)" stability="stable">
+    <package-implementation distributions="RPM" package="qtwebkit"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAlHsjXsACgkQNd069XiIR3gYWwCggnHXbkTDvwIt1g193UwKS/5tcbUAnRJPxm5u
+2EmX8UX3Tpt0PFomJspp
+
+-->
