@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://hircus.multics.org/interfaces/2011/libXss.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface uri="http://michel-slm.alwaysdata.net/0install/2011/libXss.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>libXss</name>
   <summary>X.Org X11 libXss runtime library</summary>
   <description>
@@ -12,11 +12,11 @@ X.Org X11 libXss runtime library</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJPvKrlAAoJEEr1VKujapN651cH+wZB6VxbZiHxhfKef1poG87EYIuaHi+8B+Vc
-yzuJauQlP2ukiDBHVaikAdYHLbDMZ3bkR5ZqjTlAZgGwWq3Pkb4l9BqlelDcI/BmFQnwp1RvY+jn
-NFR+KaLDs1VRNOO6Tc0wgN+iM/yNM35GiX4D49YoJa5AQypaGXyx21XOGX9R6wQh9KgqSG/qBboK
-yMZu39G+5XTnNQy7CW40HhTD4I2Aq3eT62u5AbKTTH+d2/1lsdElvp0nzCMaff1+YWf0Xul1Z5LO
-Y8+y1EOJgYcqYWqHrrMZlHa/NrS5OfVPYErHQKyy+Zgqb/bq2wGf+OdY1mENmtHt/iiJc4/hPuYT
-Azs=
+iQEcBAABAgAGBQJTB5ekAAoJEEr1VKujapN6CNEH/ivv8uj8vejQX3AI6W5DeVsWA37cWYt2nOxX
+nNwwL4NmYBD1X/y231114AorqNgKb+Un+maINWJEbxguUZXtKz6xFOFpt8otKtpXoPqDP9SOtUf2
+RPkgFoYmYPYCCf86upxO0dhTBPpoaSpQ5Qd1jLKdur6djY5OOxLxHxlxqNtoI2doQEv3trknCdj9
+jL5m/17FN711lGLZIzpgTnKq9adC+CNV7ZwWGrVzlw7z9r0u4RZltmQimlTpxBMmSqceM5in13aK
+ZBp1IpRc9lk0hBy0HIc5abLEKo1Sd91EaPIQ81hM1WavKHG0wga+MJ68TrK2nlEkt5fLYsQQFZSJ
+fKs=
 
 -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://hircus.multics.org/interfaces/2011/skype.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface uri="http://michel-slm.alwaysdata.net/0install/2011/skype.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>Skype</name>
   <summary>Free Internet telephony that just works</summary>
   <description>
@@ -18,23 +18,24 @@ use Skype to make low-cost calls to landlines and mobiles.
 * Free to download.</description>
   <homepage>http://www.skype.com/</homepage>
   <category>Network</category>
-  <icon href="http://hircus.multics.org/interfaces/images/SkypeBlue_512x512.png" type="image/png"/>
+  <icon href="http://michel-slm.alwaysdata.net/0install/images/SkypeBlue_512x512.png" type="image/png"/>
   <group arch="Linux-i386" license="Freely Distributable">
-    <implementation id="sha1new=bdd6d4bc1c748c63715f2c04bc4b798dd80b54a8" main="skype" released="2012-06-17" stability="stable" version="4.0.0.7">
-      <archive extract="skype-4.0.0.7" href="http://download.skype.com/linux/skype-4.0.0.7.tar.bz2" size="28817742" type="application/x-bzip-compressed-tar"/>
+    <implementation id="sha1new=a797257ada38bc9c43d78d8f30196c6a46f440c0" main="skype" released="2014-02-22" stability="stable" version="4.2.0.13">
+      <archive extract="skype-4.2.0.13" href="http://download.skype.com/linux/skype-4.2.0.13.tar.bz2" size="15459189" type="application/x-bzip-compressed-tar"/>
     </implementation>
-    <implementation id="sha1new=f89640c98230a0e623546216573387ec8fef1292" main="skype" released="2012-11-15" stability="stable" version="4.1.0.20">
-      <archive extract="skype-4.1.0.20" href="http://download.skype.com/linux/skype-4.1.0.20.tar.bz2" size="30500691" type="application/x-bzip-compressed-tar"/>
-    </implementation>
-    <requires interface="http://hircus.multics.org/interfaces/2011/alsa-plugins-pulseaudio.xml"/>
-    <requires interface="http://hircus.multics.org/interfaces/2011/libXss.xml"/>
-    <requires interface="http://hircus.multics.org/interfaces/2011/libXv.xml"/>
-    <requires interface="http://hircus.multics.org/interfaces/2011/qt-webkit.xml"/>
-    <requires interface="http://hircus.multics.org/interfaces/2011/qt-x11.xml"/>
+    <requires interface="http://michel-slm.alwaysdata.net/0install/2011/alsa-plugins-pulseaudio.xml"/>
+    <requires interface="http://michel-slm.alwaysdata.net/0install/2011/libXss.xml"/>
+    <requires interface="http://michel-slm.alwaysdata.net/0install/2011/libXv.xml"/>
+    <requires interface="http://michel-slm.alwaysdata.net/0install/2011/qt-webkit.xml"/>
+    <requires interface="http://michel-slm.alwaysdata.net/0install/2011/qt-x11.xml"/>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlHsjV4ACgkQNd069XiIR3hOtwCdEe54HKzouFLEgZLAJKTfe+GkldYAnjQWBKec
-7/7i4o8RyKq5Yu8ZUn1u
+iQEcBAABAgAGBQJTB5eJAAoJEEr1VKujapN6ukYH/RohYbNOT3DMEzLGwWhi8drar6iOt/4+DKjU
+t5fOe5z6vCaHuYowHWN6o0cz3O/M70sveiI3Y4+hJHqcpdqXLhpHBtGLn5/qAXSDm1WIT9ji2rPt
+LJgiEJXKhVIiRqLWpvDlS2mqdtaXJ81CbSo4tuB/m13drayPFaWDZNIkmJRunAFJJGBCly9x0gxu
+/NzLfboCwLASgHkmFz3VSpvVEbtgfUJ59puu0TbJJfSQamd9IF79sJfjcybE9Ud5fGTK4NnPsdij
+ejkKKDF8ZEjGHNeMAXFW7YutpLkAkb5g6k71kjmMN31cCu0w9JwJfD862onmcH1En/Q37Bn8xqmB
+QsY=
 
 -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://michel-slm.alwaysdata.com/0install/2011/qt-webkit.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface uri="http://michel-slm.alwaysdata.net/0install/2011/qt-webkit.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>qt-webkit</name>
   <summary>Qt WebKit bindings</summary>
   <description>
@@ -13,11 +13,11 @@ Qt WebKit bindings</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJTB5IiAAoJEEr1VKujapN6YoQH+gL7RS1awkIDzVkQjefJN9eGO/IO75NKRPp3
-h7tVsfht+Tq0bPl+sItVANDGesRownih1y99VTnYlma/Z3tJ5XDxyjP07Yc1iE5wQR3iZ2tojlCz
-JWBq8sFUtFA3WdlfvSRUAuhckAEXSuPkFzYpTDtnGbj6PU4ZUpVBSuXJye5l4o01Uq7YortjdBRp
-4IDh604c/VNGvX2YxJZ05L3cyKZkqnRE9Wy3uJQV0Jdro30GEu1Ms1ZCFQTnSBKnmBlnx/XKN0Pq
-kISFuERHczY7/ri6cVFft5rLaGWVqNkq1yJQk1lkzw3rbM9uikAr5GInpV4Qt1CTIvSnshNH9DEY
-ODU=
+iQEcBAABAgAGBQJTB5e4AAoJEEr1VKujapN60jsH/2x5fniz7DW4m4vdN/jowtAPe172nqRiJm4d
+k+ujpWQ54sqQQEe5Nmri3JAq/B2qoWUjKRkcEPOHJ4jOQESYJnaTSd8mllJkrus54kXnsQ/z/KIl
+gVtfLQ37yyw4Sca6rEdr1ZLMGXxQv6ebYTVTUMKmgdmAAKuzA9plraAYAwdxuyLkLTl2oqw5e8zi
+oxVp7NmtKnlnwVqQqhUVmOiaStSPcCgAFntgUs2N7uKqR33ouIuO9/NRI8mF5x/0o/FgcMxbIh23
+7yWBAEXnsB8z+e6Tc5Jea2fYXnuQnV/rSawXqMufdYpX0XNi5XVmczKtnGk2BuJFFdE81D/i0var
+poA=
 
 -->
